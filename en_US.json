@@ -1,0 +1,431 @@
+{
+  "DASHBOARD": {
+    "LABEL": "Dashboard",
+    "RECENT_ACTIVITES": {
+      "LABEL": "Recent Activities",
+      "INCIDENTS": "Recent Incidents",
+      "REPORTS": "Recent Reports",
+      "BOLOS": "Recent Bolos",
+      "WARRANTS": "Recent Warrants",
+      "EVIDENCE": "Recent Evidence",
+      "WEAPONS": "Recent Registered Weapons"
+    }
+  },
+
+  "CITIZENS": {
+    "LABEL": "Citizens",
+    "EDIT": "Edit citizen {identifier}",
+    "GRANT": "Grant Licence",
+    "REVOKE": "Revoke Licence"
+  },
+
+  "INCIDENTS": {
+    "LABEL": "Incidents",
+    "EDIT": "Edit incident {id}",
+    "CRIMINAL": {
+      "LABEL": "Criminal Scumbags",
+      "CRIMINALS": {
+        "LABEL": "(#{identifier}) {fullname}",
+        "EDIT": "Edit Charges",
+        "WARRANT": "Warrant for arrest",
+        "HOLD": "Hold until trial",
+        "TRIAL": "Been to trial",
+        "REASON": "Reason for warrant",
+        "DATE": "Select Date and Time",
+        "REDUCTION": {
+          "LABEL": "Reduction",
+          "PLACEHOLDER": "Select reduction",
+          "DATA": "{percentage}% / ${fine} fine / {jail} day(s) / {points} point(s)"
+        },
+        "PLEADED": "Pleaded Guilty",
+        "PROCESSED": "Processed",
+        "CHARGES": {
+          "SELECTED": "Selected Charges",
+          "ALL_CHARGES": "All Charges",
+          "NONE_FOUND": "No Charges Found"
+        }
+      }
+    }
+  },
+
+  "REPORTS": {
+    "LABEL": "Reports",
+    "EDIT": "Edit report {id}"
+  },
+
+  "BOLOS_WARRANTS": {
+    "LABEL": "Bolos & Warrants",
+    "BOLOS": {
+      "LABEL": "Bolos"
+    },
+    "WARRANTS": {
+      "LABEL": "Warrants",
+      "CLOTHES": {
+        "HAT": "Hat: {type} | {color}",
+        "MASK": "Mask: {type} | {color}",
+        "JACKET": "Jacket: {type} | {color}",
+        "GLOVES": "Gloves: {type} | {color}",
+        "PANTS": "Pants: {type} | {color}",
+        "SHOES": "Shoes: {type} | {color}"
+      }
+    }
+  },
+
+  "VEHICLES": {
+    "LABEL": "Vehicles",
+    "EDIT": "Edit vehicle {plate}"
+  },
+
+  "EVIDENCE": {
+    "LABEL": "Evidence",
+    "EDIT": "Edit evidence {id}",
+    "CATEGORY": "Category: {category}"
+  },
+
+  "CAMERAS": {
+    "LABEL": "Cameras",
+    "AV1": "AV1",
+    "NO_INPUT": "No input signal.",
+    "ONLINE": "Online"
+  },
+
+  "WEAPON_REGISTRY": {
+    "LABEL": "Weapon Registry",
+    "EDIT": "Edit weapon {id}"
+  },
+
+  "LEGISLATIONS": {
+    "LABEL": "Legislations",
+    "EDIT": "Edit legislation {id}"
+  },
+
+  "STAFF": {
+    "LABEL": "Staff",
+
+    "STAFF": {
+      "LABEL": "Staff"
+    },
+
+    "SOP": {
+      "LABEL": "SOP",
+      "EDIT": "Edit SOP {id}"
+    },
+
+    "ROSTER": {
+      "LABEL": "Roster"
+    },
+
+    "ACADEMY": {
+      "LABEL": "Academy Sheet",
+      "ADD": "Add new officer"
+    },
+
+    "DATABASE": {
+      "LABEL": "Disciplinary Database",
+      "ADD": "Add new officer"
+    },
+
+    "CODES_COMMANDS": {
+      "LABEL": "10 Codes & Commands",
+      "CODES": {
+        "LABEL": "10 Codes",
+        "CODE": "Code",
+        "DESCRIPTION": "Description"
+      },
+      "COMMANDS": {
+        "LABEL": "Commands",
+        "COMMAND": "Command",
+        "ACTION": "Action"
+      }
+    }
+  },
+
+  "CONFIGURATIONS": {
+    "LABEL": "Configurations",
+
+    "STAFF": {
+      "LABEL": "Staff",
+      "EDIT": "Edit staff {identifier}",
+      "SUSPEND": "Suspend",
+      "FIRE": "Fire"
+    },
+
+    "ROLES": {
+      "LABEL": "Roles",
+      "NEW": "New role",
+      "DESCRIPTION": "Select specific roles that the officer should have permission to",
+      "LABELS": {
+        "FULL_ACCESS": "Full Access",
+        "CONFIGURATIONS": {
+          "VIEW": "Access Configurations",
+          "STAFF": "Control Staff Data",
+          "ROLES": "Control Roles Data",
+          "CHARGES": "Control Charges Data"
+        },
+        "DASHBAORD": {
+          "VIEW": "Access Dashboard Page"
+        },
+        "CITIZENS": {
+          "VIEW": "Access Citizens Page",
+          "SEARCH": "Search Citizens Data",
+          "EDIT": "Edit Citizens Data"
+        },
+        "INCIDENTS": {
+          "VIEW": "Access Incidents Page",
+          "SEARCH": "Search Incidents Data",
+          "CREATE": "Create Incidents Data",
+          "EDIT": "Edit Incidents Data",
+          "DELETE": "Delete Incidents Data"
+        },
+        "REPORTS": {
+          "VIEW": "Access Reports Page",
+          "SEARCH": "Search Reports Data",
+          "CREATE": "Create Reports Data",
+          "EDIT": "Edit Reports Data",
+          "DELETE": "Delete Reports Data"
+        },
+        "BOLOS_WARRANTS": {
+          "VIEW": "Access Bolos & Warrants Page",
+          "CREATE": "Create Bolos & Warrants Data",
+          "EDIT": "Edit Bolos & Warrants Data",
+          "DELETE": "Delete Bolos & Warrants Data"
+        },
+        "VEHICLES": {
+          "VIEW": "Access Vehicles Page",
+          "SEARCH": "Search Vehicles Data",
+          "EDIT": "Edit Vehicles Data"
+        },
+        "EVIDENCE": {
+          "VIEW": "Access Evidence Page",
+          "SEARCH": "Search Evidence Data",
+          "CREATE": "Create Evidence Data",
+          "EDIT": "Edit Evidence Data",
+          "DELETE": "Delete Evidence Data"
+        },
+        "CAMERAS": {
+          "VIEW": "Access Cameras Page"
+        },
+        "WEAPON_REGISTRY": {
+          "VIEW": "Access Weapons Registry Page",
+          "SEARCH": "Search Weapons Registry Data",
+          "CREATE": "Create Weapons Registry Data",
+          "EDIT": "Edit Weapons Registry Data",
+          "DELETE": "Delete Weapons Registry Data"
+        },
+        "LEGISLATIONS": {
+          "VIEW": "Access Legislations Page",
+          "SEARCH": "Search Legislations Data",
+          "CREATE": "Create Legislations Data",
+          "EDIT": "Edit Legislations Data",
+          "DELETE": "Delete Legislations Data"
+        },
+        "STAFF": {
+          "VIEW": "Access Staff Menu",
+          "VIEW_STAFF": "Access Staff Page",
+          "VIEW_ROSTER": "Access Roster Page",
+          "VIEW_ACADEMY": "Access Academy Sheet Page",
+          "VIEW_DATABASE": "Access Disciplinary Database Page",
+          "VIEW_CODES_COMMANDS": "Access 10 Codes & Commands Page"
+        }
+      }
+    },
+
+    "CHARGES": {
+      "LABEL": "Charges",
+      "CHARGES": {
+        "LABEL": "Charges"
+      },
+      "CATEGORIES": {
+        "LABEL": "Categories"
+      }
+    }
+  },
+
+  "DATE": {
+    "YEAR": "year",
+    "MONTH": "month",
+    "DAY": "day",
+    "HOUR": "hour",
+    "MINUTE": "minute",
+    "SECOND": "second",
+    "S": "s",
+    "AGO": "ago",
+    "JUST_NOW": "Just now"
+  },
+
+  "AVATAR": "Avatar",
+  "OFFICER": "Officer",
+  "STATUS": "Status",
+  "ACTIVE": "Active",
+  "INACTIVE": "Inactive",
+  "ACTIONS": "Actions",
+  "SET_WAYPOINT": "Set waypoint",
+  "CATEGORY": "Category",
+  "UNKNOWN_CATEGORY": "Unknown Category",
+
+  "STATEID": "State ID: (#{identifier})",
+  "FULLNAME": "Fullname: {fullname}",
+  "BADGENUMBER": "Badge#: {badgenumber}",
+  "CREATED_BY": "Created by: {user}",
+  "TAG": "(#{identifier}) {fullname}",
+  "POSTED_BY": "Posted by: {user}",
+  "OWNED_BY": "Owned by: (#{identifier}) {fullname}",
+  "LAST_SEEN": "Last seen {date}",
+  "AUTHOR": "Author: {user}",
+  "OWNER": "Owner: {owner}",
+  "PLATE": "Plate: {plate}",
+  "COLOR": "Color: {color}",
+  "REASON": "Reason: {reason}",
+  "EXPIRES": "Expires: {date}",
+  "DESCRIPTION": "{description}",
+  "FINE": "Fine: ${fine}",
+  "JAIL": "Jail time: {jail} day(s)",
+  "POINTS": "Point(s): {points}",
+
+  "VIEW": "View",
+  "EDIT": "Edit",
+  "SEARCH": "Search",
+  "CREATE": "Create",
+  "UNLINK": "Unlink",
+  "SAVE": "Save",
+  "DELETE": "Delete",
+  "CLEAR": "Clear",
+  "CLOSE": "Close",
+  "JOIN": "Join",
+  "LEAVE": "Leave",
+  "REMOVE": "Remove",
+  "ADD": "Add",
+  "CANCEL": "Cancel",
+  "CONFIRM": "Confirm",
+  "RESUME": "Resume",
+
+  "POPUP": {
+    "CANCEL": "Cancel",
+    "CONFIRM": "Confirm",
+    "IMAGE": "Are you sure, that you'd want to remove this image from the gallery?",
+    "SAVE": "Would you like to save {label}?",
+    "DELETE": "Would you like to delete {label}?"
+  },
+
+  "PLACEHOLDER": {
+    "STATEID": "State ID",
+    "FULLNAME": "Fullname",
+    "ALIAS": "Alias",
+    "DEPARTMENT": "Department",
+    "RANK": "Rank",
+    "CALLSIGN": "Callsign",
+    "BADGENUMBER": "Badge#",
+    "PHOTO": "Photo",
+    "TITLE": "Title",
+    "NOTES": "Notes",
+    "LOCATION": "Location",
+    "AUTHOR": "Author",
+    "CATEGORY": "Category",
+    "UNKNOWN": "Unknown",
+    "REASON": "Reason",
+    "PLATE": "Plate",
+    "OWNER": "Owner",
+    "COLOR": "Color",
+    "DATE": "Date and time",
+    "SEARCH": "Search",
+    "SELECT": "Select",
+    "FILTER": "Filter",
+    "CLOTHING": "Type of clothing",
+    "LINK": "Attach link",
+    "LABEL": "Label",
+    "DESCRIPTION": "Description",
+    "SERIAL": "Serial",
+    "WEAPON": "Weapon",
+    "ACTIONS": "Actions",
+    "OFFICERS": "Officers",
+    "PREFIX": "Prefix",
+    "FINE": "Fine",
+    "JAIL": "Jail",
+    "POINTS": "Points",
+    "WANTED": "WANTED"
+  },
+
+  "ANNOUNCEMENTS": {
+    "LABEL": "Announcements",
+    "VIEW": "View Announcement"
+  },
+
+  "BOXES": {
+    "IDENTITY": "Identity",
+    "LICENCES": "Licences",
+    "STATS": "Stats",
+    "ITEMS": "Items",
+    "TAGS": "Tags",
+    "VEHICLES": "Vehicles",
+    "HOUSING": "Properties",
+    "EMPLOYMENT": "Employment",
+    "WEAPONS": "Weapons",
+    "ROLES": "Roles",
+    "GALLERY": "Gallery",
+    "OFFICERS": "Involved Officers",
+    "CITIZENS": "Involved Citizens",
+    "INCIDENTS": "Related Incidents",
+    "REPORTS": "Related Reports",
+    "EVIDENCE": "Related Evidence"
+  },
+
+  "CHARGES": {
+    "FINE": "${fine} Fine",
+    "JAIL": "{jail} Day(s)",
+    "POINTS": "{points} Point(s)"
+  },
+
+  "EDITOR": {
+    "BOLD": "Bold",
+    "ITALIC": "Italic",
+    "STRIKE": "Strike",
+    "TEXT": {
+      "PARAGRAPH": "Paragraph",
+      "H1": "H1",
+      "H2": "H2",
+      "H3": "H3",
+      "H4": "H4",
+      "H5": "H5",
+      "H6": "H6"
+    },
+    "COLOR": "Color",
+    "CLEAR_MARKS": "Clear marks",
+    "CLEAR_NODES": "Clear nodes",
+    "BULLET_LIST": "Bullet list",
+    "ORDERED_LIST": "Ordered list",
+    "HARD_BREAK": "Hard break",
+    "UNDO": "Undo",
+    "REDO": "Redo"
+  },
+
+  "INVENTORY": {
+    "COUNT": "Count: {count}",
+    "ITEM_DATA": {
+      "serial": "Serial: {serial}",
+      "durability": "Durability: {durability}",
+      "ammo": "Ammo: {ammo}",
+      "street": "Location: {street}",
+      "type": "Category type: {type}",
+      "dnalabel": "DNA: {dnalabel}",
+      "label": "Label: {label}",
+      "date": "Date: {date}",
+      "tracking": "Tracking: {tracking}",
+      "component": "Component: {component}",
+      "item": "Item: {item}",
+      "memoryCard": "Memory card {memoryCard}",
+      "flashEnabled": "Flash: {flashEnabled}",
+      "birthdate": "Birthdate: {birthdate}",
+      "nationaility": "Nationaility: {nationaility}",
+      "identifier": "State ID: {identifier}",
+      "gender": "Gender: {gender}",
+      "firstname": "Firstname: {firstname}",
+      "lastname": "Lastname: {lastname}"
+    }
+  },
+
+  "ERROR403": {
+    "STATUS": "403",
+    "TITLE": "403 - You Shall Not Pass",
+    "DESCRIPTION": "Uh oh, Gandalf is blocking the way!"
+  }
+}

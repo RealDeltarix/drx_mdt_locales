@@ -1,0 +1,430 @@
+{
+  "DASHBOARD": {
+    "LABEL": "Informacinis skydelis",
+    "RECENT_ACTIVITES": {
+      "LABEL": "Naujausia veikla",
+      "INCIDENTS": "Paskutiniai įvykiai",
+      "REPORTS": "Naujausi raportai",
+      "BOLOS": "Naujausi BOLOs",
+      "WARRANTS": "Naujausi orderiai",
+      "EVIDENCE": "Naujausi įkalčiai",
+      "WEAPONS": "Naujausi užregistruoti ginklai"
+    }
+  },
+
+  "CITIZENS": {
+    "LABEL": "Civiliai",
+    "EDIT": "Redaguoti civilio profilį {identifier}",
+    "GRANT": "Išduoti licenciją",
+    "REVOKE": "Suspenduoti licenciją"
+  },
+
+  "INCIDENTS": {
+    "LABEL": "Incidentai",
+    "EDIT": "Redaguoti incidentą {id}",
+    "CRIMINAL": {
+      "LABEL": "Kaltinamieji",
+      "CRIMINALS": {
+        "LABEL": "(#{identifier}) {fullname}",
+        "EDIT": "Redaguoti kaltinimus",
+        "WARRANT": "Arešto orderis",
+        "HOLD": "Sulaikyti iki bylos nagrinėjimo",
+        "TRIAL": "Dalyvavo teismo procese",
+        "REASON": "Orderio išdavimo priežastis",
+        "DATE": "Pasirinkite datą ir laiką",
+        "REDUCTION": {
+          "LABEL": "Bausmės švelninimas",
+          "PLACEHOLDER": "Pasirinkti švelninimą",
+          "DATA": "{percentage}% / ${fine} bauda / {jail} diena(-os) / {points} taškas(-ai)"
+        },
+        "PLEADED": "Prisipažino kaltu",
+        "PROCESSED": "Apdorotas",
+        "CHARGES": {
+          "SELECTED": "Pasirinkti kaltinimai",
+          "ALL_CHARGES": "Visi kaltinimai",
+          "NONE_FOUND": "Nepavyko rasti jokių kaltinimų"
+        }
+      }
+    }
+  },
+
+  "REPORTS": {
+    "LABEL": "Raportai",
+    "EDIT": "Redaguoti raportą {id}"
+  },
+
+  "BOLOS_WARRANTS": {
+    "LABEL": "BOLOs ir Orderiai",
+    "BOLOS": {
+      "LABEL": "BOLOs"
+    },
+    "WARRANTS": {
+      "LABEL": "Orderiai",
+      "CLOTHES": {
+        "HAT": "Kepurė: {type} | {color}",
+        "MASK": "Kaukė: {type} | {color}",
+        "JACKET": "Viršutinė apranga: {type} | {color}",
+        "GLOVES": "Pirštinės: {type} | {color}",
+        "PANTS": "Kelnės: {type} | {color}",
+        "SHOES": "Batai: {type} | {color}"
+      }
+    }
+  },
+
+  "VEHICLES": {
+    "LABEL": "Transporto priemonės",
+    "EDIT": "Redaguoti transporto priemonę {plate}"
+  },
+
+  "EVIDENCE": {
+    "LABEL": "Įkalčiai",
+    "EDIT": "Redaguoti įkalčius {id}",
+    "CATEGORY": "Kategorija: {category}"
+  },
+
+  "CAMERAS": {
+    "LABEL": "Kameros",
+    "AV1": "AV1",
+    "NO_INPUT": "Nėra įvesties signalo.",
+    "ONLINE": "Prieinama"
+  },
+
+  "WEAPON_REGISTRY": {
+    "LABEL": "Ginklų registras",
+    "EDIT": "Redaguoti ginklą {id}"
+  },
+
+  "LEGISLATIONS": {
+    "LABEL": "Teisės aktai",
+    "EDIT": "Redaguoti teisės aktus {id}"
+  },
+
+  "STAFF": {
+    "LABEL": "Personalas",
+
+    "STAFF": {
+      "LABEL": "Personalas"
+    },
+
+    "SOP": {
+      "LABEL": "Vidinės nuostatos",
+      "EDIT": "Redaguoti vidines nuostatas {id}"
+    },
+
+    "ROSTER": {
+      "LABEL": "Sąrašas"
+    },
+
+    "ACADEMY": {
+      "LABEL": "Akademikų sąrašas",
+      "ADD": "Pridėti naują pareigūną"
+    },
+
+    "DATABASE": {
+      "LABEL": "Drausminė duomenų bazė",
+      "ADD": "Pridėti naują pareigūną"
+    },
+
+    "CODES_COMMANDS": {
+      "LABEL": "Racijos koduotės ir komandos",
+      "CODES": {
+        "LABEL": "Koduotės",
+        "CODE": "Kodas",
+        "DESCRIPTION": "Aprašymas"
+      },
+      "COMMANDS": {
+        "LABEL": "Komandos",
+        "COMMAND": "Komanda",
+        "ACTION": "Veiksmas"
+      }
+    }
+  },
+
+  "CONFIGURATIONS": {
+    "LABEL": "Konfigūracijos",
+
+    "STAFF": {
+      "LABEL": "Personalas",
+      "EDIT": "Redaguoti personalą {identifier}",
+      "SUSPEND": "Suspenduoti",
+      "FIRE": "Atleisti"
+    },
+
+    "ROLES": {
+      "LABEL": "Rolės",
+      "NEW": "Nauja rolė",
+      "DESCRIPTION": "Pasirinkite konkrečius veiksmus, kuriuos pareigūnas turėtų turėti teisę atlikti",
+      "LABELS": {
+        "FULL_ACCESS": "Pilna prieiga",
+        "CONFIGURATIONS": {
+          "VIEW": "Prieigos konfigūracijos",
+          "STAFF": "Kontroliuoti personalo duomenis",
+          "ROLES": "Kontroliuoti rangus",
+          "CHARGES": "Kontroliuoti kaltinimų informaciją"
+        },
+        "DASHBAORD": {
+          "VIEW": "Prieiga prie valdymo skydelio"
+        },
+        "CITIZENS": {
+          "VIEW": "Pasiekti civilių profilius",
+          "SEARCH": "Ieškoti informacijos apie civilius",
+          "EDIT": "Redaguoti civilių informaciją"
+        },
+        "INCIDENTS": {
+          "VIEW": "Pasiekti incidentų puslapį",
+          "SEARCH": "Ieškoti incidentų",
+          "CREATE": "Kurti incidentus",
+          "EDIT": "Redaguoti incidentus",
+          "DELETE": "Ištrinti incidentus"
+        },
+        "REPORTS": {
+          "VIEW": "Pasiekti raportų puslapį",
+          "SEARCH": "Ieškoti raportų",
+          "CREATE": "Kurti raportus",
+          "EDIT": "Redaguoti raportus",
+          "DELETE": "Ištrinti raportus"
+        },
+        "BOLOS_WARRANTS": {
+          "VIEW": "Pasiekti BOLOs ir orderių puslapį",
+          "CREATE": "Kurti BOLOs ir orderius",
+          "EDIT": "Redaguoti BOLOs ir orderius",
+          "DELETE": "Ištrinti BOLOs ir orderius"
+        },
+        "VEHICLES": {
+          "VIEW": "Pasiekti transportų informaciją",
+          "SEARCH": "Ieškoti informacijos apie transportą",
+          "EDIT": "Redaguoti transporto informaciją"
+        },
+        "EVIDENCE": {
+          "VIEW": "Pasiekti įkalčių puslapį",
+          "SEARCH": "Ieškoti įkalčių informacijos",
+          "CREATE": "Sukurti įkalčių informaciją",
+          "EDIT": "Redaguoti įkalčių informaciją",
+          "DELETE": "Ištrinti įkalčius"
+        },
+        "CAMERAS": {
+          "VIEW": "Pasiekti kamerų puslapį"
+        },
+        "WEAPON_REGISTRY": {
+          "VIEW": "Pasiekti ginklų registrą",
+          "SEARCH": "Ieškoti informacijos ginklų registre",
+          "CREATE": "Kurti informaciją ginklų registre",
+          "EDIT": "Redaguoti ginklų informaciją",
+          "DELETE": "Ištrinti ginklų registro informaciją"
+        },
+        "LEGISLATIONS": {
+          "VIEW": "Pasiekti teisės aktus",
+          "SEARCH": "Ieškoti teisės aktų",
+          "CREATE": "Sukurti teisės aktus",
+          "EDIT": "Redaguoti teisės aktus",
+          "DELETE": "Ištrinti teisės aktus"
+        },
+        "STAFF": {
+          "VIEW": "Pasiekti personalo meniu",
+          "VIEW_STAFF": "Pasiekti personalo puslapį",
+          "VIEW_ROSTER": "Pasiekti darbuotojų sąrašą",
+          "VIEW_ACADEMY": "Pasiekti akademinį puslapį",
+          "VIEW_DATABASE": "Pasiekti drausmines nuobaudas",
+          "VIEW_CODES_COMMANDS": "Pasiekti koduotes ir komandas"
+        }
+      }
+    },
+
+    "CHARGES": {
+      "LABEL": "Kaltinimai",
+      "CHARGES": {
+        "LABEL": "Kaltinimai"
+      },
+      "CATEGORIES": {
+        "LABEL": "Kategorijos"
+      }
+    }
+  },
+
+  "DATE": {
+    "YEAR": "metai",
+    "MONTH": "mėnuo",
+    "DAY": "diena",
+    "HOUR": "valanda",
+    "MINUTE": "minutė",
+    "SECOND": "sekundė",
+    "S": "s",
+    "AGO": "prieš",
+    "JUST_NOW": "Ką tik"
+  },
+
+  "AVATAR": "Avataras",
+  "OFFICER": "Pareigūnas",
+  "STATUS": "Statusas",
+  "ACTIVE": "Aktyvus",
+  "INACTIVE": "Neaktyvus",
+  "ACTIONS": "Veiksmai",
+  "SET_WAYPOINT": "Nustatyti tašką",
+  "CATEGORY": "Categorija",
+  "UNKNOWN_CATEGORY": "Nežinoma kategorija",
+
+  "STATEID": "Identifikavimo kodas: (#{identifier})",
+  "FULLNAME": "Vardas ir pavardė: {fullname}",
+  "BADGENUMBER": "Ženklelio numeris #: {badgenumber}",
+  "CREATED_BY": "Sukūrė: {user}",
+  "TAG": "(#{identifier}) {fullname}",
+  "POSTED_BY": "Paskelbė: {user}",
+  "OWNED_BY": "Nuosavybės teise priklauso: (#{identifier}) {fullname}",
+  "LAST_SEEN": "Paskutinį kartą matytas {date}",
+  "AUTHOR": "Autorius: {user}",
+  "OWNER": "Savininkas: {owner}",
+  "PLATE": "Valstybiniai numeriai: {plate}",
+  "COLOR": "Spalva: {color}",
+  "REASON": "Priežastis: {reason}",
+  "EXPIRES": "Galioja iki: {date}",
+  "DESCRIPTION": "{description}",
+  "FINE": "Bauda: ${fine}",
+  "JAIL": "Kalėjimo laikas: {jail} day(s)",
+  "POINTS": "Taškas(-ai): {points}",
+
+  "VIEW": "Peržiūrėti",
+  "EDIT": "Redaguoti",
+  "SEARCH": "Ieškoti",
+  "CREATE": "Sukurti",
+  "UNLINK": "Atsieti",
+  "SAVE": "Išsaugoti",
+  "DELETE": "Ištrinti",
+  "CLEAR": "Išvalyti",
+  "CLOSE": "Uždaryti",
+  "JOIN": "Prisijungti",
+  "LEAVE": "Palikti",
+  "REMOVE": "Pašalinti",
+  "ADD": "Pridėti",
+  "CANCEL": "Atšaukti",
+  "CONFIRM": "Patvirtinti",
+  "RESUME": "Tęsti",
+
+  "POPUP": {
+    "CANCEL": "Atšaukti",
+    "CONFIRM": "Patvirtinti",
+    "IMAGE": "Ar tikrai norite pašalinti šį paveikslėlį iš galerijos?",
+    "SAVE": "Ar norėtumėte išsaugoti {label}?",
+    "DELETE": "Ar norėtumėte ištrinti {label}?"
+  },
+
+  "PLACEHOLDER": {
+    "STATEID": "Identifikacinis kodas",
+    "FULLNAME": "Vardas ir pavardė",
+    "ALIAS": "Slapyvardis",
+    "DEPARTMENT": "Departamentas",
+    "RANK": "Rangas",
+    "CALLSIGN": "Kreipinys",
+    "BADGENUMBER": "Ženklelio numeris#",
+    "PHOTO": "Nuotrauka",
+    "TITLE": "Pavadinimas",
+    "NOTES": "Pastabos",
+    "LOCATION": "Vieta",
+    "AUTHOR": "Autorius",
+    "CATEGORY": "Kategorija",
+    "UNKNOWN": "Nežinomas",
+    "REASON": "Priežastis",
+    "PLATE": "Valstybiniai numeriai",
+    "OWNER": "Savininkas",
+    "COLOR": "Spalva",
+    "DATE": "Data ir laikas",
+    "SEARCH": "Paieška",
+    "SELECT": "Pasirinkti",
+    "FILTER": "Filtras",
+    "CLOTHING": "Aprangos tipas",
+    "LINK": "Prisegti nuorodą",
+    "LABEL": "Ženklas",
+    "DESCRIPTION": "Aprašymas",
+    "SERIAL": "Serijinis",
+    "WEAPON": "Ginklas",
+    "ACTIONS": "Veiksmai",
+    "OFFICERS": "Pareigūnai",
+    "PREFIX": "Priešdėlis",
+    "FINE": "Bauda",
+    "JAIL": "Kalėjimas",
+    "POINTS": "Taškai"
+  },
+
+  "ANNOUNCEMENTS": {
+    "LABEL": "Pranešimai",
+    "VIEW": "Peržiūrėti pranešimą"
+  },
+
+  "BOXES": {
+    "IDENTITY": "Tapatybė",
+    "LICENCES": "Licencijos",
+    "STATS": "Statistika",
+    "ITEMS": "Daiktai",
+    "TAGS": "Žymos",
+    "VEHICLES": "Transporto priemonės",
+    "HOUSING": "Nuosavybės",
+    "EMPLOYMENT": "Darbovietė",
+    "WEAPONS": "Ginklai",
+    "ROLES": "Rolės",
+    "GALLERY": "Galerija",
+    "OFFICERS": "Susiję pareigūnai",
+    "CITIZENS": "Susiję civiliai",
+    "INCIDENTS": "Susiję incidentai",
+    "REPORTS": "Susiję raportai",
+    "EVIDENCE": "Susiję įkalčiai"
+  },
+
+  "CHARGES": {
+    "FINE": "${fine} Bauda",
+    "JAIL": "{jail} diena(-os)",
+    "POINTS": "{points} taškas(-ai)"
+  },
+
+  "EDITOR": {
+    "BOLD": "Bold",
+    "ITALIC": "Italic",
+    "STRIKE": "Strike",
+    "TEXT": {
+      "PARAGRAPH": "Paragraph",
+      "H1": "H1",
+      "H2": "H2",
+      "H3": "H3",
+      "H4": "H4",
+      "H5": "H5",
+      "H6": "H6"
+    },
+    "COLOR": "Color",
+    "CLEAR_MARKS": "Clear marks",
+    "CLEAR_NODES": "Clear nodes",
+    "BULLET_LIST": "Bullet list",
+    "ORDERED_LIST": "Ordered list",
+    "HARD_BREAK": "Hard break",
+    "UNDO": "Undo",
+    "REDO": "Redo"
+  },
+
+  "INVENTORY": {
+    "COUNT": "Kiekis: {count}",
+    "ITEM_DATA": {
+      "serial": "Serijinis: {serial}",
+      "durability": "Patvarumas: {durability}",
+      "ammo": "Šoviniai: {ammo}",
+      "street": "Vieta: {street}",
+      "type": "Kategorijos tipas: {type}",
+      "dnalabel": "DNA: {dnalabel}",
+      "label": "Etiketė: {label}",
+      "date": "Data: {date}",
+      "tracking": "Stebėjimas: {tracking}",
+      "component": "Komponentas: {component}",
+      "item": "Daiktas: {item}",
+      "memoryCard": "Atminties kortelė {memoryCard}",
+      "flashEnabled": "Blykstė: {flashEnabled}",
+      "birthdate": "Gimimo data: {birthdate}",
+      "nationaility": "Tautybė: {nationaility}",
+      "identifier": "Identifikacinis kodas: {identifier}",
+      "gender": "Lytis: {gender}",
+      "firstname": "Vardas: {firstname}",
+      "lastname": "Pavardė: {lastname}"
+    }
+  },
+
+  "ERROR403": {
+    "STATUS": "403",
+    "TITLE": "403 - Jūs neturite prieigos",
+    "DESCRIPTION": "Oho, Gandalfas Jums užtvėrė kelią!"
+  }
+}
