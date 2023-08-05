@@ -260,7 +260,6 @@
   "INACTIVE": "Inactive",
   "ACTIONS": "Actions",
   "SET_WAYPOINT": "Set waypoint",
-  "CATEGORY": "Category",
   "UNKNOWN_CATEGORY": "Unknown Category",
 
   "STATEID": "State ID: (#{identifier})",
@@ -281,6 +280,7 @@
   "FINE": "Fine: ${fine}",
   "JAIL": "Jail time: {jail} day(s)",
   "POINTS": "Point(s): {points}",
+  "CATEGORY": "Category: {category}",
 
   "VIEW": "View",
   "EDIT": "Edit",
