@@ -423,6 +423,12 @@
     }
   },
 
+  "ACCESS_DENIED": {
+    "TITLE": "ACCESS DENIED",
+    "DESCRIPTION": "Looks like you've been suspended, and can't access the MDT",
+    "BUTTON": "Close"
+  },
+
   "ERROR403": {
     "STATUS": "403",
     "TITLE": "403 - You Shall Not Pass",
