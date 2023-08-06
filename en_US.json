@@ -423,7 +423,13 @@
     }
   },
 
-  "ACCESS_DENIED": {
+  "NO_ACCESS": {
+    "TITLE": "ACCESS DENIED",
+    "DESCRIPTION": "You do not have access to the MDT",
+    "BUTTON": "Close"
+  },
+
+  "SUSPENDED": {
     "TITLE": "ACCESS DENIED",
     "DESCRIPTION": "Looks like you've been suspended, and can't access the MDT",
     "BUTTON": "Close"
