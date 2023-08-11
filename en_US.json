@@ -255,7 +255,8 @@
     "S": "s",
     "AGO": "ago",
     "LEFT": "left",
-    "JUST_NOW": "Just now"
+    "JUST_NOW": "Just now",
+    "EXPIRED": "Expired"
   },
 
   "AVATAR": "Avatar",
