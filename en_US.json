@@ -281,7 +281,6 @@
   "JAIL": "Jail time: {jail} day(s)",
   "POINTS": "Point(s): {points}",
   "CATEGORY": "Category: {category}",
-  "ACTIVITY": "Activity: {activity",
 
   "VIEW": "View",
   "EDIT": "Edit",
@@ -367,7 +366,8 @@
     "CITIZENS": "Involved Citizens",
     "INCIDENTS": "Related Incidents",
     "REPORTS": "Related Reports",
-    "EVIDENCE": "Related Evidence"
+    "EVIDENCE": "Related Evidence",
+    "ACTIVITY": "Activity",
   },
 
   "CHARGES": {
