@@ -2,11 +2,11 @@
   "DASHBOARD": {
     "LABEL": "Tableau de Bord",
     "RECENT_ACTIVITES": {
-      "LABEL": "Activités Récentes",
-      "INCIDENTS": "Incidents Récentes",
-      "REPORTS": "Rapports Récentes",
-      "BOLOS": "Bolos Récentes",
-      "WARRANTS": "Mandats Récentes",
+      "LABEL": "Activités Récents",
+      "INCIDENTS": "Incidents Récents",
+      "REPORTS": "Rapports Récents",
+      "BOLOS": "Bolos Récents",
+      "WARRANTS": "Mandats Récents",
       "EVIDENCE": "Preuve  Récentes",
       "WEAPONS": "Armes Enregistrées Récemment"
     }
@@ -222,9 +222,9 @@
         "STAFF": {
           "VIEW": "Accès au menu du personnel",
           "VIEW_STAFF": "Accès à la page du personnel",
-          "VIEW_ROSTER": "Accès à la list du personnel",
+          "VIEW_ROSTER": "Accès à la liste du personnel",
           "VIEW_ACADEMY": "Accès à la page des feuilles d'académie",
-          "VIEW_DATABASE": "Accès à la page de la registraire de discipline",
+          "VIEW_DATABASE": "Accès à la page de registre de discipline",
           "VIEW_CODES_COMMANDS": "Accès à la page des codes 10 et des commandes"
         }
       }
@@ -250,7 +250,7 @@
     "SECOND": "seconde",
     "S": "s",
     "AGO": "passé",
-    "JUST_NOW": "Just maintenant"
+    "JUST_NOW": "Il y a quelque secondes."
   },
 
   "AVATAR": "Avatar",
@@ -265,7 +265,7 @@
 
   "STATEID": "Carte d'identité: (#{identifier})",
   "FULLNAME": "Plein Nom: {fullname}",
-  "BADGENUMBER": "Badge#: {badgenumber}",
+  "BADGENUMBER": "Badge #{badgenumber}",
   "CREATED_BY": "Créé par: {user}",
   "TAG": "(#{identifier}) {fullname}",
   "POSTED_BY": "Posté par: {user}",
@@ -301,7 +301,7 @@
 
   "POPUP": {
     "CANCEL": "Annuler",
-    "CONFIRM": "Confimer",
+    "CONFIRM": "Confirmer",
     "IMAGE": "Es-tu certain que tu veux supprimer cette image de la galerie?",
     "SAVE": "Aimeriez-vous sauver {label}?",
     "DELETE": "Aimeriez-vous supprimer {label}?"
@@ -311,12 +311,12 @@
     "STATEID": "Carte d'identité",
     "FULLNAME": "Plein Nom",
     "ALIAS": "Alias",
-    "DEPARTMENT": "Départment",
+    "DEPARTMENT": "Département",
     "RANK": "Position",
     "CALLSIGN": "Indicatif",
-    "BADGENUMBER": "Badge#",
+    "BADGENUMBER": "Badge #",
     "PHOTO": "Photo",
-    "TITLE": "Tire",
+    "TITLE": "Titre",
     "NOTES": "Notes",
     "LOCATION": "Location",
     "AUTHOR": "Auteur",
@@ -346,7 +346,7 @@
 
   "ANNOUNCEMENTS": {
     "LABEL": "Announce",
-    "VIEW": "Visionnez les announces"
+    "VIEW": "Visionnez les annonces"
   },
 
   "BOXES": {
@@ -364,7 +364,7 @@
     "OFFICERS": "Officiers Impliqué",
     "CITIZENS": "Citoyens Impliqué",
     "INCIDENTS": "Incidents Associé",
-    "REPORTS": "Rapprts Associé",
+    "REPORTS": "Rapports Associé",
     "EVIDENCE": "Preuve Associé"
   },
 
@@ -375,8 +375,8 @@
   },
 
   "EDITOR": {
-    "BOLD": "Bold",
-    "ITALIC": "Italic",
+    "BOLD": "Gras",
+    "ITALIC": "Italique",
     "STRIKE": "Strike",
     "TEXT": {
       "PARAGRAPH": "Paragraph",
@@ -388,7 +388,7 @@
       "H6": "H6"
     },
     "COLOR": "Color",
-    "CLEAR_MARKS": "Clear marks",
+    "CLEAR_MARKS": "Effacer marqueur",
     "CLEAR_NODES": "Clear nodes",
     "BULLET_LIST": "Bullet list",
     "ORDERED_LIST": "Ordered list",
@@ -408,23 +408,23 @@
       "dnalabel": "ADN: {dnalabel}",
       "label": "Étiquette: {label}",
       "date": "Date: {date}",
-      "tracking": "Suivi : {tracking}",
-      "component": "Composant : {component}",
+      "tracking": "Suivi: {tracking}",
+      "component": "Composant: {component}",
       "item": "Article : {item}",
       "memoryCard": "Carte mémoire {memoryCard}",
-      "flashEnabled": "Flash : {flashEnabled}",
-      "birthdate": "Date de naissance : {birthdate}",
-      "nationality": "Nationalité : {nationality}",
-      "identifier": "Carte d'identité : {identifier}",
-      "gender": "Genre : {gender}",
-      "firstname": "Prénom : {firstname}",
-      "lastname": "Nom de famille : {lastname}"
+      "flashEnabled": "Flash: {flashEnabled}",
+      "birthdate": "Date de naissance: {birthdate}",
+      "nationality": "Nationalité: {nationality}",
+      "identifier": "Carte d'identité: {identifier}",
+      "gender": "Genre: {gender}",
+      "firstname": "Prénom: {firstname}",
+      "lastname": "Nom de famille: {lastname}"
     }
   },
 
   "ERROR403": {
     "STATUS": "403",
     "TITLE": "403 - Tu ne passeras pas",
-    "DESCRIPTION": "Oh non! Gandalf is bloque ton chemin!"
+    "DESCRIPTION": "Oh non! Gandalf bloque ton chemin!"
   }
 }
