@@ -281,6 +281,7 @@
   "JAIL": "Jail time: {jail} day(s)",
   "POINTS": "Point(s): {points}",
   "CATEGORY": "Category: {category}",
+  "ACTIVITY": "Activity: {activity",
 
   "VIEW": "View",
   "EDIT": "Edit",
