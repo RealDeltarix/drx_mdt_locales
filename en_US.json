@@ -146,6 +146,10 @@
     "STAFF": {
       "LABEL": "Staff",
       "EDIT": "Edit staff {identifier}",
+      "DATA": "Data",
+      "NO_ACTIVITY": "No activity yet",
+      "CLOCKED_IN": "Clocked in",
+      "CLOCKED_OUT": "Clocked out",
       "SUSPEND": "Suspend",
       "FIRE": "Fire"
     },
@@ -305,6 +309,7 @@
     "IMAGE": "Are you sure, that you'd want to remove this image from the gallery?",
     "SAVE": "Would you like to save {label}?",
     "DELETE": "Would you like to delete {label}?"
+    "ACTIVITY": "Are you sure, that you'd want to clear this officers activity data?",
   },
 
   "PLACEHOLDER": {
