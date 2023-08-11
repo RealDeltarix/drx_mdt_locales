@@ -256,7 +256,8 @@
     "AGO": "ago",
     "LEFT": "left",
     "JUST_NOW": "Just now",
-    "EXPIRED": "Expired"
+    "EXPIRED": "Expired",
+    "AND": "and"
   },
 
   "AVATAR": "Avatar",
