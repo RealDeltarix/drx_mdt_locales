@@ -347,7 +347,8 @@
     "FINE": "Fine",
     "JAIL": "Jail",
     "POINTS": "Points",
-    "WANTED": "WANTED"
+    "WANTED": "WANTED",
+    "FLAGGED": "FLAGGED"
   },
 
   "ANNOUNCEMENTS": {
