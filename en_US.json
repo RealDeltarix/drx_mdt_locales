@@ -163,6 +163,7 @@
         "CONFIGURATIONS": {
           "VIEW": "Access Configurations",
           "STAFF": "Control Staff Data",
+          "STAFF_ROLES": "Edit Staff Roles",
           "ROLES": "Control Roles Data",
           "CHARGES": "Control Charges Data"
         },
