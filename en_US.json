@@ -227,6 +227,13 @@
         "STAFF": {
           "VIEW": "Access Staff Menu",
           "VIEW_STAFF": "Access Staff Page",
+          "SOP": {
+            "VIEW": "Access SOP Page",
+            "SEARCH": "Search SOP Data",
+            "CREATE": "Create SOP Data",
+            "EDIT": "Edit SOP Data",
+            "DELETE": "Delete SOP Data"
+          },
           "VIEW_ROSTER": "Access Roster Page",
           "VIEW_ACADEMY": "Access Academy Sheet Page",
           "VIEW_DATABASE": "Access Disciplinary Database Page",
