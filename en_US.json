@@ -387,6 +387,14 @@
     "ACTIVITY": "Activity"
   },
 
+  "CAMERA": {
+    "GALLERY": "Gallery",
+    "OPEN": "Open camera",
+    "VIEW": "View gallery",
+    "UPLOAD": "Upload",
+    "DELETE": "Delete"
+  },
+
   "CHARGES": {
     "FINE": "${fine} Fine",
     "JAIL": "{jail} Day(s)",
