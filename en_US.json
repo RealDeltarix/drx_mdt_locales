@@ -303,6 +303,7 @@
   "CREATE": "Create",
   "UNLINK": "Unlink",
   "SAVE": "Save",
+  "UPDATE": "Update",
   "DELETE": "Delete",
   "CLEAR": "Clear",
   "CLOSE": "Close",
