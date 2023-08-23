@@ -9,6 +9,9 @@
       "WARRANTS": "Recent Warrants",
       "EVIDENCE": "Recent Evidence",
       "WEAPONS": "Recent Registered Weapons"
+    },
+    "ANNOUNCEMENTS": {
+      "LABEL": "Announcements"
     }
   },
 
@@ -361,11 +364,6 @@
     "POINTS": "Points",
     "WANTED": "WANTED",
     "FLAGGED": "FLAGGED"
-  },
-
-  "ANNOUNCEMENTS": {
-    "LABEL": "Announcements",
-    "VIEW": "View Announcement"
   },
 
   "BOXES": {
