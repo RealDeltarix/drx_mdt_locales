@@ -171,7 +171,12 @@
           "CHARGES": "Control Charges Data"
         },
         "DASHBOARD": {
-          "VIEW": "Access Dashboard Page"
+          "VIEW": "Access Dashboard Page",
+          "ANNOUNCEMENTS": {
+            "CREATE": "Create Announcements",
+            "EDIT": "Edit Announcements",
+            "DELETE": "Delete Announcements"
+          }
         },
         "CITIZENS": {
           "VIEW": "Access Citizens Page",
