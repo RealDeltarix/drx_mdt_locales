@@ -3,12 +3,12 @@
     "LABEL": "Dashboard",
     "RECENT_ACTIVITES": {
       "LABEL": "Recent Activities",
-      "INCIDENTS": "Recent Incidents",
-      "REPORTS": "Recent Reports",
-      "BOLOS": "Recent Bolos",
-      "WARRANTS": "Recent Warrants",
+      "INCIDENT": "Recent Incidents",
+      "REPORT": "Recent Reports",
+      "BOLO": "Recent Bolos",
+      "WARRANT": "Recent Warrants",
       "EVIDENCE": "Recent Evidence",
-      "WEAPONS": "Recent Registered Weapons"
+      "WEAPON": "Recent Registered Weapons"
     },
     "ANNOUNCEMENTS": {
       "LABEL": "Announcements"
