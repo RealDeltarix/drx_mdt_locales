@@ -1,0 +1,478 @@
+{
+  "DASHBOARD": {
+    "LABEL": "Tableau de bord",
+    "RECENT_ACTIVITES": {
+      "LABEL": "Activité récente",
+      "INCIDENT": "Incidents récents",
+      "REPORT": "Rapports récents",
+      "BOLO": "Avis de recherche récents",
+      "WARRANT": "Mandats récents",
+      "EVIDENCE": "Evidence récents",
+      "WEAPON": "Arme enregistré récentes"
+    },
+    "ANNOUNCEMENTS": {
+      "LABEL": "Announces"
+    }
+  },
+
+  "CITIZENS": {
+    "LABEL": "Citoyens",
+    "EDIT": "Modifier Citoyens {identifier}",
+    "GRANT": "Donner license",
+    "REVOKE": "Retirer license"
+  },
+
+  "INCIDENTS": {
+    "LABEL": "Incidents",
+    "EDIT": "Modifier incident {id}",
+    "CRIMINAL": {
+      "LABEL": "Criminels impliqués",
+      "CRIMINALS": {
+        "LABEL": "(#{identifier}) {fullname}",
+        "EDIT": "Modifier charges",
+        "WARRANT": "Mandat d'arrestation",
+        "HOLD": "Retenir jusqu'au procès",
+        "TRIAL": "As été au procès",
+        "REASON": "Raison du mandat",
+        "DATE": "Sélectionnez de la date et l'heure",
+        "REDUCTION": {
+          "LABEL": "Reduction",
+          "PLACEHOLDER": "Choisir montant de reduction",
+          "DATA": "{percentage}% / ${fine} amende / {jail} mois(s) / {points} point(s)"
+        },
+        "PLEADED": "A plaidé coupable",
+        "PROCESSED": "Traité",
+        "CHARGES": {
+          "SELECTED": "Charges sélectionnés",
+          "ALL_CHARGES": "Toute les charges",
+          "NONE_FOUND": "Aucunes charges trouvées"
+        }
+      }
+    }
+  },
+
+  "REPORTS": {
+    "LABEL": "Rapport",
+    "EDIT": "Modifier rapport {id}"
+  },
+
+  "BOLOS_WARRANTS": {
+    "LABEL": "Avis de recherche & Mandat",
+    "BOLOS": {
+      "LABEL": "Avis de recherche"
+    },
+    "WARRANTS": {
+      "LABEL": "Mandat",
+      "CLOTHES": {
+        "HAT": "Chapeau: {type} | {color}",
+        "MASK": "Masque: {type} | {color}",
+        "JACKET": "Veste: {type} | {color}",
+        "GLOVES": "Gant: {type} | {color}",
+        "PANTS": "Pantalon: {type} | {color}",
+        "SHOES": "Soulier: {type} | {color}"
+      }
+    }
+  },
+
+  "VEHICLES": {
+    "LABEL": "Vehicules",
+    "EDIT": "Modifier vehicule {plate}"
+  },
+
+  "EVIDENCE": {
+    "LABEL": "Evidence",
+    "EDIT": "Modifier evidence {id}",
+    "CATEGORY": "Categorie: {category}"
+  },
+
+  "CAMERAS": {
+    "LABEL": "Cameras",
+    "AV1": "AV1",
+    "NO_INPUT": "Aucun signal.",
+    "ONLINE": "En ligne"
+  },
+
+  "WEAPON_REGISTRY": {
+    "LABEL": "Registre des armes",
+    "EDIT": "Modifier arme {id}"
+  },
+
+  "LEGISLATIONS": {
+    "LABEL": "Législations",
+    "EDIT": "Modifier la legislation {id}"
+  },
+
+  "STAFF": {
+    "LABEL": "Staff",
+
+    "STAFF": {
+      "LABEL": "Staff"
+    },
+
+    "SOP": {
+      "LABEL": "Procédures opérationnelles",
+      "EDIT": "Modifier les procédures {id}"
+    },
+
+    "ROSTER": {
+      "LABEL": "Liste du staff"
+    },
+
+    "ACADEMY": {
+      "LABEL": "Fiche Académie",
+      "ADD": "Ajouter d'un nouvel officier"
+    },
+
+    "DATABASE": {
+      "LABEL": "Disciplinary Database",
+      "ADD": "Base de données disciplinaire"
+    },
+
+    "CODES_COMMANDS": {
+      "LABEL": "10 codes et commandes",
+      "CODES": {
+        "LABEL": "10 Codes",
+        "CODE": "Code",
+        "DESCRIPTION": "Description"
+      },
+      "COMMANDS": {
+        "LABEL": "Commandes",
+        "COMMAND": "Commande",
+        "ACTION": "Action"
+      }
+    }
+  },
+
+  "CONFIGURATIONS": {
+    "LABEL": "Configurations",
+
+    "STAFF": {
+      "LABEL": "Staff",
+      "EDIT": "Modifier staff {identifier}",
+      "DATA": "Donnés",
+      "NO_ACTIVITY": "Aucune activité pour le moment",
+      "CLOCKED_IN": "Prise de service",
+      "CLOCKED_OUT": "Fin de service",
+      "SUSPEND": "Suspendu",
+      "FIRE": "Renvoyer"
+    },
+
+    "ROLES": {
+      "LABEL": "Roles",
+      "NEW": "Nouveau role",
+      "DESCRIPTION": "Sélectionnez des rôles spécifiques pour lesquels l'agent devrait être autorisé à",
+      "LABELS": {
+        "FULL_ACCESS": "Accès total",
+        "CONFIGURATIONS": {
+          "VIEW": "Configurations d'accès",
+          "STAFF": "Contrôle du personnel",
+          "STAFF_ROLES": "Modifier les rôles du personnel",
+          "ROLES": "Contrôle des action des rôles",
+          "CHARGES": "Contrôle sur les charges"
+        },
+        "DASHBOARD": {
+          "VIEW": "Accéder à la page du tableau de bord",
+          "ANNOUNCEMENTS": {
+            "CREATE": "Créer une annonces",
+            "EDIT": "Modifier annonces",
+            "DELETE": "Supprimer annonces"
+          }
+        },
+        "CITIZENS": {
+          "VIEW": "Accéder à la page des citoyens",
+          "SEARCH": "Rechercher les citoyens",
+          "EDIT": "Modifier les données des citoyens"
+        },
+        "INCIDENTS": {
+          "VIEW": "Accéder à la page des incidents",
+          "SEARCH": "Rechercher des incidents",
+          "CREATE": "Crée des incidents",
+          "EDIT": "Modifier des incidents",
+          "DELETE": "Supprimer des incidents"
+        },
+        "REPORTS": {
+          "VIEW": "Accéder à la page des rapports",
+          "SEARCH": "Rechercher des rapports",
+          "CREATE": "Crée des rapports",
+          "EDIT": "Modifier des rapports",
+          "DELETE": "Supprimer des rapports"
+        },
+        "BOLOS_WARRANTS": {
+          "VIEW": "Accéder à la page d'avis de recherche et mandat",
+          "CREATE": "Crée un avis de recherche ou mandat",
+          "EDIT": "Modifier un avis de recherche ou mandat",
+          "DELETE": "Supprimer un avis de recherche ou mandat"
+        },
+        "VEHICLES": {
+          "VIEW": "Accéder aux registre des véhicule",
+          "SEARCH": "Rechercher des données sur les véhicules",
+          "EDIT": "Modifier des données sur les véhicules"
+        },
+        "EVIDENCE": {
+          "VIEW": "Accéder à la page des preuves",
+          "SEARCH": "Rechercher des données de preuves",
+          "CREATE": "Crée des preuves",
+          "EDIT": "Modifier des preuves",
+          "DELETE": "Supprimer des preuves"
+        },
+        "CAMERAS": {
+          "VIEW": "Accéder à la page des caméras"
+        },
+        "WEAPON_REGISTRY": {
+          "VIEW": "Accéder à la page du registre des armes",
+          "SEARCH": "Rechercher des données dans le registre des armes",
+          "CREATE": "Crée des données dans le registre d'armes",
+          "EDIT": "Modifier des données dans le registre d'armes",
+          "DELETE": "Supprimer des données dans le registre d'armes"
+        },
+        "LEGISLATIONS": {
+          "VIEW": "Accéder à la page des législations",
+          "SEARCH": "Rechercher dans la page des législations",
+          "CREATE": "Crée une page dans législations",
+          "EDIT": "Modifier une page dans législations",
+          "DELETE": "Supprimer une page dans législations"
+        },
+        "STAFF": {
+          "VIEW": "Accéder au menu du personnel",
+          "VIEW_STAFF": "Accéder à la page du personnel",
+          "SOP": {
+            "VIEW": "Accéder à la page procédures",
+            "SEARCH": "Rechercher dans procédures",
+            "CREATE": "Créer des procédures",
+            "EDIT": "Modifier des procédures",
+            "DELETE": "Supprimer des procédures"
+          },
+          "VIEW_ROSTER": "Accéder à la page des effectifs",
+          "VIEW_ACADEMY": "Accéder à la page de la feuille académique",
+          "VIEW_DATABASE": "Accéder à la page des données disciplinaires",
+          "VIEW_CODES_COMMANDS": "Accéder à la page des codes et des commandes 10"
+        }
+      }
+    },
+
+    "CHARGES": {
+      "LABEL": "Charges",
+      "CHARGES": {
+        "LABEL": "Charges"
+      },
+      "CATEGORIES": {
+        "LABEL": "Categories"
+      }
+    }
+  },
+
+    "DATE": {
+      "YEAR": "année",
+      "MONTH": "mois",
+      "DAY": "jour",
+      "HOUR": "heure",
+      "MINUTE": "minute",
+      "SECOND": "seconde",
+      "S": "s",
+      "AGO": "il y a",
+      "LEFT": "restant",
+      "JUST_NOW": "À l'instant",
+      "EXPIRED": "Expiré",
+      "AND": "et"
+    },
+
+  "AVATAR": "Avatar",
+  "OFFICER": "Officier",
+  "STATUS": "Statut",
+  "ACTIVE": "Actif",
+  "INACTIVE": "Inactif",
+  "ACTIONS": "Actions",
+  "SET_WAYPOINT": "Définir un point GPS",
+  "UNKNOWN_CATEGORY": "Catégorie inconnue",
+
+  "STATEID": "CID: (#{identifier})",
+  "FULLNAME": "Nom complet: {fullname}",
+  "BADGENUMBER": "Badge#: {badgenumber}",
+  "CREATED_BY": "Créé par: {user}",
+  "TAG": "(#{identifier}) {fullname}",
+  "POSTED_BY": "Publié par: {user}",
+  "OWNED_BY": "Appartenant à : (#{identifier}) {fullname}",
+  "LAST_SEEN": "Dernière vue {date}",
+  "AUTHOR": "Auteur: {user}",
+  "OWNER": "Propriétaire: {owner}",
+  "PLATE": "Plaque: {plate}",
+  "COLOR": "Couleur: {color}",
+  "REASON": "Raison: {reason}",
+  "EXPIRES": "Expires: {date}",
+  "DESCRIPTION": "{description}",
+  "FINE": "Amende: ${fine}",
+  "JAIL": "Temps de prison: {jail} mois(s)",
+  "POINTS": "Point(s): {points}",
+  "CATEGORY": "Categorie: {category}",
+
+  "VIEW": "Voir",
+  "EDIT": "Modifier",
+  "SEARCH": "Rechercher",
+  "CREATE": "Crée",
+  "UNLINK": "Dissocier",
+  "SAVE": "Enregistrer",
+  "UPDATE": "Mettre à jour",
+  "DELETE": "Supprimer",
+  "CLEAR": "Effacer",
+  "CLOSE": "Fermer",
+  "JOIN": "Rejoindre",
+  "LEAVE": "Quitter",
+  "REMOVE": "Supprimer",
+  "ADD": "Ajouter",
+  "CANCEL": "Annuler",
+  "CONFIRM": "Confirmer",
+  "RESUME": "Reprendre",
+
+  "POPUP": {
+    "CANCEL": "Annuler",
+    "CONFIRM": "Confirmer",
+    "IMAGE": "Êtes-vous sûr(e) de vouloir supprimer cette image de la galerie ?",
+    "SAVE": "Souhaitez-vous enregistrer {label} ?",
+    "DELETE": "Souhaitez-vous supprimer {label} ?",
+    "ACTIVITY": "Êtes-vous sûr(e) de vouloir effacer les données d'activité de cet officier ?"
+  },
+
+  "PLACEHOLDER": {
+      "STATEID": "Identifiant de l'État",
+      "FULLNAME": "Nom complet",
+      "ALIAS": "Surnom",
+      "DEPARTMENT": "Service",
+      "RANK": "Grade",
+      "CALLSIGN": "Indicatif radio",
+      "BADGENUMBER": "Numéro d'insigne",
+      "PHOTO": "Photo",
+      "TITLE": "Titre",
+      "NOTES": "Notes",
+      "LOCATION": "Emplacement",
+      "AUTHOR": "Auteur",
+      "CATEGORY": "Catégorie",
+      "UNKNOWN": "Inconnu",
+      "REASON": "Raison",
+      "PLATE": "Plaque",
+      "OWNER": "Propriétaire",
+      "COLOR": "Couleur",
+      "DATE": "Date et heure",
+      "SEARCH": "Recherche",
+      "SELECT": "Sélectionner",
+      "FILTER": "Filtrer",
+      "CLOTHING": "Type de vêtement",
+      "LINK": "Attacher un lien",
+      "LABEL": "Étiquette",
+      "DESCRIPTION": "Description",
+      "SERIAL": "Numéro de série",
+      "WEAPON": "Arme",
+      "ACTIONS": "Actions",
+      "OFFICERS": "Officiers",
+      "PREFIX": "Préfixe",
+      "FINE": "Amende",
+      "JAIL": "Prison",
+      "POINTS": "Points",
+      "WANTED": "RECHERCHÉ",
+      "FLAGGED": "MARQUÉ"
+    },
+
+
+    "BOXES": {
+      "IDENTITY": "Identité",
+      "LICENCES": "Licences",
+      "STATS": "Statistiques",
+      "ITEMS": "Articles",
+      "TAGS": "Étiquettes",
+      "VEHICLES": "Véhicules",
+      "HOUSING": "Logements",
+      "EMPLOYMENT": "Emploi",
+      "WEAPONS": "Armes",
+      "ROLES": "Rôles",
+      "GALLERY": "Galerie",
+      "OFFICERS": "Officiers impliqués",
+      "CITIZENS": "Citoyens impliqués",
+      "INCIDENTS": "Incidents connexes",
+      "REPORTS": "Rapports connexes",
+      "EVIDENCE": "Preuves connexes",
+      "ACTIVITY": "Activité"
+    },
+
+    "CAMERA": {
+      "GALLERY": "Galerie",
+      "OPEN": "Ouvrir l'appareil photo",
+      "VIEW": "Voir la galerie",
+      "UPLOAD": "Télécharger",
+      "DELETE": "Supprimer"
+    },
+
+    "CHARGES": {
+      "FINE": "Amende de {fine}$",
+      "JAIL": "{jail} mois(s)",
+      "POINTS": "{points} point(s)"
+    },
+
+    "EDITOR": {
+      "BOLD": "Gras",
+      "ITALIC": "Italique",
+      "STRIKE": "Barré",
+      "TEXT": {
+        "PARAGRAPH": "Paragraphe",
+        "H1": "H1",
+        "H2": "H2",
+        "H3": "H3",
+        "H4": "H4",
+        "H5": "H5",
+        "H6": "H6"
+      },
+      "COLOR": "Couleur",
+      "CLEAR_MARKS": "Effacer les marques",
+      "CLEAR_NODES": "Effacer les nœuds",
+      "BULLET_LIST": "Liste de douille",
+      "ORDERED_LIST": "Liste ordonnée",
+      "HARD_BREAK": "Saut de ligne forcé",
+      "UNDO": "Annuler",
+      "REDO": "Rétablir"
+    },
+
+
+    "INVENTORY": {
+      "COUNT": "Décompte : {count}",
+      "ITEM_DATA": {
+        "serial": "Numéro de série : {serial}",
+        "durability": "Durabilité : {durability}",
+        "ammo": "Munitions : {ammo}",
+        "street": "Emplacement : {street}",
+        "type": "Type de catégorie : {type}",
+        "dnalabel": "ADN : {dnalabel}",
+        "label": "Étiquette : {label}",
+        "date": "Date : {date}",
+        "tracking": "Suivi : {tracking}",
+        "component": "Composant : {component}",
+        "item": "Article : {item}",
+        "memoryCard": "Carte mémoire {memoryCard}",
+        "flashEnabled": "Flash : {flashEnabled}",
+        "birthdate": "Date de naissance : {birthdate}",
+        "nationaility": "Nationalité : {nationaility}",
+        "identifier": "CID : {identifier}",
+        "gender": "Sexe : {gender}",
+        "firstname": "Prénom : {firstname}",
+        "lastname": "Nom de famille : {lastname}"
+      }
+    },
+
+
+    "NO_ACCESS": {
+      "TITLE": "ACCÈS REFUSÉ",
+      "DESCRIPTION": "Vous n'avez pas accès au MDT",
+      "BUTTON": "Fermer"
+    },
+
+    "SUSPENDED": {
+      "TITLE": "ACCÈS REFUSÉ",
+      "DESCRIPTION": "Il semble que vous ayez été suspendu et que vous ne puissiez pas accéder au MDT",
+      "BUTTON": "Fermer"
+    },
+
+    "ERROR403": {
+      "STATUS": "403",
+      "TITLE": "403 - Vous ne passerez pas",
+      "DESCRIPTION": "Oh oh, Gandalf bloque le passage !"
+    }
+}
+
+/* MADE BY VEEBIZ */
