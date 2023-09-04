@@ -242,10 +242,25 @@
             "EDIT": "Edit SOP Data",
             "DELETE": "Delete SOP Data"
           },
-          "VIEW_ROSTER": "Access Roster Page",
-          "VIEW_ACADEMY": "Access Academy Sheet Page",
-          "VIEW_DATABASE": "Access Disciplinary Database Page",
-          "VIEW_CODES_COMMANDS": "Access 10 Codes & Commands Page"
+          "ROSTER": {
+            "VIEW": "Access Roster Page",
+            "EDIT": "Edit Roster Data"
+          },
+          "ACADEMY": {
+            "VIEW": "Access Academy Sheet Page",
+            "ADD": "Add Officers To Academy Sheet",
+            "EDIT": "Edit Academy Sheet Data",
+            "DELETE": "Delete Academy Sheet Data"
+          },
+          "DATABASE": {
+            "VIEW": "Access Disciplinary Database Page",
+            "ADD": "Add Officers To Disciplinary Database",
+            "EDIT": "Edit Disciplinary Database Data",
+            "DELETE": "Delete Disciplinary Database Data"
+          },
+          "CODES_COMMANDS": {
+            "VIEW": "Access 10 Codes & Commands Page"
+          }
         }
       }
     },
