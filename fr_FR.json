@@ -233,19 +233,34 @@
           "DELETE": "Supprimer une page dans législations"
         },
         "STAFF": {
-          "VIEW": "Accéder au menu du personnel",
-          "VIEW_STAFF": "Accéder à la page du personnel",
+          "VIEW": "Access Staff Menu",
+          "VIEW_STAFF": "Access Staff Page",
           "SOP": {
-            "VIEW": "Accéder à la page procédures",
-            "SEARCH": "Rechercher dans procédures",
-            "CREATE": "Créer des procédures",
-            "EDIT": "Modifier des procédures",
-            "DELETE": "Supprimer des procédures"
+            "VIEW": "Access SOP Page",
+            "SEARCH": "Search SOP Data",
+            "CREATE": "Create SOP Data",
+            "EDIT": "Edit SOP Data",
+            "DELETE": "Delete SOP Data"
           },
-          "VIEW_ROSTER": "Accéder à la page des effectifs",
-          "VIEW_ACADEMY": "Accéder à la page de la feuille académique",
-          "VIEW_DATABASE": "Accéder à la page des données disciplinaires",
-          "VIEW_CODES_COMMANDS": "Accéder à la page des codes et des commandes 10"
+          "ROSTER": {
+            "VIEW": "Access Roster Page",
+            "EDIT": "Edit Roster Data"
+          },
+          "ACADEMY": {
+            "VIEW": "Access Academy Sheet Page",
+            "ADD": "Add Officers To Academy Sheet",
+            "EDIT": "Edit Academy Sheet Data",
+            "DELETE": "Delete Academy Sheet Data"
+          },
+          "DATABASE": {
+            "VIEW": "Access Disciplinary Database Page",
+            "ADD": "Add Officers To Disciplinary Database",
+            "EDIT": "Edit Disciplinary Database Data",
+            "DELETE": "Delete Disciplinary Database Data"
+          },
+          "CODES_COMMANDS": {
+            "VIEW": "Access 10 Codes & Commands Page"
+          }
         }
       }
     },
