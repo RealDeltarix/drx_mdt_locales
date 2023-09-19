@@ -387,7 +387,6 @@
       "ALL": "All"
     },
 
-
     "BOXES": {
       "IDENTITY": "Identité",
       "LICENCES": "Licences",
@@ -445,7 +444,6 @@
       "REDO": "Rétablir"
     },
 
-
     "INVENTORY": {
       "COUNT": "Décompte : {count}",
       "ITEM_DATA": {
@@ -470,7 +468,6 @@
         "lastname": "Nom de famille : {lastname}"
       }
     },
-
 
     "NO_ACCESS": {
       "TITLE": "ACCÈS REFUSÉ",
