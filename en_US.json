@@ -415,7 +415,7 @@
     "DELETE": "Delete"
   },
 
-  "CHARGE": {
+  "CHARGES": {
     "FINE": "${fine} Fine",
     "JAIL": "{jail} Day(s)",
     "POINTS": "{points} Point(s)"
