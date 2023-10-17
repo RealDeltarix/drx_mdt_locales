@@ -143,6 +143,10 @@
     }
   },
 
+  "CHARGE": {
+    "LABEL": "Charges"
+  },
+
   "CONFIGURATIONS": {
     "LABEL": "Configurations",
 
