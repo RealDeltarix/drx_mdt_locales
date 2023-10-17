@@ -29,7 +29,7 @@
       "LABEL": "Criminal Scumbags",
       "CRIMINALS": {
         "LABEL": "(#{identifier}) {fullname}",
-        "EDIT": "Edit Charges",
+        "EDIT": "Edit ",
         "WARRANT": "Warrant for arrest",
         "HOLD": "Hold until trial",
         "TRIAL": "Been to trial",
@@ -42,10 +42,10 @@
         },
         "PLEADED": "Pleaded Guilty",
         "PROCESSED": "Processed",
-        "CHARGES": {
-          "SELECTED": "Selected Charges",
-          "ALL_CHARGES": "All Charges",
-          "NONE_FOUND": "No Charges Found"
+        "": {
+          "SELECTED": "Selected ",
+          "ALL_": "All ",
+          "NONE_FOUND": "No  Found"
         }
       }
     }
@@ -168,7 +168,7 @@
           "STAFF": "Control Staff Data",
           "STAFF_ROLES": "Edit Staff Roles",
           "ROLES": "Control Roles Data",
-          "CHARGES": "Control Charges Data"
+          "": "Control  Data"
         },
         "DASHBOARD": {
           "VIEW": "Access Dashboard Page",
@@ -415,7 +415,7 @@
     "DELETE": "Delete"
   },
 
-  "CHARGES": {
+  "CHARGE": {
     "FINE": "${fine} Fine",
     "JAIL": "{jail} Day(s)",
     "POINTS": "{points} Point(s)"
