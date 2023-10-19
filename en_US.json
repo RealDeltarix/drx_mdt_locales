@@ -44,7 +44,7 @@
         "PROCESSED": "Processed",
         "CHARGES": {
           "SELECTED": "Selected ",
-          "ALL_CHARGES": "All ",
+          "ALL_CHARGES": "All charges",
           "NONE_FOUND": "No  Found"
         }
       }
