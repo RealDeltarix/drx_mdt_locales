@@ -42,9 +42,9 @@
         },
         "PLEADED": "Pleaded Guilty",
         "PROCESSED": "Processed",
-        "": {
+        "CHARGES": {
           "SELECTED": "Selected ",
-          "ALL_": "All ",
+          "ALL_CHARGES": "All ",
           "NONE_FOUND": "No  Found"
         }
       }
