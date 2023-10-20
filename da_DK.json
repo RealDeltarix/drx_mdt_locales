@@ -245,6 +245,9 @@
           "CODES_COMMANDS": {
             "VIEW": "Få adgang til 10 koder"
           }
+        },
+        "CHARGES": {
+          "VIEW": "Access Charges Page"
         }
       }
     },

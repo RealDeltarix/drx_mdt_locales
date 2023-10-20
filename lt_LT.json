@@ -143,6 +143,10 @@
     }
   },
 
+  "CHARGE": {
+    "LABEL": "Charges"
+  },
+
   "CONFIGURATIONS": {
     "LABEL": "Konfigūracijos",
 
@@ -261,6 +265,9 @@
           "CODES_COMMANDS": {
             "VIEW": "Prieiga Prie Kodų Ir Komandų Puslapio"
           }
+        },
+        "CHARGES": {
+          "VIEW": "Access Charges Page"
         }
       }
     },
