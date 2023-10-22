@@ -265,6 +265,9 @@
           "CODES_COMMANDS": {
             "VIEW": "Access 10 Codes & Commands Page"
           }
+        },
+        "CHARGES": {
+          "VIEW": "Access Charges Page"
         }
       }
     },
