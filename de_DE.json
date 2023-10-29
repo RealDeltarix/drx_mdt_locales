@@ -16,8 +16,8 @@
   },
   
   "CITIZENS": {
-    "LABEL": "Bürger",
-    "EDIT": "Bürger bearbeiten {identifier}",
+    "LABEL": "Einwohner",
+    "EDIT": "Einwohner bearbeiten {identifier}",
     "GRANT": "Lizenz ausstellen",
     "REVOKE": "Lizenz abnehmen"
   },
@@ -183,9 +183,9 @@
           }
         },
         "CITIZENS": {
-          "VIEW": "Zugriff auf Bürger-Datenbank",
-          "SEARCH": "Bürger suchen",
-          "EDIT": "Bürger Daten ändern"
+          "VIEW": "Zugriff auf Einwohner-Datenbank",
+          "SEARCH": "Einwohner suchen",
+          "EDIT": "Einwohner Daten ändern"
         },
         "INCIDENTS": {
           "VIEW": "Zugriff auf Vorfall-Datenbank",
@@ -407,7 +407,7 @@
     "ROLES": "Rollen",
     "GALLERY": "Galerie",
     "OFFICERS": "Beamten involviert",
-    "CITIZENS": "Bürger involviert",
+    "CITIZENS": "Einwohner involviert",
     "INCIDENTS": "Zugehörige Vorfälle",
     "REPORTS": "Zugehörige Berichte",
     "EVIDENCE": "Zugehörige Beweise",
