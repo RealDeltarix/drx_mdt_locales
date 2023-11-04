@@ -1,0 +1,497 @@
+{
+    "DASHBOARD": {
+      "LABEL": "Nástěnka",
+      "RECENT_ACTIVITES": {
+        "LABEL": "Nedávná Aktivita",
+        "INCIDENT": "Nedávné Incidenty",
+        "REPORT": "Nedávné Hlášení",
+        "BOLO": "Nedávné Bola",
+        "WARRANT": "Nedávné zatykače",
+        "EVIDENCE": "Nedávné Důkazy",
+        "WEAPON": "Nedávno Registrované Zbraně"
+      },
+      "ANNOUNCEMENTS": {
+        "LABEL": "Oznámení"
+      }
+    },
+  
+    "CITIZENS": {
+      "LABEL": "Občané",
+      "EDIT": "Upravit občana {identifier}",
+      "GRANT": "Udělit Licenci",
+      "REVOKE": "Odebrat Licenci"
+    },
+  
+    "INCIDENTS": {
+      "LABEL": "Incidenty",
+      "EDIT": "Upravit incident {id}",
+      "CRIMINAL": {
+        "LABEL": "Kriminálníci",
+        "CRIMINALS": {
+          "LABEL": "(#{identifier}) {fullname}",
+          "EDIT": "Upravit ",
+          "WARRANT": "Příkaz pro zatčení",
+          "HOLD": "Držet do soudního řízení",
+          "TRIAL": "Byl/a u soudního řízení",
+          "REASON": "Důvod vydání zatykače",
+          "DATE": "Zvolte Datum a Čas",
+          "REDUCTION": {
+            "LABEL": "Snížení",
+            "PLACEHOLDER": "Zvolte snížení",
+            "DATA": "{percentage}% / ${fine} pokuta / {jail} dní vězení / {points} bodů"
+          },
+          "PLEADED": "Přiznání viny",
+          "PROCESSED": "Zpracováno",
+          "CHARGES": {
+            "SELECTED": "Vybrané ",
+            "ALL_CHARGES": "Všechny pokuty",
+            "NONE_FOUND": "Nenalezeno"
+          }
+        }
+      }
+    },
+  
+    "REPORTS": {
+      "LABEL": "Reporty",
+      "EDIT": "Upravit report {id}"
+    },
+  
+    "BOLOS_WARRANTS": {
+      "LABEL": "Bolo & Příkazy",
+      "BOLOS": {
+        "LABEL": "Bolo"
+      },
+      "WARRANTS": {
+        "LABEL": "Příkazy",
+        "CLOTHES": {
+          "HAT": "Čepice: {type} | {color}",
+          "MASK": "Maska: {type} | {color}",
+          "JACKET": "Bunda: {type} | {color}",
+          "GLOVES": "Rukavice: {type} | {color}",
+          "PANTS": "Kalhoty: {type} | {color}",
+          "SHOES": "Boty: {type} | {color}"
+        }
+      }
+    },
+  
+    "VEHICLES": {
+      "LABEL": "Vozidla",
+      "EDIT": "Upravit vozidlo {plate}"
+    },
+  
+    "EVIDENCE": {
+      "LABEL": "Důkazy",
+      "EDIT": "Upravit důkaz {id}",
+      "CATEGORY": "Kategorie: {category}"
+    },
+  
+    "CAMERAS": {
+      "LABEL": "Kamery",
+      "AV1": "AV1",
+      "NO_INPUT": "Žádný signál.",
+      "ONLINE": "Online"
+    },
+  
+    "WEAPON_REGISTRY": {
+      "LABEL": "Registrace zbraní",
+      "EDIT": "Upravit zbraň {id}"
+    },
+  
+    "LEGISLATIONS": {
+      "LABEL": "Legislativa",
+      "EDIT": "Upravit legislativu {id}"
+    },
+  
+    "STAFF": {
+      "LABEL": "Personál",
+  
+      "STAFF": {
+        "LABEL": "Personál"
+      },
+  
+      "SOP": {
+        "LABEL": "Postupy",
+        "EDIT": "Upravit postup {id}"
+      },
+  
+      "ROSTER": {
+        "LABEL": "Soupiska"
+      },
+  
+      "ACADEMY": {
+        "LABEL": "List Akademie",
+        "ADD": "Přidat nového člena"
+      },
+  
+      "DATABASE": {
+        "LABEL": "Disciplinární databáze",
+        "ADD": "Přidat nového člena"
+      },
+  
+      "CODES_COMMANDS": {
+        "LABEL": "10-kódy & Příkazy",
+        "CODES": {
+          "LABEL": "10tkové kódy",
+          "CODE": "Kód",
+          "DESCRIPTION": "Popis"
+        },
+        "COMMANDS": {
+          "LABEL": "Příkazy",
+          "COMMAND": "Příkaz",
+          "ACTION": "Akce"
+        }
+      }
+    },
+  
+    "CHARGE": {
+      "LABEL": "Pokuty"
+    },
+  
+    "CONFIGURATIONS": {
+      "LABEL": "Konfigurace",
+  
+      "STAFF": {
+        "LABEL": "Personál",
+        "EDIT": "Upravit zaměstnance {identifier}",
+        "DATA": "Data",
+        "NO_ACTIVITY": "Doposud žádná aktivita",
+        "CLOCKED_IN": "Ve službě",
+        "CLOCKED_OUT": "Mimo službu",
+        "SUSPEND": "Suspendovat",
+        "FIRE": "Vyhodit"
+      },
+  
+      "ROLES": {
+        "LABEL": "Role",
+        "NEW": "Nová role",
+        "DESCRIPTION": "Vyberte konkrétní role, ke kterým by měl mít policista oprávnění.",
+        "LABELS": {
+          "FULL_ACCESS": "Plný přístup",
+          "CONFIGURATIONS": {
+            "VIEW": "Zobrazit Konfiguraci",
+            "STAFF": "Spravovat Staff Data",
+            "STAFF_ROLES": "Spravovat Staff Role",
+            "ROLES": "Spravovat Role",
+            "": "Spravovat Data"
+          },
+          "DASHBOARD": {
+            "VIEW": "Zobrazit nástěnku",
+            "ANNOUNCEMENTS": {
+              "CREATE": "Vytvářet Oznámení",
+              "EDIT": "Upravovat Oznámení",
+              "DELETE": "Mazat Oznámení"
+            }
+          },
+          "CITIZENS": {
+            "VIEW": "Zobrazit Seznam Občanů",
+            "SEARCH": "Hledat v Seznamu Občanů",
+            "EDIT": "Upravovat data Občanů"
+          },
+          "INCIDENTS": {
+            "VIEW": "Zobrazit Incidenty",
+            "SEARCH": "Hledat v Incidentech",
+            "CREATE": "Vytvářet Incidenty",
+            "EDIT": "Upravovat Incidenty",
+            "DELETE": "Mazat Incidenty"
+          },
+          "REPORTS": {
+            "VIEW": "Zobrazit Reporty",
+            "SEARCH": "Hledat v Reportech",
+            "CREATE": "Vytvářet Reporty",
+            "EDIT": "Upravovat Reporty",
+            "DELETE": "Mazat Reporty"
+          },
+          "BOLOS_WARRANTS": {
+            "VIEW": "Zobrazit Bolo & Příkazy",
+            "CREATE": "Vytvářet Bolo & Příkazy",
+            "EDIT": "Upravovat Bolo & Příkazy",
+            "DELETE": "Mazat Bolo & Příkazy"
+          },
+          "VEHICLES": {
+            "VIEW": "Zobrazit Vozidla",
+            "SEARCH": "Hledat ve Vozidlech",
+            "EDIT": "Upravovat Vozidla"
+          },
+          "EVIDENCE": {
+            "VIEW": "Zobrazit Důkazy",
+            "SEARCH": "Hledat v Důkazech",
+            "CREATE": "Vytvářet Důkazy",
+            "EDIT": "Upravovat Důkazy",
+            "DELETE": "Mazat Důkazy"
+          },
+          "CAMERAS": {
+            "VIEW": "Přístup ke Kamerám"
+          },
+          "WEAPON_REGISTRY": {
+            "VIEW": "Zobrazit Registraci Zbraní",
+            "SEARCH": "Hledat v Registraci Zbraní",
+            "CREATE": "Vytvářet Registraci Zbraní",
+            "EDIT": "Upravovat Registraci Zbraní",
+            "DELETE": "Mazat Registraci Zbraní"
+          },
+          "LEGISLATIONS": {
+            "VIEW": "Zobrazit Legislativu",
+            "SEARCH": "Hledat v Legislativě",
+            "CREATE": "Vytvářet Legislativu",
+            "EDIT": "Upravovat Legislativu",
+            "DELETE": "Mazat Legislativu"
+          },
+          "STAFF": {
+            "VIEW": "Zobrazit Personál",
+            "VIEW_STAFF": "Zobrazit Staff Personál",
+            "SOP": {
+              "VIEW": "Zobrazit Postupy",
+              "SEARCH": "Hledat v Postupech",
+              "CREATE": "Vytvářet Postupy",
+              "EDIT": "Upravovat Postupy",
+              "DELETE": "Mazat Postupy"
+            },
+            "ROSTER": {
+              "VIEW": "Zobrazit Soupisku",
+              "EDIT": "Upravovat Soupisku"
+            },
+            "ACADEMY": {
+              "VIEW": "Zobrazit List Akademie",
+              "ADD": "Přidávat Členy do Listu Akademie",
+              "EDIT": "Upravovat List Akademie",
+              "DELETE": "Mazat List Akademie"
+            },
+            "DATABASE": {
+              "VIEW": "Zobrazit Disciplinární Databázi",
+              "ADD": "Přidávat Členy do Disciplinární Databáze",
+              "EDIT": "Upravovat Disciplinární Databázi",
+              "DELETE": "Mazat Disciplinární Databázi"
+            },
+            "CODES_COMMANDS": {
+              "VIEW": "Zobrazit 10-kódy & Příkazy"
+            }
+          },
+          "CHARGES": {
+            "VIEW": "Zobrazit Pokuty"
+          }
+        }
+      },
+  
+      "CHARGES": {
+        "LABEL": "Pokuty",
+        "CHARGES": {
+          "LABEL": "Pokuty"
+        },
+        "CATEGORIES": {
+          "LABEL": "Kategorie"
+        }
+      }
+    },
+  
+    "DATE": {
+      "YEAR": "rok",
+      "MONTH": "měsíc",
+      "DAY": "den",
+      "HOUR": "hodina",
+      "MINUTE": "minuta",
+      "SECOND": "sekunda",
+      "S": "s",
+      "AGO": "před",
+      "LEFT": "zbývá",
+      "JUST_NOW": "Právě nyní",
+      "EXPIRED": "Platnost vypršela",
+      "AND": "a"
+    },
+  
+    "AVATAR": "Profilovka",
+    "OFFICER": "Policista",
+    "STATUS": "Status",
+    "ACTIVE": "Aktivní",
+    "INACTIVE": "Neaktivní",
+    "ACTIONS": "Akce",
+    "SET_WAYPOINT": "Nastavit GPS",
+    "UNKNOWN_CATEGORY": "Neznámá kategorie",
+  
+    "STATEID": "Identifikační číslo: (#{identifier})",
+    "FULLNAME": "Jméno a Příjmení: {fullname}",
+    "BADGENUMBER": "Číslo odznaku#: {badgenumber}",
+    "CREATED_BY": "Vytvořil: {user}",
+    "TAG": "(#{identifier}) {fullname}",
+    "POSTED_BY": "Odeslal: {user}",
+    "OWNED_BY": "Vlastní: (#{identifier}) {fullname}",
+    "LAST_SEEN": "Naposledy viděn {date}",
+    "AUTHOR": "Autor: {user}",
+    "OWNER": "Vlastník: {owner}",
+    "PLATE": "Značka (SPZ): {plate}",
+    "COLOR": "Barva: {color}",
+    "REASON": "Důvod: {reason}",
+    "EXPIRES": "Vyprší: {date}",
+    "DESCRIPTION": "{description}",
+    "FINE": "Pokuta: ${fine}",
+    "JAIL": "Čas vězení: {jail} dnů",
+    "POINTS": "Body: {points}",
+    "CATEGORY": "Kategorie: {category}",
+  
+    "VIEW": "Zobrazit",
+    "EDIT": "Upravit",
+    "SEARCH": "Hledat",
+    "CREATE": "Vytvořit",
+    "UNLINK": "Odpojit",
+    "SAVE": "Uložit",
+    "UPDATE": "Aktualizovat",
+    "DELETE": "Smazat",
+    "CLEAR": "Vymazat",
+    "CLOSE": "Zavřít",
+    "JOIN": "Připojit",
+    "LEAVE": "Opustit",
+    "REMOVE": "Odebrat",
+    "ADD": "Přidat",
+    "CANCEL": "Zrušit",
+    "CONFIRM": "Potvrdit",
+    "RESUME": "Pokračovat",
+  
+    "POPUP": {
+      "CANCEL": "Zrušit",
+      "CONFIRM": "Potvrdit",
+      "IMAGE": "Jste si jisti, že chcete smazat tento obrázek z galerie?",
+      "SAVE": "Chcete uložit {label}?",
+      "DELETE": "Chcete smazat {label}?",
+      "ACTIVITY": "Jste si jisti, že chcete vymazat údaje o aktivitě člena?"
+    },
+  
+    "PLACEHOLDER": {
+      "STATEID": "Identifikační číslo",
+      "FULLNAME": "Jméno a Příjmení",
+      "ALIAS": "Přezdívka",
+      "DEPARTMENT": "Sbor",
+      "RANK": "Hodnost",
+      "CALLSIGN": "Volací Znak",
+      "BADGENUMBER": "Číslo Odznaku#",
+      "PHOTO": "Obrázek",
+      "TITLE": "Nadpis",
+      "NOTES": "Poznámky",
+      "LOCATION": "Poloha",
+      "AUTHOR": "Autor",
+      "CATEGORY": "Kategorie",
+      "UNKNOWN": "Neznámý",
+      "REASON": "Důvod",
+      "PLATE": "Značka (SPZ)",
+      "OWNER": "Vlastník",
+      "COLOR": "Barva",
+      "DATE": "Datum a Čas",
+      "SEARCH": "Hledat",
+      "SELECT": "Vybrat",
+      "FILTER": "Filtrovat",
+      "CLOTHING": "Druh oblečení",
+      "LINK": "Přidat odkaz",
+      "LABEL": "Označení",
+      "DESCRIPTION": "Popis",
+      "SERIAL": "Sériové číslo",
+      "WEAPON": "Zbraň",
+      "ACTIONS": "Akce",
+      "OFFICERS": "Členové",
+      "PREFIX": "Předpona",
+      "FINE": "Pokuta",
+      "JAIL": "Vězení",
+      "POINTS": "Body",
+      "WANTED": "HLEDANÝ",
+      "FLAGGED": "OZNAČENÝ",
+      "ALL": "Všechno"
+    },
+  
+    "BOXES": {
+      "IDENTITY": "Totožnost",
+      "LICENCES": "Licence",
+      "STATS": "Statistiky",
+      "ITEMS": "Věci",
+      "TAGS": "Označení",
+      "VEHICLES": "Vozidla",
+      "HOUSING": "Nemovitosti",
+      "EMPLOYMENT": "Zaměstnání",
+      "WEAPONS": "Zbraně",
+      "ROLES": "Role",
+      "GALLERY": "Galerie",
+      "OFFICERS": "Zúčastnění Policisté",
+      "CITIZENS": "Zúčastnění Občané",
+      "INCIDENTS": "Související případy",
+      "REPORTS": "Související reporty",
+      "EVIDENCE": "Související důkazy",
+      "ACTIVITY": "Aktivita"
+    },
+  
+    "CAMERA": {
+      "GALLERY": "Galerie",
+      "OPEN": "Otevřít fotoaparát",
+      "VIEW": "Zobrazit galerii",
+      "UPLOAD": "Nahrát",
+      "DELETE": "Smazat"
+    },
+  
+    "CHARGES": {
+      "FINE": "${fine} Pokuta",
+      "JAIL": "{jail} Dní",
+      "POINTS": "{points} Bodů"
+    },
+  
+    "EDITOR": {
+      "BOLD": "Tučně",
+      "ITALIC": "Kurzíva",
+      "STRIKE": "Škrtnutí",
+      "TEXT": {
+        "PARAGRAPH": "Odstavec",
+        "H1": "H1",
+        "H2": "H2",
+        "H3": "H3",
+        "H4": "H4",
+        "H5": "H5",
+        "H6": "H6"
+      },
+      "COLOR": "Barva",
+      "CLEAR_MARKS": "Clear marks",
+      "CLEAR_NODES": "Clear nodes",
+      "BULLET_LIST": "Bullet list",
+      "ORDERED_LIST": "Ordered list",
+      "HARD_BREAK": "Hard break",
+      "UNDO": "Vrátit",
+      "REDO": "Předělat"
+    },
+  
+    "INVENTORY": {
+      "COUNT": "Počet: {count}",
+      "ITEM_DATA": {
+        "serial": "Sériové číslo: {serial}",
+        "durability": "Poškození: {durability}",
+        "ammo": "Náboje: {ammo}",
+        "street": "Pozice: {street}",
+        "type": "Kategorie: {type}",
+        "dnalabel": "DNA: {dnalabel}",
+        "label": "Označení: {label}",
+        "date": "Datum: {date}",
+        "tracking": "Sledování: {tracking}",
+        "component": "Komponent: {component}",
+        "item": "Předmět: {item}",
+        "memoryCard": "Paměťová karta {memoryCard}",
+        "flashEnabled": "Flashka: {flashEnabled}",
+        "birthdate": "Datum narození: {birthdate}",
+        "nationaility": "Národnost: {nationaility}",
+        "identifier": "Identifikační číslo: {identifier}",
+        "gender": "Pohlaví: {gender}",
+        "firstname": "Jméno: {firstname}",
+        "lastname": "Příjmení: {lastname}"
+      }
+    },
+  
+    "NO_ACCESS": {
+      "TITLE": "PŘÍSTUP ZAMÍTNUT",
+      "DESCRIPTION": "Nemáte přístup k MDT",
+      "BUTTON": "Zavřít"
+    },
+  
+    "SUSPENDED": {
+      "TITLE": "PŘÍSTUP ZAMÍTNUT",
+      "DESCRIPTION": "Vypadá to, že jste byl suspendován a nemáte přístup k MDT",
+      "BUTTON": "Zavřít"
+    },
+  
+    "ERROR403": {
+      "STATUS": "403",
+      "TITLE": "Error-403",
+      "DESCRIPTION": "Hmm sakra, cesta zablokována!"
+    }
+  }
+  
