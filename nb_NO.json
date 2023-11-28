@@ -16,7 +16,7 @@
     },
   
     "CITIZENS": {
-      "LABEL": "Borgere",
+      "LABEL": "Personregister",
       "EDIT": "Rediger borger {identifier}",
       "GRANT": "Gi lisens",
       "REVOKE": "Opphev lisensen"
@@ -402,13 +402,13 @@
       "TAGS": "Tags",
       "VEHICLES": "Kjøretøy",
       "HOUSING": "Eiendommer",
-      "EMPLOYMENT": "Sysselsetting",
+      "EMPLOYMENT": "Jobb",
       "CONVICTIONS": "Overbevisning",
       "WEAPONS": "Våpen",
       "ROLES": "Roler",
       "GALLERY": "Galleri",
-      "OFFICERS": "Involverte offiserer",
-      "CITIZENS": "Involverte borgere",
+      "OFFICERS": "Involverte betjenter",
+      "CITIZENS": "Involverte personer",
       "INCIDENTS": "Relaterte hendelser",
       "REPORTS": "Relaterte rapporter",
       "EVIDENCE": "Relaterte bevis",
