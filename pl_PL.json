@@ -38,7 +38,7 @@
         "REDUCTION": {
           "LABEL": "Zmniejsz",
           "PLACEHOLDER": "Wybierz zmniejszenie",
-          "DATA": "{percentage}% / ${fine} fine / {jail} day(s) / {points} point(s)"
+          "DATA": "{percentage}% / ${fine} grzywny / {jail} dni / {points} punkt(y)"
         },
         "PLEADED": "Przyznano do winy",
         "PROCESSED": "Przetworzony",
