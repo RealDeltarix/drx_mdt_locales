@@ -1,0 +1,497 @@
+{
+  "DASHBOARD": {
+    "LABEL": "Överblick",
+    "RECENT_ACTIVITES": {
+      "LABEL": "Senast Pågående",
+      "INCIDENT": "Nya Händelser",
+      "REPORT": "Nya Rapporter",
+      "BOLO": "Nya Fordonsefterlysningar",
+      "WARRANT": "Nya Efterlysningar",
+      "EVIDENCE": "Nya Bevis",
+      "WEAPON": "Nytillagda Vapenlicenser"
+    },
+    "ANNOUNCEMENTS": {
+      "LABEL": "Meddelanden"
+    }
+  },
+
+  "CITIZENS": {
+    "LABEL": "Medborgare",
+    "EDIT": "Redigera Profil {identifier}",
+    "GRANT": "Bevilja Licens",
+    "REVOKE": "Återkalla Licens"
+  },
+
+  "INCIDENTS": {
+    "LABEL": "Händelser",
+    "EDIT": "Redigera Händelse {id}",
+    "CRIMINAL": {
+      "LABEL": "Brottsling",
+      "CRIMINALS": {
+        "LABEL": "(#{identifier}) {fullname}",
+        "EDIT": "Redigera",
+        "WARRANT": "Efterlyst",
+        "HOLD": "Häkta inför rättegång",
+        "TRIAL": "Tagits inför rätta",
+        "REASON": "Anledning för efterlysning",
+        "DATE": "Välj Datum och Tid",
+        "REDUCTION": {
+          "LABEL": "Straffrabatt",
+          "PLACEHOLDER": "Välj Straffrabatt",
+          "DATA": "{percentage}% / ${fine} böter / {jail} dag(ar) / {points} prick(ar)"
+        },
+        "PLEADED": "Erkänt sig skyldig",
+        "PROCESSED": "Bearbetad",
+        "CHARGES": {
+          "SELECTED": "Vald ",
+          "ALL_CHARGES": "Alla Straff",
+          "NONE_FOUND": "Inga funna"
+        }
+      }
+    }
+  },
+
+  "REPORTS": {
+    "LABEL": "Rapporter",
+    "EDIT": "Redigera Rapport {id}"
+  },
+
+  "BOLOS_WARRANTS": {
+    "LABEL": "Efterlysningar Person/Fordon",
+    "BOLOS": {
+      "LABEL": "Fordonsefterlysning"
+    },
+    "WARRANTS": {
+      "LABEL": "Efterlysning",
+      "CLOTHES": {
+        "HAT": "Huvudbonad: {type} | {color}",
+        "MASK": "Mask: {type} | {color}",
+        "JACKET": "Jacka: {type} | {color}",
+        "GLOVES": "Handskar: {type} | {color}",
+        "PANTS": "Byxor: {type} | {color}",
+        "SHOES": "Skor: {type} | {color}"
+      }
+    }
+  },
+
+  "VEHICLES": {
+    "LABEL": "Fordon",
+    "EDIT": "Redigera Fordon {plate}"
+  },
+
+  "EVIDENCE": {
+    "LABEL": "Bevis",
+    "EDIT": "Redigera Bevis {id}",
+    "CATEGORY": "Kategori: {category}"
+  },
+
+  "CAMERAS": {
+    "LABEL": "Kameror",
+    "AV1": "AV1",
+    "NO_INPUT": "Ingen signal.",
+    "ONLINE": "Online"
+  },
+
+  "WEAPON_REGISTRY": {
+    "LABEL": "Vapenregister",
+    "EDIT": "Redigera Vapen {id}"
+  },
+
+  "LEGISLATIONS": {
+    "LABEL": "Lagstiftningar",
+    "EDIT": "Redigera Lagstiftningar {id}"
+  },
+
+  "STAFF": {
+    "LABEL": "Administratörer",
+
+    "STAFF": {
+      "LABEL": "Administratör"
+    },
+
+    "SOP": {
+      "LABEL": "Förhållningsätt",
+      "EDIT": "Redigera Förhållningsätt {id}"
+    },
+
+    "ROSTER": {
+      "LABEL": "Anställda"
+    },
+
+    "ACADEMY": {
+      "LABEL": "Utbildningsdokument",
+      "ADD": "Lägg till kollega"
+    },
+
+    "DATABASE": {
+      "LABEL": "Disciplinära Handlingar",
+      "ADD": "Lägg till kollega"
+    },
+
+    "CODES_COMMANDS": {
+      "LABEL": "10 Codes & Commands",
+      "CODES": {
+        "LABEL": "10 Codes",
+        "CODE": "Code",
+        "DESCRIPTION": "Description"
+      },
+      "COMMANDS": {
+        "LABEL": "Commands",
+        "COMMAND": "Command",
+        "ACTION": "Action"
+      }
+    }
+  },
+
+  "CHARGE": {
+    "LABEL": "Straff"
+  },
+
+  "CONFIGURATIONS": {
+    "LABEL": "Redigera Anställd",
+
+    "STAFF": {
+      "LABEL": "Anställd",
+      "EDIT": "Redigera Anställd {identifier}",
+      "DATA": "Info",
+      "NO_ACTIVITY": "Ingen aktivitet ännu",
+      "CLOCKED_IN": "I tjänst",
+      "CLOCKED_OUT": "Ur tjänst",
+      "SUSPEND": "Ta ur tjänst",
+      "FIRE": "Sparka"
+    },
+
+    "ROLES": {
+      "LABEL": "Roller",
+      "NEW": "Ny roll",
+      "DESCRIPTION": "Välj roller den anställda ska ha tillgång till",
+      "LABELS": {
+        "FULL_ACCESS": "Full tillgång",
+        "CONFIGURATIONS": {
+          "VIEW": "Hantera Redigera Anställd",
+          "STAFF": "Kontrollera Anställd Info",
+          "STAFF_ROLES": "Redigera Anställda Roller",
+          "ROLES": "Kontrollera Rollinfo",
+          "": "Kontrollera Info"
+        },
+        "DASHBOARD": {
+          "VIEW": "Tillgång till Överblick",
+          "ANNOUNCEMENTS": {
+            "CREATE": "Skapa Meddelanden",
+            "EDIT": "Redigera Meddelanden",
+            "DELETE": "Ta bort Meddelanden"
+          }
+        },
+        "CITIZENS": {
+          "VIEW": "Tillgång till Medborgarinfo",
+          "SEARCH": "Söka på Medborgare",
+          "EDIT": "Redigera Medborgare"
+        },
+        "INCIDENTS": {
+          "VIEW": "Tillgång till Händelser",
+          "SEARCH": "Söka på Händelser",
+          "CREATE": "Skapa Händelser",
+          "EDIT": "Redigera Händelser",
+          "DELETE": "Ta bort Händelser"
+        },
+        "REPORTS": {
+          "VIEW": "Tillgång till Rapporter",
+          "SEARCH": "Söka i Rapporter",
+          "CREATE": "Skapa Rapporter",
+          "EDIT": "Redigera Rapporter",
+          "DELETE": "Ta bort Rapporter"
+        },
+        "BOLOS_WARRANTS": {
+          "VIEW": "Tillgång till Efterlysningar",
+          "CREATE": "Skapa Efterlysningar",
+          "EDIT": "Redigera Efterlysningar",
+          "DELETE": "Ta bort Efterlysningar"
+        },
+        "VEHICLES": {
+          "VIEW": "Tillgång till Fordoninfo",
+          "SEARCH": "Söka på Fordon",
+          "EDIT": "Redigera Fordoninfo"
+        },
+        "EVIDENCE": {
+          "VIEW": "Tillgång till Bevis",
+          "SEARCH": "Sök på Bevis",
+          "CREATE": "Skapa Bevis",
+          "EDIT": "Redigera Bevis",
+          "DELETE": "Ta bort Bevis"
+        },
+        "CAMERAS": {
+          "VIEW": "Tillgång till Kameror"
+        },
+        "WEAPON_REGISTRY": {
+          "VIEW": "Tillgång till Vapenregister",
+          "SEARCH": "Söka på Vapenregister",
+          "CREATE": "Skapa Vapenregister",
+          "EDIT": "Redigera Vapenregister",
+          "DELETE": "Ta bort Vapenregister"
+        },
+        "LEGISLATIONS": {
+          "VIEW": "Tillgång till Lagstiftningar",
+          "SEARCH": "Söka på Lagstiftningar",
+          "CREATE": "Skapa Lagstiftningar",
+          "EDIT": "Redigera Lagstiftningar",
+          "DELETE": "Ta bort Lagstiftningar"
+        },
+        "STAFF": {
+          "VIEW": "Tillgång till Administratörmeny",
+          "VIEW_STAFF": "Tillgång till Administratörmeny",
+          "SOP": {
+            "VIEW": "Tillgång till Förhållningsätt",
+            "SEARCH": "Söka på Förhållningsätt",
+            "CREATE": "Skapa Förhållningsätt",
+            "EDIT": "Redigera Förhållningsätt",
+            "DELETE": "Ta bort Förhållningsätt"
+          },
+          "ROSTER": {
+            "VIEW": "Tillgång till Anställda",
+            "EDIT": "Redigera Anställda"
+          },
+          "ACADEMY": {
+            "VIEW": "Tillgång till Utbildningsdokument",
+            "ADD": "Lägg till anställda till Utbildningsdokument",
+            "EDIT": "Redigera Utbildningsdokument",
+            "DELETE": "Ta bort Utbildningsdokument"
+          },
+          "DATABASE": {
+            "VIEW": "Tillgång till Disciplinära Handlingar",
+            "ADD": "Lägg till Anställda i Disciplinära Handlingar",
+            "EDIT": "Redigera Disciplinära Handlingar",
+            "DELETE": "Ta bort Disciplinära Handlingar"
+          },
+          "CODES_COMMANDS": {
+            "VIEW": "Access 10 Codes & Commands Page"
+          }
+        },
+        "CHARGES": {
+          "VIEW": "Tillgång till Straff"
+        }
+      }
+    },
+
+    "CHARGES": {
+      "LABEL": "Straff",
+      "CHARGES": {
+        "LABEL": "Straff"
+      },
+      "CATEGORIES": {
+        "LABEL": "Kategorier"
+      }
+    }
+  },
+
+  "DATE": {
+    "YEAR": "år",
+    "MONTH": "månader",
+    "DAY": "dagar",
+    "HOUR": "timmar",
+    "MINUTE": "minuter",
+    "SECOND": "sekunder",
+    "S": "",
+    "AGO": "Sen",
+    "LEFT": "Kvar",
+    "JUST_NOW": "Just nu",
+    "EXPIRED": "Utgången",
+    "AND": "och"
+  },
+
+  "AVATAR": "Avatar",
+  "OFFICER": "Anställd",
+  "STATUS": "Status",
+  "ACTIVE": "Aktiv",
+  "INACTIVE": "Inaktiv",
+  "ACTIONS": "Handlingar",
+  "SET_WAYPOINT": "Lägg till GPS",
+  "UNKNOWN_CATEGORY": "Okänd Kategori",
+
+  "STATEID": "Stads ID: (#{identifier})",
+  "FULLNAME": "Fullständigt namn: {fullname}",
+  "BADGENUMBER": "Enhetsnummer#: {badgenumber}",
+  "CREATED_BY": "Skapad av: {user}",
+  "TAG": "(#{identifier}) {fullname}",
+  "POSTED_BY": "Inlagt av: {user}",
+  "OWNED_BY": "Ägare: (#{identifier}) {fullname}",
+  "LAST_SEEN": "Senast sedd {date}",
+  "AUTHOR": "Skribent: {user}",
+  "OWNER": "Ägare: {owner}",
+  "PLATE": "Regsistreringskylt: {plate}",
+  "COLOR": "Lack: {color}",
+  "REASON": "Anledning: {reason}",
+  "EXPIRES": "Går ut: {date}",
+  "DESCRIPTION": "{description}",
+  "FINE": "Böter: ${fine}",
+  "JAIL": "Fängelsetid: {jail} day(s)",
+  "POINTS": "Prick(ar): {points}",
+  "CATEGORY": "Kategori: {category}",
+
+  "VIEW": "Se",
+  "EDIT": "Redigera",
+  "SEARCH": "Sök",
+  "CREATE": "Skapa",
+  "UNLINK": "Ta bort länk",
+  "SAVE": "Spara",
+  "UPDATE": "Uppdatera",
+  "DELETE": "Ta bort",
+  "CLEAR": "Rensa",
+  "CLOSE": "Stäng",
+  "JOIN": "Gå med",
+  "LEAVE": "Lämna",
+  "REMOVE": "Ta bort",
+  "ADD": "Lägg till",
+  "CANCEL": "Avbryt",
+  "CONFIRM": "Bekräfta",
+  "RESUME": "Återgå",
+
+  "POPUP": {
+    "CANCEL": "Avbryt",
+    "CONFIRM": "Bekräfta",
+    "IMAGE": "Är du säker på att du vill ta bort bilden från galleriet?",
+    "SAVE": "Vill du spara {label}?",
+    "DELETE": "Vill du ta bort {label}?",
+    "ACTIVITY": "Är du säker på att du vill ta bort den anställdas aktivitetsdata?"
+  },
+
+  "PLACEHOLDER": {
+    "STATEID": "Stads ID",
+    "FULLNAME": "Fullständigt namn",
+    "ALIAS": "Alias",
+    "DEPARTMENT": "Avdelning",
+    "RANK": "Rang",
+    "CALLSIGN": "Rakel",
+    "BADGENUMBER": "Enhet#",
+    "PHOTO": "Foto",
+    "TITLE": "Titel",
+    "NOTES": "Anteckningar",
+    "LOCATION": "Plats",
+    "AUTHOR": "Skribent",
+    "CATEGORY": "Kategori",
+    "UNKNOWN": "Okänd",
+    "REASON": "Anledning",
+    "PLATE": "Registeringskylt",
+    "OWNER": "Ägare",
+    "COLOR": "Lack",
+    "DATE": "Datum och Tid",
+    "SEARCH": "Sök",
+    "SELECT": "Välj",
+    "FILTER": "Filter",
+    "CLOTHING": "Typ av kläder",
+    "LINK": "Lägg till länk",
+    "LABEL": "Beteckning",
+    "DESCRIPTION": "Beskrivning",
+    "SERIAL": "Serie-nummer",
+    "WEAPON": "Vapen",
+    "ACTIONS": "Handlingar",
+    "OFFICERS": "Anställda",
+    "PREFIX": "Prefix",
+    "FINE": "Böter",
+    "JAIL": "Fänglsa",
+    "POINTS": "Prickar",
+    "WANTED": "EFTERLYST",
+    "FLAGGED": "FLAGGAD",
+    "ALL": "Alla"
+  },
+
+  "BOXES": {
+    "IDENTITY": "Identitet",
+    "LICENCES": "Licenser",
+    "STATS": "Statistik",
+    "ITEMS": "Föremål",
+    "TAGS": "Taggar",
+    "VEHICLES": "Fordon",
+    "HOUSING": "Egendomar",
+    "EMPLOYMENT": "Anställning",
+    "CONVICTIONS": "Fällande Domar",
+    "WEAPONS": "Vapen",
+    "ROLES": "Roller",
+    "GALLERY": "Galleri",
+    "OFFICERS": "Inblandade Poliser",
+    "CITIZENS": "Inblandade Medborgare",
+    "INCIDENTS": "Relaterade Händelser",
+    "REPORTS": "Relaterade Rapporter",
+    "EVIDENCE": "Relaterade Bevis",
+    "ACTIVITY": "Aktivitet"
+  },
+
+  "CAMERA": {
+    "GALLERY": "Galleri",
+    "OPEN": "Öppna Kamera",
+    "VIEW": "Kolla Galleri",
+    "UPLOAD": "Ladda upp",
+    "DELETE": "Ta bort"
+  },
+
+  "CHARGES": {
+    "FINE": "${fine} Böter",
+    "JAIL": "{jail} Dag(ar)",
+    "POINTS": "{points} Prick(ar)"
+  },
+
+  "EDITOR": {
+    "BOLD": "Fet",
+    "ITALIC": "Kursiv",
+    "STRIKE": "Stryk över",
+    "TEXT": {
+      "PARAGRAPH": "Paragraf",
+      "H1": "H1",
+      "H2": "H2",
+      "H3": "H3",
+      "H4": "H4",
+      "H5": "H5",
+      "H6": "H6"
+    },
+    "COLOR": "Färg",
+    "CLEAR_MARKS": "Ta bort ändringar",
+    "CLEAR_NODES": "Ta bort punkter",
+    "BULLET_LIST": "Punktlista",
+    "ORDERED_LIST": "Sifferlista",
+    "HARD_BREAK": "Hoppa rad",
+    "UNDO": "Ångra",
+    "REDO": "Gör om"
+  },
+
+  "INVENTORY": {
+    "COUNT": "Antal: {count}",
+    "ITEM_DATA": {
+      "serial": "Serie-nummer: {serial}",
+      "durability": "Förslitning: {durability}",
+      "ammo": "Ammunition: {ammo}",
+      "street": "Plats: {street}",
+      "type": "Kategorityp: {type}",
+      "dnalabel": "DNA: {dnalabel}",
+      "label": "Beteckning: {label}",
+      "date": "Datum: {date}",
+      "tracking": "Spårning: {tracking}",
+      "component": "Komponent: {component}",
+      "item": "Föremål: {item}",
+      "memoryCard": "Minneskort {memoryCard}",
+      "flashEnabled": "Blixt: {flashEnabled}",
+      "birthdate": "Födelsedatum: {birthdate}",
+      "nationaility": "Nationalitet: {nationaility}",
+      "identifier": "Stads ID: {identifier}",
+      "gender": "Kön: {gender}",
+      "firstname": "Förnamn: {firstname}",
+      "lastname": "Efternamn: {lastname}"
+    }
+  },
+
+  "NO_ACCESS": {
+    "TITLE": "ÅTKOMST NEKAD",
+    "DESCRIPTION": "Du har inte tillgång till MDT'n",
+    "BUTTON": "Stäng"
+  },
+
+  "SUSPENDED": {
+    "TITLE": "ÅTKOMST NEKAD",
+    "DESCRIPTION": "Du har blivit avständ och kan inte använda MDT'n",
+    "BUTTON": "Stäng"
+  },
+
+  "ERROR403": {
+    "STATUS": "403",
+    "TITLE": "403 - Något gick fel",
+    "DESCRIPTION": "Kontakta din internetleverantör!"
+  }
+}
