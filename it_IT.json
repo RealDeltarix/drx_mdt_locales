@@ -3,9 +3,9 @@
     "LABEL": "Dashboard",
     "RECENT_ACTIVITIES": {
       "LABEL": "Attività Recenti",
-      "INCIDENT": "",
-      "REPORT": "Segnalazioni Recenti",
-      "BOLO": "Recent Bolos",
+      "INCIDENT": "Arresti",
+      "REPORT": "Fascicoli Recenti",
+      "BOLO": "Ricerche di veicolo recenti",
       "WARRANT": "Ricercati Recenti",
       "EVIDENCE": "Prove recenti",
       "WEAPON": "Armi registrate recentemente"
@@ -23,8 +23,8 @@
   },
 
   "INCIDENTS": {
-    "LABEL": "Incidenti",
-    "EDIT": "Motifica incidente {id}",
+    "LABEL": "Arresti",
+    "EDIT": "Motifica Arresto {id}",
     "CRIMINAL": {
       "LABEL": "Criminali",
       "CRIMINALS": {
@@ -52,8 +52,8 @@
   },
 
   "REPORTS": {
-    "LABEL": "Segnalazioni",
-    "EDIT": "Modifica segnalazione {id}"
+    "LABEL": "Fascicoli",
+    "EDIT": "Modifica fascicolo {id}"
   },
 
   "BOLOS_WARRANTS": {
@@ -110,12 +110,12 @@
     },
 
     "SOP": {
-      "LABEL": "SOP",
-      "EDIT": "Modifica SOP {id}"
+      "LABEL": "Procedure Standard",
+      "EDIT": "Modifica Procedure Standard {id}"
     },
 
     "ROSTER": {
-      "LABEL": "Roster"
+      "LABEL": "Gerarchia"
     },
 
     "ACADEMY": {
@@ -144,7 +144,7 @@
   },
 
   "CHARGE": {
-    "LABEL": "Spese"
+    "LABEL": "Multe"
   },
 
   "CONFIGURATIONS": {
@@ -155,8 +155,8 @@
       "EDIT": "Edit staff {identifier}",
       "DATA": "Data",
       "NO_ACTIVITY": "Nessuna attività",
-      "CLOCKED_IN": "Timbrato in",
-      "CLOCKED_OUT": "Timbrato fuori",
+      "CLOCKED_IN": "Entrato in servizio",
+      "CLOCKED_OUT": "Uscito dal servizio",
       "SUSPEND": "Sospendi",
       "FIRE": "Fuoco"
     },
@@ -188,11 +188,11 @@
           "EDIT": "Modifica i dati del cittadino"
         },
         "INCIDENTS": {
-          "VIEW": "Accedi alla pagina degli incidenti",
-          "SEARCH": "Cerca i dati di un incidente",
-          "CREATE": "Crea dati dell'incidente",
-          "EDIT": "Modifica i dati dell'incidentea",
-          "DELETE": "Elimina i dati dell'incidente"
+          "VIEW": "Accedi alla pagina degli Arresti",
+          "SEARCH": "Cerca i dati di un Arresto",
+          "CREATE": "Crea dati dell'Arresto",
+          "EDIT": "Modifica i dati dell'Arresto",
+          "DELETE": "Elimina i dati dell'Arresto"
         },
         "REPORTS": {
           "VIEW": "Accedi alla pagina delle segnalazioni",
@@ -240,15 +240,15 @@
           "VIEW": "Accedi al menù staff",
           "VIEW_STAFF": "Accedi alla pagina Staff",
           "SOP": {
-            "VIEW": "Accedi alla pagina SOP",
-            "SEARCH": "Cerca dati SOP",
-            "CREATE": "Crea dati SOP",
-            "EDIT": "Modifica dati SOP",
-            "DELETE": "Elimina dati SOP"
+            "VIEW": "Accedi alla pagina Procedure Standard",
+            "SEARCH": "Cerca dati Procedure Standard",
+            "CREATE": "Crea dati Procedure Standard",
+            "EDIT": "Modifica dati Procedure Standard",
+            "DELETE": "Elimina dati Procedure Standard"
           },
           "ROSTER": {
-            "VIEW": "Accedi alla pagina del roster",
-            "EDIT": "Modificare i dati del roster"
+            "VIEW": "Accedi alla pagina della gerarchia",
+            "EDIT": "Modificare i dati dela gerarchia"
           },
           "ACADEMY": {
             "VIEW": "Accedi alla pagina dell'accademia",
@@ -257,25 +257,25 @@
             "DELETE": "Elimina i dati del foglio dell'accademia"
           },
           "DATABASE": {
-            "VIEW": "Access Disciplinary Database Page",
-            "ADD": "Add Officers To Disciplinary Database",
-            "EDIT": "Edit Disciplinary Database Data",
-            "DELETE": "Delete Disciplinary Database Data"
+            "VIEW": "Accesso alla database disciplinare",
+            "ADD": "Aggiungi al database disciplinare",
+            "EDIT": "Modifica dati del database disciplinare",
+            "DELETE": "Cancella dati del database disciplinare"
           },
           "CODES_COMMANDS": {
             "VIEW": "10 codici di accesso & pagina dei comandi"
           }
         },
         "CHARGES": {
-          "VIEW": "Accesso alla pagina delle spese"
+          "VIEW": "Accesso alla pagina delle multe"
         }
       }
     },
 
     "CHARGES": {
-      "LABEL": "Spese",
+      "LABEL": "Multe",
       "CHARGES": {
-        "LABEL": "Spese"
+        "LABEL": "Multe"
       },
       "CATEGORIES": {
         "LABEL": "Categorie"
@@ -309,7 +309,7 @@
 
   "STATEID": "Stato ID: (#{identifier})",
   "FULLNAME": "Nome completo: {fullname}",
-  "BADGENUMBER": "Distintivo#: {badgenumber}",
+  "BADGENUMBER": "Distintivo #: {badgenumber}",
   "CREATED_BY": "Creato da: {user}",
   "TAG": "(#{identifier}) {fullname}",
   "POSTED_BY": "Pubblicato da: {user}",
@@ -379,16 +379,16 @@
     "FILTER": "Filtro",
     "CLOTHING": "Tipo di vestito",
     "LINK": "Allega link",
-    "LABEL": "logo",
+    "LABEL": "Denominazione",
     "DESCRIPTION": "Descrizione",
     "SERIAL": "Seriali",
     "WEAPON": "Armi",
     "ACTIONS": "Azioni",
     "OFFICERS": "Operatori",
     "PREFIX": "Prefisso",
-    "FINE": "Fine",
-    "JAIL": "jail",
-    "POINTS": "points",
+    "FINE": "Multa",
+    "JAIL": "Carcere",
+    "POINTS": "Punti",
     "WANTED": "RICERCATO",
     "FLAGGED": "CONTRASSEGNATO",
     "ALL": "Tutto"
@@ -420,7 +420,7 @@
     "OPEN": "Apri Videocamera",
     "VIEW": "Guarda galleria",
     "UPLOAD": "Carica",
-    "DELETE": "Caneclla"
+    "DELETE": "Cancella"
   },
 
   "CHARGES": {
@@ -442,14 +442,14 @@
       "H5": "H5",
       "H6": "H6"
     },
-    "COLOR": "Color",
+    "COLOR": "Colore",
     "CLEAR_MARKS": "Pulisci points",
     "CLEAR_NODES": "Cancella nodi",
     "BULLET_LIST": "Elenco puntato",
     "ORDERED_LIST": "Elenco ordinato",
     "HARD_BREAK": "Rottura potente",
-    "UNDO": "Disfare",
-    "REDO": "rifare"
+    "UNDO": "Vai Indietro",
+    "REDO": "Vai Avanti"
   },
 
   "INVENTORY": {
@@ -478,7 +478,7 @@
   },
 
   "NO_ACCESS": {
-    "TITLE": "ACCESS DENIED",
+    "TITLE": "ACCESSO NON CONSENTITO",
     "DESCRIPTION": "Non hai accesso al database",
     "BUTTON": "Chiudi"
   },
