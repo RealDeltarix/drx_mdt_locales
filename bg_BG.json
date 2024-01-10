@@ -4,9 +4,9 @@
       "RECENT_ACTIVITES": {
         "LABEL": "Последни Дейности",
         "INCIDENT": "Последни Инциденти",
-        "REPORT": "Последни Репорти",
+        "REPORT": "Последни Рапорти",
         "BOLO": "Последни Bolos-и",
-        "WARRANT": "Последни Предупреждения",
+        "WARRANT": "Последни Издирвания",
         "EVIDENCE": "Последни Доказателства",
         "WEAPON": "Последни Регистрирани Оръжия"
       },
@@ -17,28 +17,28 @@
   
     "CITIZENS": {
       "LABEL": "Граждани",
-      "EDIT": "Редактирай гражданин {identifier}",
+      "EDIT": "Редактирай гражданин - {identifier}",
       "GRANT": "Дай Лиценз",
       "REVOKE": "Премахни Лиценз"
     },
   
     "INCIDENTS": {
       "LABEL": "Инциденти",
-      "EDIT": "Редактирай Лиценз {id}",
+      "EDIT": "Редактирай Инцидент - {id}",
       "CRIMINAL": {
         "LABEL": "Криминални Негодници",
         "CRIMINALS": {
           "LABEL": "(#{identifier}) {fullname}",
           "EDIT": "Редактирай ",
-          "WARRANT": "Предупреждение за Арест",
+          "WARRANT": "Под Издирване",
           "HOLD": "Задържан до образуване на съдебно дело",
           "TRIAL": "Освободен от съд",
-          "REASON": "Причина на предупреждение",
+          "REASON": "Причина за издирване",
           "DATE": "Изберете дата и час",
           "REDUCTION": {
-            "LABEL": "Редуциране",
+            "LABEL": "Намаляне на присъда",
             "PLACEHOLDER": "Изберете редукция",
-            "DATA": "{percentage}% / ${fine} глоба / {jail} дни / {points} точки/а"
+            "DATA": "{percentage}% / ${fine} глоба / {jail} дни затвор / {points} точки/а"
           },
           "PLEADED": "Пледира Виновен",
           "PROCESSED": "Обработен",
@@ -52,17 +52,17 @@
     },
   
     "REPORTS": {
-      "LABEL": "Репорти",
-      "EDIT": "Редактирай репорт {id}"
+      "LABEL": "Рапорти",
+      "EDIT": "Редактирай рапорт {id}"
     },
   
     "BOLOS_WARRANTS": {
-      "LABEL": "Болоси и Предупреждения",
+      "LABEL": "Болоси/Издирвания",
       "BOLOS": {
         "LABEL": "Болоси"
       },
       "WARRANTS": {
-        "LABEL": "Предупреждения",
+        "LABEL": "Издирвания",
         "CLOTHES": {
           "HAT": "Шапка: {type} | {color}",
           "MASK": "Маска: {type} | {color}",
@@ -76,12 +76,12 @@
   
     "VEHICLES": {
       "LABEL": "Автомобили",
-      "EDIT": "Редактирай МПС {plate}"
+      "EDIT": "Редактирай МПС - {plate}"
     },
   
     "EVIDENCE": {
       "LABEL": "Доказателства",
-      "EDIT": "Редактирай доказателство/а {id}",
+      "EDIT": "Редактирай доказателство/а - {id}",
       "CATEGORY": "Категория: {category}"
     },
   
@@ -94,32 +94,32 @@
   
     "WEAPON_REGISTRY": {
       "LABEL": "Служба КОС",
-      "EDIT": "Редактирай оръжие {id}"
+      "EDIT": "Редактирай оръжие - {id}"
     },
   
     "LEGISLATIONS": {
       "LABEL": "Законодателства",
-      "EDIT": "Редактирай законодателство {id}"
+      "EDIT": "Редактирай законодателство - {id}"
     },
   
     "STAFF": {
-      "LABEL": "Колеги",
+      "LABEL": "Персонал",
   
       "STAFF": {
-        "LABEL": "КОЛЕГИ"
+        "LABEL": "Ръководен Персонал"
       },
   
       "SOP": {
-        "LABEL": "SOP",
-        "EDIT": "Редактирай SOP {id}"
+        "LABEL": "СОП",
+        "EDIT": "Редактирай СОП - {id}"
       },
   
       "ROSTER": {
-        "LABEL": "Разписание"
+        "LABEL": "Персонал"
       },
   
       "ACADEMY": {
-        "LABEL": "Академия таблица",
+        "LABEL": "Академия",
         "ADD": "Добави Нов Кадет"
       },
   
@@ -151,8 +151,8 @@
       "LABEL": "Конфигурация",
   
       "STAFF": {
-        "LABEL": "Колеги",
-        "EDIT": "Редактирай Колеги {identifier}",
+        "LABEL": "Персонал",
+        "EDIT": "Редактирай Служител - {identifier}",
         "DATA": "Дата",
         "NO_ACTIVITY": "Няма активност тук!",
         "CLOCKED_IN": "Влизам на смяна",
@@ -290,7 +290,7 @@
         "HOUR": "Час",
         "MINUTE": "Минута",
         "SECOND": "Секунда",
-        "S": "с",
+        "S": "/и",
         "AGO": "Преди",
         "LEFT": "Останаха",
         "JUST_NOW": "Току-що",
@@ -304,17 +304,17 @@
       "ACTIVE": "Активен",
       "INACTIVE": "Неактивен",
       "ACTIONS": "Действия",
-      "SET_WAYPOINT": "Задай маршрутна точка",
+      "SET_WAYPOINT": "Маркирай на GPS",
       "UNKNOWN_CATEGORY": "Неизвестна категория",
       
-      "STATEID": "Държавен ИД: (#{identifier})",
-      "FULLNAME": "Пълно име: {fullname}",
-      "BADGENUMBER": "Номер на значка: {badgenumber}",
+      "STATEID": "Щатско ID: (#{identifier})",
+      "FULLNAME": "Имена: {fullname}",
+      "BADGENUMBER": "Баджов номер: {badgenumber}",
       "CREATED_BY": "Създадено от: {user}",
       "TAG": "(#{identifier}) {fullname}",
       "POSTED_BY": "Публикувано от: {user}",
       "OWNED_BY": "Притежавано от: (#{identifier}) {fullname}",
-      "LAST_SEEN": "Последно видяно {date}",
+      "LAST_SEEN": "Последно видян - {date}",
       "AUTHOR": "Автор: {user}",
       "OWNER": "Собственик: {owner}",
       "PLATE": "Регистрационен номер: {plate}",
@@ -323,8 +323,8 @@
       "EXPIRES": "Изтича на: {date}",
       "DESCRIPTION": "{description}",
       "FINE": "Глоба: ${fine}",
-      "JAIL": "Затвор: {jail} ден(дни)",
-      "POINTS": "Точка(и): {points}",
+      "JAIL": "Затвор: {jail} ден/и",
+      "POINTS": "Точка/и: {points}",
       "CATEGORY": "Категория: {category}",
       
       "VIEW": "Преглед",
@@ -355,13 +355,13 @@
       },
       
       "PLACEHOLDER": {
-        "STATEID": "Държавен ИД",
-        "FULLNAME": "Пълно име",
+        "STATEID": "Щатско ID",
+        "FULLNAME": "Имена",
         "ALIAS": "Псевдоним",
         "DEPARTMENT": "Отдел",
-        "RANK": "Звание",
+        "RANK": "Позиция",
         "CALLSIGN": "Позивен знак",
-        "BADGENUMBER": "Номер на значка",
+        "BADGENUMBER": "Баджов номер",
         "PHOTO": "Снимка",
         "TITLE": "Заглавие",
         "NOTES": "Бележки",
@@ -389,21 +389,21 @@
         "FINE": "Глоба",
         "JAIL": "Затвор",
         "POINTS": "Точки",
-        "WANTED": "ТЪРСИ СЕ",
+        "WANTED": "ИЗДИРВА СЕ",
         "FLAGGED": "ПОМАРАНЧЕНА ЗОНА",
         "ALL": "Всички"
       },
       
       "BOXES": {
         "IDENTITY": "Идентичност",
-        "LICENCES": "Лицензии",
+        "LICENCES": "Лицензи",
         "STATS": "Статистика",
-        "ITEMS": "Предмети",
+        "ITEMS": "Артикули",
         "TAGS": "Тагове",
         "VEHICLES": "Превозни средства",
-        "HOUSING": "Собствености",
-        "EMPLOYMENT": "Служба",
-        "CONVICTIONS": "Конвикции",
+        "HOUSING": "Имоти",
+        "EMPLOYMENT": "Работна позиция",
+        "CONVICTIONS": "Глоби",
         "WEAPONS": "Оръжия",
         "ROLES": "Роли",
         "GALLERY": "Галерия",
@@ -425,13 +425,13 @@
       
       "CHARGES": {
         "FINE": "${fine} Глоба",
-        "JAIL": "{jail} Ден(дни)",
-        "POINTS": "{points} Точка(и)"
+        "JAIL": "{jail} Ден/и",
+        "POINTS": "{points} Точка/и"
       },
       
       "EDITOR": {
         "BOLD": "Удебелен",
-        "ITALIC": "Italic",
+        "ITALIC": "Наклонен",
         "STRIKE": "Подчертан",
         "TEXT": {
           "PARAGRAPH": "Параграф",
@@ -445,53 +445,53 @@
         "COLOR": "Цвят",
         "CLEAR_MARKS": "Изчисти маркерите",
         "CLEAR_NODES": "Изчисти възлите",
-        "BULLET_LIST": "Списък с точки",
+        "BULLET_LIST": "Неподреден списък",
         "ORDERED_LIST": "Подреден списък",
-        "HARD_BREAK": "Твърд прекъсвач",
+        "HARD_BREAK": "Нов ред",
         "UNDO": "Отмени",
-        "REDO": "Повтори"
+        "REDO": "Върни"
       },
       
       "INVENTORY": {
         "COUNT": "Брой: {count}",
         "ITEM_DATA": {
           "serial": "Сериен номер: {serial}",
-          "durability": "Издръжливост: {durability}",
-          "ammo": "Боеприпаси: {ammo}",
+          "durability": "Качество: {durability}",
+          "ammo": "Патрони: {ammo}",
           "street": "Местоположение: {street}",
           "type": "Вид категория: {type}",
           "dnalabel": "ДНК: {dnalabel}",
           "label": "Етикет: {label}",
           "date": "Дата: {date}",
-          "tracking": "Следене: {tracking}",
+          "tracking": "Проследяване: {tracking}",
           "component": "Компонент: {component}",
-          "item": "Предмет: {item}",
-          "memoryCard": "Паметна карта {memoryCard}",
-          "flashEnabled": "Флаш: {flashEnabled}",
+          "item": "Артикул: {item}",
+          "memoryCard": "Карта памет - {memoryCard}",
+          "flashEnabled": "Светкавица: {flashEnabled}",
           "birthdate": "Дата на раждане: {birthdate}",
           "nationaility": "Националност: {nationaility}",
-          "identifier": "Държавен ИД: {identifier}",
+          "identifier": "Щатско ID: {identifier}",
           "gender": "Пол: {gender}",
-          "firstname": "Първо име: {firstname}",
+          "firstname": "Име: {firstname}",
           "lastname": "Фамилия: {lastname}"
         }
       },
       
       "NO_ACCESS": {
-        "TITLE": "ДОСТЪП ОТКАЗАН",
+        "TITLE": "ОТКАЗАН ДОСТЪП",
         "DESCRIPTION": "Нямате достъп до МДТ",
         "BUTTON": "Затвори"
       },
       
       "SUSPENDED": {
-        "TITLE": "ДОСТЪП ОТКАЗАН",
-        "DESCRIPTION": "Изглежда, че сте блокирани и нямате достъп до МДТ",
+        "TITLE": "ОТКАЗАН ДОСТЪП",
+        "DESCRIPTION": "Изглежда, че сте били преустановен и нямате достъп до МДТ",
         "BUTTON": "Затвори"
       },
       
       "ERROR403": {
         "STATUS": "403",
-        "TITLE": "403 - Не можеш да преминаваш",
+        "TITLE": "403 - Нямаш достъп",
         "DESCRIPTION": "Ухоу, Гандалф блокира пътя!"
       }      
 }
