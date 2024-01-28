@@ -1,0 +1,497 @@
+{
+    "DASHBOARD": {
+      "LABEL": "Dashboard",
+      "RECENT_ACTIVITES": {
+        "LABEL": "Recente activiteiten",
+        "INCIDENT": "Recente incidenten",
+        "REPORT": "Recente verslagen",
+        "BOLO": "Recente signaleringen",
+        "WARRANT": "Recente arrestatiebevelen",
+        "EVIDENCE": "Recente bewijsmateriaal",
+        "WEAPON": "Laatst geregistreerde wapens"
+      },
+      "ANNOUNCEMENTS": {
+        "LABEL": "Mededelingen"
+      }
+    },
+  
+    "CITIZENS": {
+      "LABEL": "Burgers",
+      "EDIT": "Burger aanpassen {identifier}",
+      "GRANT": "Licentie verstrekken",
+      "REVOKE": "Licentie intrekken"
+    },
+  
+    "INCIDENTS": {
+      "LABEL": "Incidenten",
+      "EDIT": "Incident bewerken {id}",
+      "CRIMINAL": {
+        "LABEL": "Verdachte",
+        "CRIMINALS": {
+          "LABEL": "(#{identifier}) {fullname}",
+          "EDIT": "Bewerken ",
+          "WARRANT": "Arrestatiebevel",
+          "HOLD": "Vasthouden voor onderzoek",
+          "TRIAL": "Onderzoek afgerond",
+          "REASON": "Reden voor aanhoudingsbevel",
+          "DATE": "Datum en tijd selecteren",
+          "REDUCTION": {
+            "LABEL": "Strafvermindering",
+            "PLACEHOLDER": "Selecteer strafvermindering",
+            "DATA": "{percentage}% / €{fine} bekeuring / {jail} maanden"
+          },
+          "PLEADED": "Schuldig gepleit",
+          "PROCESSED": "Behandeld",
+          "CHARGES": {
+            "SELECTED": "Geselecteerd ",
+            "ALL_CHARGES": "Opgelegde straffen",
+            "NONE_FOUND": "Niks gevonden"
+          }
+        }
+      }
+    },
+  
+    "REPORTS": {
+      "LABEL": "Verslagen",
+      "EDIT": "Verslag bewerken {id}"
+    },
+  
+    "BOLOS_WARRANTS": {
+      "LABEL": "Signaleringen & arrestatiebevelen",
+      "BOLOS": {
+        "LABEL": "Signaleringen"
+      },
+      "WARRANTS": {
+        "LABEL": "Arrestatiebevelen",
+        "CLOTHES": {
+          "HAT": "Hoed / helm: {type} | {color}",
+          "MASK": "Masker: {type} | {color}",
+          "JACKET": "Trui / Shirt / Jas: {type} | {color}",
+          "GLOVES": "Handschoenen: {type} | {color}",
+          "PANTS": "Broek: {type} | {color}",
+          "SHOES": "Schoenen: {type} | {color}"
+        }
+      }
+    },
+  
+    "VEHICLES": {
+      "LABEL": "Voertuigen",
+      "EDIT": "Voertuig bijwerken {plate}"
+    },
+  
+    "EVIDENCE": {
+      "LABEL": "Bewijzen",
+      "EDIT": "Bewijs bewerken {id}",
+      "CATEGORY": "Categorie: {category}"
+    },
+  
+    "CAMERAS": {
+      "LABEL": "Camera's",
+      "AV1": "AV1",
+      "NO_INPUT": "Geen signaal.",
+      "ONLINE": "Online"
+    },
+  
+    "WEAPON_REGISTRY": {
+      "LABEL": "Wapenregistratie",
+      "EDIT": "Wapen bewerken {id}"
+    },
+  
+    "LEGISLATIONS": {
+      "LABEL": "Wetgeving",
+      "EDIT": "Wet bewerken {id}"
+    },
+  
+    "STAFF": {
+      "LABEL": "Personeelszaken",
+  
+      "STAFF": {
+        "LABEL": "Personeel"
+      },
+  
+      "SOP": {
+        "LABEL": "Standaard Procedures",
+        "EDIT": "Procedure bewerken {id}"
+      },
+  
+      "ROSTER": {
+        "LABEL": "Personeelslijst"
+      },
+  
+      "ACADEMY": {
+        "LABEL": "Trainingen",
+        "ADD": "Nieuwe agent toevoegen"
+      },
+  
+      "DATABASE": {
+        "LABEL": "Schorsingen",
+        "ADD": "Nieuwe agent toevoegen"
+      },
+  
+      "CODES_COMMANDS": {
+        "LABEL": "Statussen & Commando's",
+        "CODES": {
+          "LABEL": "Statussen",
+          "CODE": "Code",
+          "DESCRIPTION": "Beschrijving"
+        },
+        "COMMANDS": {
+          "LABEL": "Commando's",
+          "COMMAND": "Commando",
+          "ACTION": "Actie"
+        }
+      }
+    },
+  
+    "CHARGE": {
+      "LABEL": "Straffen"
+    },
+  
+    "CONFIGURATIONS": {
+      "LABEL": "Configuraties",
+  
+      "STAFF": {
+        "LABEL": "Personeel",
+        "EDIT": "Personeel bewerken {identifier}",
+        "DATA": "Data",
+        "NO_ACTIVITY": "Nog geen activiteit",
+        "CLOCKED_IN": "Ingeklokt",
+        "CLOCKED_OUT": "Uitgeklokt",
+        "SUSPEND": "Schorsen",
+        "FIRE": "Ontslaan"
+      },
+  
+      "ROLES": {
+        "LABEL": "Rollen",
+        "NEW": "Rol toevoegen",
+        "DESCRIPTION": "Selecteer specifieke rollen waar de agent toestemming voor moet hebben",
+        "LABELS": {
+          "FULL_ACCESS": "Volledige toegang",
+          "CONFIGURATIONS": {
+            "VIEW": "Toegang configuraties",
+            "STAFF": "Personeelsgegevens bewerken",
+            "STAFF_ROLES": "Personeelrollen bewerken",
+            "ROLES": "Rol data bewerken",
+            "": "Data  bewerken"
+          },
+          "DASHBOARD": {
+            "VIEW": "Bekijk Dashboard",
+            "ANNOUNCEMENTS": {
+              "CREATE": "Mededelingen maken",
+              "EDIT": "Mededelingen bewerken",
+              "DELETE": "Mededelingen verwijderen"
+            }
+          },
+          "CITIZENS": {
+            "VIEW": "Burgers bekijken",
+            "SEARCH": "Burgers zoeken",
+            "EDIT": "Burgers bewerken"
+          },
+          "INCIDENTS": {
+            "VIEW": "Bekijk incidenten",
+            "SEARCH": "Incidenten zoeken",
+            "CREATE": "Incidenten aanmaken",
+            "EDIT": "Incidenten bewerken",
+            "DELETE": "Incidenten verwijderen"
+          },
+          "REPORTS": {
+            "VIEW": "Bekijk verslagen",
+            "SEARCH": "Verslagen zoeken",
+            "CREATE": "Verslagen aanmaken",
+            "EDIT": "Verslagen bewerken",
+            "DELETE": "Verslagen verwijderen"
+          },
+          "BOLOS_WARRANTS": {
+            "VIEW": "Bekijk signaleringen & arrestatiebevelen",
+            "CREATE": "Signaleringen & arrestatiebevelen aanmaken",
+            "EDIT": "Signaleringen & arrestatiebevelen bewerken",
+            "DELETE": "Signaleringen & arrestatiebevelen verwijderen"
+          },
+          "VEHICLES": {
+            "VIEW": "Bekijk voertuigen",
+            "SEARCH": "Voertuigen zoeken",
+            "EDIT": "Voertuigen bewerken"
+          },
+          "EVIDENCE": {
+            "VIEW": "Bekijk bewijzen",
+            "SEARCH": "Bewijs opzoeken",
+            "CREATE": "Bewijs aanmaken",
+            "EDIT": "Bewijs bewerken",
+            "DELETE": "Bewijs verwijderen"
+          },
+          "CAMERAS": {
+            "VIEW": "Bekijk camera's"
+          },
+          "WEAPON_REGISTRY": {
+            "VIEW": "Bekijk wapenregistratie",
+            "SEARCH": "Wapenregistratie zoeken",
+            "CREATE": "Wapenregistratie aanmaken",
+            "EDIT": "Wapenregistratie bewerken",
+            "DELETE": "Wapenregistratie verwijderen"
+          },
+          "LEGISLATIONS": {
+            "VIEW": "Bekijk wetgeving",
+            "SEARCH": "Wet opzoeken",
+            "CREATE": "Wet aanmaken",
+            "EDIT": "Wet bewerken",
+            "DELETE": "Wet verwijderen"
+          },
+          "STAFF": {
+            "VIEW": "Bekijk Personeelszaken",
+            "VIEW_STAFF": "Bekijk personeel",
+            "SOP": {
+              "VIEW": "Bekijk standaard procedures",
+              "SEARCH": "Standaard procedure opzoeken",
+              "CREATE": "Standaard procedure aanmaken",
+              "EDIT": "Standaard procedure bewerken",
+              "DELETE": "Standaard procedure verwijderen"
+            },
+            "ROSTER": {
+              "VIEW": "Bekijk personeelslijst",
+              "EDIT": "Personeelslijst bewerken"
+            },
+            "ACADEMY": {
+              "VIEW": "Bekijk trainingen",
+              "ADD": "Agenten toevoegen aan trainingen",
+              "EDIT": "Trainingen aanpassen",
+              "DELETE": "Trainingen verwijderen"
+            },
+            "DATABASE": {
+              "VIEW": "Bekijk schorsingen",
+              "ADD": "Agenten toevoegen aan schorsingen",
+              "EDIT": "Schorsing bewerken",
+              "DELETE": "Schorsing verwijderen"
+            },
+            "CODES_COMMANDS": {
+              "VIEW": "Bekijk statussen & commando's"
+            }
+          },
+          "CHARGES": {
+            "VIEW": "Bekijk straffen"
+          }
+        }
+      },
+  
+      "CHARGES": {
+        "LABEL": "Straffen",
+        "CHARGES": {
+          "LABEL": "Straffen"
+        },
+        "CATEGORIES": {
+          "LABEL": "Categorieën"
+        }
+      }
+    },
+  
+    "DATE": {
+      "YEAR": "jaar",
+      "MONTH": "maand",
+      "DAY": "dag",
+      "HOUR": "uur",
+      "MINUTE": "minuut",
+      "SECOND": "seconde",
+      "S": "s",
+      "AGO": "geleden",
+      "LEFT": "over",
+      "JUST_NOW": "zojuist",
+      "EXPIRED": "Verlopen",
+      "AND": "en"
+    },
+  
+    "AVATAR": "Avatar",
+    "OFFICER": "Agent",
+    "STATUS": "Status",
+    "ACTIVE": "Actief",
+    "INACTIVE": "Inactief",
+    "ACTIONS": "Acties",
+    "SET_WAYPOINT": "Waypoint instellen",
+    "UNKNOWN_CATEGORY": "Onbekende categorie",
+  
+    "STATEID": "BSN: (#{identifier})",
+    "FULLNAME": "Volledige naam: {fullname}",
+    "BADGENUMBER": "Dienstnummer: {badgenumber}",
+    "CREATED_BY": "Aangemaakt door: {user}",
+    "TAG": "(#{identifier}) {fullname}",
+    "POSTED_BY": "Geplaatst door: {user}",
+    "OWNED_BY": "Eigendom van: (#{identifier}) {fullname}",
+    "LAST_SEEN": "Laatst gezien {date}",
+    "AUTHOR": "Auteur: {user}",
+    "OWNER": "Eigenaar: {owner}",
+    "PLATE": "Kenteken: {plate}",
+    "COLOR": "Kleur: {color}",
+    "REASON": "Reden: {reason}",
+    "EXPIRES": "Vervalt op: {date}",
+    "DESCRIPTION": "{description}",
+    "FINE": "Bekeuring: €{fine}",
+    "JAIL": "Gevangenisstraf: {jail} maand(en)",
+    "POINTS": "Punt(en): {points}",
+    "CATEGORY": "Categorie: {category}",
+  
+    "VIEW": "Bekijken",
+    "EDIT": "Bewerken",
+    "SEARCH": "Zoeken",
+    "CREATE": "Aanmaken",
+    "UNLINK": "Ontkoppelen",
+    "SAVE": "Opslaan",
+    "UPDATE": "Bijwerken",
+    "DELETE": "Verwijderen",
+    "CLEAR": "Legen",
+    "CLOSE": "Sluiten",
+    "JOIN": "Betreden",
+    "LEAVE": "Verlaten",
+    "REMOVE": "Verwijderen",
+    "ADD": "Toevoegen",
+    "CANCEL": "Annuleren",
+    "CONFIRM": "Bevestigen",
+    "RESUME": "Hervatten",
+  
+    "POPUP": {
+      "CANCEL": "Annuleren",
+      "CONFIRM": "Bevestigen",
+      "IMAGE": "Weet je zeker dat je deze afbeelding uit de galerij wilt verwijderen??",
+      "SAVE": "Wil je {label} opslaan?",
+      "DELETE": "Wil je {label} verwijderen?",
+      "ACTIVITY": "Weet je zeker dat je deze activiteitgegevens wilt wissen?"
+    },
+  
+    "PLACEHOLDER": {
+      "STATEID": "BSN",
+      "FULLNAME": "Volledige naam",
+      "ALIAS": "Alias",
+      "DEPARTMENT": "Afdeling",
+      "RANK": "Rang",
+      "CALLSIGN": "Roepnummer",
+      "BADGENUMBER": "Dienstnummer",
+      "PHOTO": "Foto",
+      "TITLE": "Titel",
+      "NOTES": "Notities",
+      "LOCATION": "Locatie",
+      "AUTHOR": "Auteur",
+      "CATEGORY": "Categorie",
+      "UNKNOWN": "Onbekend",
+      "REASON": "Reden",
+      "PLATE": "Kenteken",
+      "OWNER": "Eigenaar",
+      "COLOR": "Kleur",
+      "DATE": "Datum en tijd",
+      "SEARCH": "Zoeken",
+      "SELECT": "Selecteer",
+      "FILTER": "Filter",
+      "CLOTHING": "Soort kleding",
+      "LINK": "Link bijvoegen",
+      "LABEL": "Label",
+      "DESCRIPTION": "Beschrijving",
+      "SERIAL": "Serienummer",
+      "WEAPON": "Wapen",
+      "ACTIONS": "Acties",
+      "OFFICERS": "Agenten",
+      "PREFIX": "Prefix",
+      "FINE": "Bekeuring",
+      "JAIL": "Gevangenisstraf",
+      "POINTS": "Punten",
+      "WANTED": "GEZOCHT",
+      "FLAGGED": "GESIGNALEERD",
+      "ALL": "Alles"
+    },
+  
+    "BOXES": {
+      "IDENTITY": "Identiteit",
+      "LICENCES": "Licenties",
+      "STATS": "Gegevens",
+      "ITEMS": "Items",
+      "TAGS": "Tags",
+      "VEHICLES": "Voertuigen",
+      "HOUSING": "Vastgoed",
+      "EMPLOYMENT": "Werk",
+      "CONVICTIONS": "Veroordelingen",
+      "WEAPONS": "Wapens",
+      "ROLES": "Rollen",
+      "GALLERY": "Galerij",
+      "OFFICERS": "Betrokken agenten",
+      "CITIZENS": "Betrokken burgers",
+      "INCIDENTS": "Gerelateerde incidenten",
+      "REPORTS": "Gerelateerde verslagen",
+      "EVIDENCE": "Gerelateerde bewijzen",
+      "ACTIVITY": "Activiteit"
+    },
+  
+    "CAMERA": {
+      "GALLERY": "Galerij",
+      "OPEN": "Open camera",
+      "VIEW": "Bekijk galerij",
+      "UPLOAD": "Upload",
+      "DELETE": "Verwijderen"
+    },
+  
+    "CHARGES": {
+      "FINE": "€{fine} bekeuring",
+      "JAIL": "{jail} maand(en)",
+      "POINTS": "{points} punt(en)"
+    },
+  
+    "EDITOR": {
+      "BOLD": "Bold",
+      "ITALIC": "Italic",
+      "STRIKE": "Strike",
+      "TEXT": {
+        "PARAGRAPH": "Alinea",
+        "H1": "H1",
+        "H2": "H2",
+        "H3": "H3",
+        "H4": "H4",
+        "H5": "H5",
+        "H6": "H6"
+      },
+      "COLOR": "Kleur",
+      "CLEAR_MARKS": "Sporen legen",
+      "CLEAR_NODES": "Nodes legen",
+      "BULLET_LIST": "Lijst met munitie",
+      "ORDERED_LIST": "Geordende lijst",
+      "HARD_BREAK": "Hard break",
+      "UNDO": "Ongedaan maken",
+      "REDO": "Herhalen"
+    },
+  
+    "INVENTORY": {
+      "COUNT": "Aantal: {count}",
+      "ITEM_DATA": {
+        "serial": "Serienummer: {serial}",
+        "durability": "Duurzaamheid: {durability}",
+        "ammo": "Munitie: {ammo}",
+        "street": "Locatie: {street}",
+        "type": "Categorie: {type}",
+        "dnalabel": "DNA: {dnalabel}",
+        "label": "Label: {label}",
+        "date": "Datum: {date}",
+        "tracking": "Tracking: {tracking}",
+        "component": "Component: {component}",
+        "item": "Item: {item}",
+        "memoryCard": "Geheugenkaart {memoryCard}",
+        "flashEnabled": "Flits: {flashEnabled}",
+        "birthdate": "Geboortedatum: {birthdate}",
+        "nationaility": "Nationailiteit: {nationaility}",
+        "identifier": "BSN: {identifier}",
+        "gender": "Geslacht: {gender}",
+        "firstname": "Voornaam: {firstname}",
+        "lastname": "Achternaam: {lastname}"
+      }
+    },
+  
+    "NO_ACCESS": {
+      "TITLE": "TOEGANG GEWEIGERD",
+      "DESCRIPTION": "Je hebt geen toegang tot MEOS",
+      "BUTTON": "Sluiten"
+    },
+  
+    "SUSPENDED": {
+      "TITLE": "TOEGANG GEWEIGERD",
+      "DESCRIPTION": "Het lijkt erop dat je geschorst bent en geen toegang hebt tot MEOS.",
+      "BUTTON": "Sluiten"
+    },
+  
+    "ERROR403": {
+      "STATUS": "403",
+      "TITLE": "403 - You Shall Not Pass",
+      "DESCRIPTION": "Uh oh, Gandalf is blocking the way!"
+    }
+  }
