@@ -1,0 +1,497 @@
+{
+  "DASHBOARD": {
+    "LABEL": "Etusivu",
+    "RECENT_ACTIVITES": {
+      "LABEL": "Viimeisimmät toiminnot",
+      "INCIDENT": "Viimeisimmät tapahtumat",
+      "REPORT": "Viimeisimmät raportit",
+      "BOLO": "Viimeisimmät Etsintäkuulutukset",
+      "WARRANT": "Viimeisimmät pidätysmääräykset",
+      "EVIDENCE": "Viimeisimmät todisteet",
+      "WEAPON": "Viimeksi rekisteröidyt aseet"
+    },
+    "ANNOUNCEMENTS": {
+      "LABEL": "Ilmoitukset"
+    }
+  },
+
+  "CITIZENS": {
+    "LABEL": "Henkilöt",
+    "EDIT": "Muokkaa henkilötietoja {identifier}",
+    "GRANT": "Myönnä lisenssi",
+    "REVOKE": "Poista lisenssi"
+  },
+
+  "INCIDENTS": {
+    "LABEL": "Tapahtumat",
+    "EDIT": "Muokkaa tapahtumaa {id}",
+    "CRIMINAL": {
+      "LABEL": "Rikolliset",
+      "CRIMINALS": {
+        "LABEL": "(#{identifier}) {fullname}",
+        "EDIT": "Muokkaa",
+        "WARRANT": "Pidätysmääräys",
+        "HOLD": "Pidä odottamassa oikeudenkäyntiä",
+        "TRIAL": "Ollut oikeudenkäynnissä",
+        "REASON": "Pidätysmääräyksen syy",
+        "DATE": "Valitse päivä ja aika",
+        "REDUCTION": {
+          "LABEL": "Vähennys",
+          "PLACEHOLDER": "Valitse vähennys",
+          "DATA": "{percentage}% / ${fine} sakko / {jail} päivää / {points} pistettä"
+        },
+        "PLEADED": "Tunnustanut syyllisyytensä",
+        "PROCESSED": "Käsitelty",
+        "CHARGES": {
+          "SELECTED": "Valittu ",
+          "ALL_CHARGES": "Kaikki syytteet",
+          "NONE_FOUND": "Ei löydetty"
+        }
+      }
+    }
+  },
+
+  "REPORTS": {
+    "LABEL": "Raportit",
+    "EDIT": "Muokkaa raporttia {id}"
+  },
+
+  "BOLOS_WARRANTS": {
+    "LABEL": "Etsintäkuulutukset",
+    "BOLOS": {
+      "LABEL": "Ajoneuvo"
+    },
+    "WARRANTS": {
+      "LABEL": "Henkilö",
+      "CLOTHES": {
+        "HAT": "Hattu: {type} | {color}",
+        "MASK": "Maski: {type} | {color}",
+        "JACKET": "Takki: {type} | {color}",
+        "GLOVES": "Hanskat: {type} | {color}",
+        "PANTS": "Housut: {type} | {color}",
+        "SHOES": "Kengät: {type} | {color}"
+      }
+    }
+  },
+
+  "VEHICLES": {
+    "LABEL": "Ajoneuvot",
+    "EDIT": "Muokkaa ajoneuvoa {plate}"
+  },
+
+  "EVIDENCE": {
+    "LABEL": "Todisteet",
+    "EDIT": "Muokkaa todistetta {id}",
+    "CATEGORY": "Kategoria: {category}"
+  },
+
+  "CAMERAS": {
+    "LABEL": "Kamerat",
+    "AV1": "AV1",
+    "NO_INPUT": "Ei signaalia.",
+    "ONLINE": "Online"
+  },
+
+  "WEAPON_REGISTRY": {
+    "LABEL": "Aseiden rekisteri",
+    "EDIT": "Muokkaa asetta {id}"
+  },
+
+  "LEGISLATIONS": {
+    "LABEL": "Lainsäädännöt",
+    "EDIT": "Muokkaa lakia {id}"
+  },
+
+  "STAFF": {
+    "LABEL": "Henkilökunta",
+
+    "STAFF": {
+      "LABEL": "Henkilökunta"
+    },
+
+    "SOP": {
+      "LABEL": "Ohjeet",
+      "EDIT": "Muokkaa ohjeistuksia {id}"
+    },
+
+    "ROSTER": {
+      "LABEL": "Työntekijät"
+    },
+
+    "ACADEMY": {
+      "LABEL": "Akatemian tiedot",
+      "ADD": "Lisää uusi virkailija"
+    },
+
+    "DATABASE": {
+      "LABEL": "Tietokanta",
+      "ADD": "Lisää uusi virkailija"
+    },
+
+    "CODES_COMMANDS": {
+      "LABEL": "10-koodit ja komennot",
+      "CODES": {
+        "LABEL": "10-koodit",
+        "CODE": "Koodi",
+        "DESCRIPTION": "Kuvaus"
+      },
+      "COMMANDS": {
+        "LABEL": "Komennot",
+        "COMMAND": "Komento",
+        "ACTION": "Toiminto"
+      }
+    }
+  },
+
+  "CHARGE": {
+    "LABEL": "Syytteet"
+  },
+
+  "CONFIGURATIONS": {
+    "LABEL": "Asetukset",
+
+    "STAFF": {
+      "LABEL": "Henkilökunta",
+      "EDIT": "Muokkaa henkilökuntaa {identifier}",
+      "DATA": "Tiedot",
+      "NO_ACTIVITY": "Ei toimintaa vielä",
+      "CLOCKED_IN": "Kirjautunut sisään",
+      "CLOCKED_OUT": "Kirjautunut ulos",
+      "SUSPEND": "Hyllytä",
+      "FIRE": "Erota"
+    },
+
+    "ROLES": {
+      "LABEL": "Roolit",
+      "NEW": "Uusi rooli",
+      "DESCRIPTION": "Valitse tiettyjä rooleja, joilla virkailijalla pitäisi olla lupa",
+      "LABELS": {
+        "FULL_ACCESS": "Täysi pääsy",
+        "CONFIGURATIONS": {
+          "VIEW": "Pääsy asetuksiin",
+          "STAFF": "Henkilökunnan tietojen hallinta",
+          "STAFF_ROLES": "Muokkaa henkilökunnan rooleja",
+          "ROLES": "Hallitse roolien tietoja",
+          "": "Hallitse tietoja"
+        },
+        "DASHBOARD": {
+          "VIEW": "Pääsy etusivulle",
+          "ANNOUNCEMENTS": {
+            "CREATE": "Luo ilmoitus",
+            "EDIT": "Muokkaa ilmoitusta",
+            "DELETE": "Poista ilmoitus"
+          }
+        },
+        "CITIZENS": {
+          "VIEW": "Pääsy henkilöt sivulle",
+          "SEARCH": "Etsi henkilötietoja",
+          "EDIT": "Muokkaa henkilötietoja"
+        },
+        "INCIDENTS": {
+          "VIEW": "Pääsy tapahtumat sivulle",
+          "SEARCH": "Etsi tapahtumia",
+          "CREATE": "Luo tapahtumia",
+          "EDIT": "Muokkaa tapahtumia",
+          "DELETE": "Poista tapahtumia"
+        },
+        "REPORTS": {
+          "VIEW": "Pääsy raportit sivulle",
+          "SEARCH": "Etsi raportteja",
+          "CREATE": "Luo raportteja",
+          "EDIT": "Muokkaa raportteja",
+          "DELETE": "Poista raportteja"
+        },
+        "BOLOS_WARRANTS": {
+          "VIEW": "Pääsy Etsintäkuulutukset sivulle",
+          "CREATE": "Luo etsintäkuulutuksia",
+          "EDIT": "Muokkaa etsintäkuulutuksia",
+          "DELETE": "Poista etsintäkuulutuksia"
+        },
+        "VEHICLES": {
+          "VIEW": "Pääsy ajoneuvot sivulle",
+          "SEARCH": "Etsi ajoneuvoja",
+          "EDIT": "Muokkaa ajoneuvotietoja"
+        },
+        "EVIDENCE": {
+          "VIEW": "Pääsy todisteet sivulle",
+          "SEARCH": "Etsi todistetietoja",
+          "CREATE": "Luo todistetietoja",
+          "EDIT": "Muokkaa todistetietoja",
+          "DELETE": "Poista todistetietoja"
+        },
+        "CAMERAS": {
+          "VIEW": "Pääsy kamerat-sivulle"
+        },
+        "WEAPON_REGISTRY": {
+          "VIEW": "Pääsy aseiden rekisteri-sivulle",
+          "SEARCH": "Etsi aseiden rekisterin tietoja",
+          "CREATE": "Luo aseiden rekisterin tietoja",
+          "EDIT": "Muokkaa aseiden rekisterin tietoja",
+          "DELETE": "Poista aseiden rekisterin tiedot"
+        },
+        "LEGISLATIONS": {
+          "VIEW": "Pääsy lainsäädännöt sivulle",
+          "SEARCH": "Etsi lainsäädännön tietoja",
+          "CREATE": "Luo lainsäädännön tietoja",
+          "EDIT": "Muokkaa lainsäädännön tietoja",
+          "DELETE": "Poista lainsäädännön tiedot"
+        },
+        "STAFF": {
+          "VIEW": "Pääsy henkilökunnan valikkoon",
+          "VIEW_STAFF": "Pääsy henkilökunnan sivulle",
+          "SOP": {
+              "VIEW": "Pääsy Ohjeet-sivulle",
+              "SEARCH": "Etsi Ohjeet-tietoja",
+              "CREATE": "Luo Ohjeet-tietoja",
+              "EDIT": "Muokkaa Ohjeet-tietoja",
+              "DELETE": "Poista Ohjeet-tiedot"
+          },
+          "ROSTER": {
+            "VIEW": "Pääsy työntekijät sivulle",
+            "EDIT": "Muokkaa työntekijäluottelon tietoja"
+          },
+          "ACADEMY": {
+            "VIEW": "Pääsy akatemialomakesivulle",
+            "ADD": "Lisää upseereita akatemialomakkeeseen",
+            "EDIT": "Muokkaa akatemialomakkeen tietoja",
+            "DELETE": "Poista akatemialomakkeen tiedot"
+          },
+          "DATABASE": {
+            "VIEW": "Pääsy tietokantasivulle",
+            "ADD": "Lisää upseereita tietokantaan",
+            "EDIT": "Muokkaa tietokannan tietoja",
+            "DELETE": "Poista tietokannan tiedot"
+          },
+          "CODES_COMMANDS": {
+            "VIEW": "Pääsy 10 koodin ja käskyjen sivulle"
+          }
+        },
+        "CHARGES": {
+          "VIEW": "Pääsy syytessivulle"
+        }
+      }
+    },
+
+    "CHARGES": {
+      "LABEL": "Syytteet",
+      "CHARGES": {
+          "LABEL": "Syytteet"
+      },
+      "CATEGORIES": {
+          "LABEL": "Luokat"
+      }
+    }
+  },
+
+  "DATE": {
+    "YEAR": "vuosi",
+    "MONTH": "kuukausi",
+    "DAY": "päivä",
+    "HOUR": "tunti",
+    "MINUTE": "minuutti",
+    "SECOND": "sekunti",
+    "S": "s",
+    "AGO": "sitten",
+    "LEFT": "jäljellä",
+    "JUST_NOW": "Juuri nyt",
+    "EXPIRED": "Vanhentunut",
+    "AND": "ja"
+  },
+
+  "AVATAR": "Avatar",
+  "OFFICER": "Viranomainen",
+  "STATUS": "Tila",
+  "ACTIVE": "Aktiivinen",
+  "INACTIVE": "Passiivinen",
+  "ACTIONS": "Toiminnot",
+  "SET_WAYPOINT": "Aseta reittipiste",
+  "UNKNOWN_CATEGORY": "Tuntematon luokka",
+
+  "STATEID": "Valtion ID: (#{identifier})",
+  "FULLNAME": "Koko nimi: {fullname}",
+  "BADGENUMBER": "Tunnusnumero: {badgenumber}",
+  "CREATED_BY": "Luonut: {user}",
+  "TAG": "(#{identifier}) {fullname}",
+  "POSTED_BY": "Julkaissut: {user}",
+  "OWNED_BY": "Omistaa: (#{identifier}) {fullname}",
+  "LAST_SEEN": "Viimeksi nähty {date}",
+  "AUTHOR": "Tekijä: {user}",
+  "OWNER": "Omistaja: {owner}",
+  "PLATE": "Rekisterinumero: {plate}",
+  "COLOR": "Väri: {color}",
+  "REASON": "Syy: {reason}",
+  "EXPIRES": "Vanhenemispäivä: {date}",
+  "DESCRIPTION": "{description}",
+  "FINE": "Sakko: ${fine}",
+  "JAIL": "Vankeusaika: {jail} päivää",
+  "POINTS": "Pisteet: {points}",
+  "CATEGORY": "Luokka: {category}",
+
+  "VIEW": "Näytä",
+  "EDIT": "Muokkaa",
+  "SEARCH": "Etsi",
+  "CREATE": "Luo",
+  "UNLINK": "Poista linkki",
+  "SAVE": "Tallenna",
+  "UPDATE": "Päivitä",
+  "DELETE": "Poista",
+  "CLEAR": "Tyhjennä",
+  "CLOSE": "Sulje",
+  "JOIN": "Liity",
+  "LEAVE": "Poistu",
+  "REMOVE": "Poista",
+  "ADD": "Lisää",
+  "CANCEL": "Peruuta",
+  "CONFIRM": "Vahvista",
+  "RESUME": "Jatka",
+
+  "POPUP": {
+    "CANCEL": "Peruuta",
+    "CONFIRM": "Vahvista",
+    "IMAGE": "Oletko varma, että haluat poistaa tämän kuvan galleriasta?",
+    "SAVE": "Haluatko tallentaa {label}?",
+    "DELETE": "Haluatko poistaa {label}?",
+    "ACTIVITY": "Oletko varma, että haluat tyhjentää tämän virkailijan toimintatiedot?"
+  },
+
+  "PLACEHOLDER": {
+    "STATEID": "Valtion ID",
+    "FULLNAME": "Koko nimi",
+    "ALIAS": "Alias",
+    "DEPARTMENT": "Osasto",
+    "RANK": "Sijoitus",
+    "CALLSIGN": "Kutsukoodi",
+    "BADGENUMBER": "Tunnusnumero",
+    "PHOTO": "Valokuva",
+    "TITLE": "Titteli",
+    "NOTES": "Huomiot",
+    "LOCATION": "Sijainti",
+    "AUTHOR": "Tekijä",
+    "CATEGORY": "Luokka",
+    "UNKNOWN": "Tuntematon",
+    "REASON": "Syy",
+    "PLATE": "Rekisterinumero",
+    "OWNER": "Omistaja",
+    "COLOR": "Väri",
+    "DATE": "Päivämäärä ja aika",
+    "SEARCH": "Haku",
+    "SELECT": "Valitse",
+    "FILTER": "Suodatin",
+    "CLOTHING": "Vaatekappaleen tyyppi",
+    "LINK": "Liitä linkki",
+    "LABEL": "Merkki",
+    "DESCRIPTION": "Kuvaus",
+    "SERIAL": "Sarjanumero",
+    "WEAPON": "Ase",
+    "ACTIONS": "Toiminnot",
+    "OFFICERS": "Virkailijat",
+    "PREFIX": "Etuliite",
+    "FINE": "Sakko",
+    "JAIL": "Vankeusaika",
+    "POINTS": "Pisteet",
+    "WANTED": "Etsintäkuulutettu",
+    "FLAGGED": "Liputettu",
+    "ALL": "Kaikki"
+  },
+
+  "BOXES": {
+    "IDENTITY": "Henkilöllisyys",
+    "LICENCES": "Luvat",
+    "STATS": "Tilastot",
+    "ITEMS": "Tavarat",
+    "TAGS": "Tagit",
+    "VEHICLES": "Ajoneuvot",
+    "HOUSING": "Kiinteistöt",
+    "EMPLOYMENT": "Työllisyys",
+    "CONVICTIONS": "Rikokset",
+    "WEAPONS": "Aseet",
+    "ROLES": "Roolit",
+    "GALLERY": "Galleria",
+    "OFFICERS": "Osallistuneet virkailijat",
+    "CITIZENS": "Osallistuneet kansalaiset",
+    "INCIDENTS": "Liittyvät tapahtumat",
+    "REPORTS": "Liittyvät raportit",
+    "EVIDENCE": "Liittyvät todisteet",
+    "ACTIVITY": "Toiminta"
+  },
+
+  "CAMERA": {
+    "GALLERY": "Galleria",
+    "OPEN": "Avaa kamera",
+    "VIEW": "Näytä galleria",
+    "UPLOAD": "Lataa",
+    "DELETE": "Poista"
+  },
+
+  "CHARGES": {
+    "FINE": "${fine} Sakko",
+    "JAIL": "{jail} Päivää",
+    "POINTS": "{points} Pisteet"
+  },
+
+  "EDITOR": {
+    "BOLD": "Lihavointi",
+    "ITALIC": "Kursivointi",
+    "STRIKE": "Yliviivaus",
+    "TEXT": {
+      "PARAGRAPH": "Kappale",
+      "H1": "H1",
+      "H2": "H2",
+      "H3": "H3",
+      "H4": "H4",
+      "H5": "H5",
+      "H6": "H6"
+    },
+    "COLOR": "Väri",
+    "CLEAR_MARKS": "Tyhjennä merkit",
+    "CLEAR_NODES": "Tyhjennä solmut",
+    "BULLET_LIST": "Luettelomerkit",
+    "ORDERED_LIST": "Järjestetty lista",
+    "HARD_BREAK": "Kova katko",
+    "UNDO": "Kumoa",
+    "REDO": "Tee uudelleen"
+  },
+
+  "INVENTORY": {
+    "COUNT": "Lukumäärä: {count}",
+    "ITEM_DATA": {
+      "serial": "Sarjanumero: {serial}",
+      "durability": "Kestävyys: {durability}",
+      "ammo": "Ammukset: {ammo}",
+      "street": "Sijainti: {street}",
+      "type": "Luokkatyyppi: {type}",
+      "dnalabel": "DNA: {dnalabel}",
+      "label": "Tunniste: {label}",
+      "date": "Päiväys: {date}",
+      "tracking": "Seuranta: {tracking}",
+      "component": "Komponentti: {component}",
+      "item": "Tuote: {item}",
+      "memoryCard": "Muistikortti {memoryCard}",
+      "flashEnabled": "Salama: {flashEnabled}",
+      "birthdate": "Syntymäpäivä: {birthdate}",
+      "nationality": "Kansallisuus: {nationality}",
+      "identifier": "Valtion ID: {identifier}",
+      "gender": "Sukupuoli: {gender}",
+      "firstname": "Etunimi: {firstname}",
+      "lastname": "Sukunimi: {lastname}"
+    }
+  },
+
+  "NO_ACCESS": {
+    "TITLE": "PÄÄSY EVÄTTY",
+    "DESCRIPTION": "Sinulla ei ole pääsyä tietokantaan.",
+    "BUTTON": "Sulje"
+  },
+
+  "SUSPENDED": {
+    "TITLE": "PÄÄSY EVÄTTY",
+    "DESCRIPTION": "Sinulla ei ole pääsyä tietokantaan.",
+    "BUTTON": "Sulje"
+  },
+
+  "ERROR403": {
+    "STATUS": "403",
+    "TITLE": "403 - Sivua ei löydy",
+    "DESCRIPTION": "Pääsy estetty."
+  }
+}
