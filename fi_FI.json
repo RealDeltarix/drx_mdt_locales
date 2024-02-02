@@ -240,11 +240,11 @@
           "VIEW": "Pääsy henkilökunnan valikkoon",
           "VIEW_STAFF": "Pääsy henkilökunnan sivulle",
           "SOP": {
-              "VIEW": "Pääsy Ohjeet-sivulle",
-              "SEARCH": "Etsi Ohjeet-tietoja",
-              "CREATE": "Luo Ohjeet-tietoja",
-              "EDIT": "Muokkaa Ohjeet-tietoja",
-              "DELETE": "Poista Ohjeet-tiedot"
+              "VIEW": "Pääsy ohjeet-sivulle",
+              "SEARCH": "Etsi ohjeet-tietoja",
+              "CREATE": "Luo ohjeet-tietoja",
+              "EDIT": "Muokkaa ohjeet-tietoja",
+              "DELETE": "Poista ohjeet-tiedot"
           },
           "ROSTER": {
             "VIEW": "Pääsy työntekijät sivulle",
@@ -252,13 +252,13 @@
           },
           "ACADEMY": {
             "VIEW": "Pääsy akatemialomakesivulle",
-            "ADD": "Lisää upseereita akatemialomakkeeseen",
+            "ADD": "Lisää poliiseja akatemialomakkeeseen",
             "EDIT": "Muokkaa akatemialomakkeen tietoja",
             "DELETE": "Poista akatemialomakkeen tiedot"
           },
           "DATABASE": {
             "VIEW": "Pääsy tietokantasivulle",
-            "ADD": "Lisää upseereita tietokantaan",
+            "ADD": "Lisää poliiseja tietokantaan",
             "EDIT": "Muokkaa tietokannan tietoja",
             "DELETE": "Poista tietokannan tiedot"
           },
@@ -290,7 +290,7 @@
     "HOUR": "tunti",
     "MINUTE": "minuutti",
     "SECOND": "sekunti",
-    "S": "s",
+    "S": "a",
     "AGO": "sitten",
     "LEFT": "jäljellä",
     "JUST_NOW": "Juuri nyt",
@@ -307,7 +307,7 @@
   "SET_WAYPOINT": "Aseta reittipiste",
   "UNKNOWN_CATEGORY": "Tuntematon luokka",
 
-  "STATEID": "Valtion ID: (#{identifier})",
+  "STATEID": "Henkilötunnus: (#{identifier})",
   "FULLNAME": "Koko nimi: {fullname}",
   "BADGENUMBER": "Tunnusnumero: {badgenumber}",
   "CREATED_BY": "Luonut: {user}",
@@ -355,13 +355,13 @@
   },
 
   "PLACEHOLDER": {
-    "STATEID": "Valtion ID",
+    "STATEID": "Henkilötunnus",
     "FULLNAME": "Koko nimi",
     "ALIAS": "Alias",
-    "DEPARTMENT": "Osasto",
-    "RANK": "Sijoitus",
-    "CALLSIGN": "Kutsukoodi",
-    "BADGENUMBER": "Tunnusnumero",
+    "DEPARTMENT": "Asema",
+    "RANK": "Arvo",
+    "CALLSIGN": "Yksikkötunnus",
+    "BADGENUMBER": "Virkamerkki",
     "PHOTO": "Valokuva",
     "TITLE": "Titteli",
     "NOTES": "Huomiot",
@@ -470,7 +470,7 @@
       "flashEnabled": "Salama: {flashEnabled}",
       "birthdate": "Syntymäpäivä: {birthdate}",
       "nationality": "Kansallisuus: {nationality}",
-      "identifier": "Valtion ID: {identifier}",
+      "identifier": "Henkilötunnus: {identifier}",
       "gender": "Sukupuoli: {gender}",
       "firstname": "Etunimi: {firstname}",
       "lastname": "Sukunimi: {lastname}"
