@@ -38,7 +38,7 @@
         "REDUCTION": {
           "LABEL": "Reduction",
           "PLACEHOLDER": "Select reduction",
-          "DATA": "{percentage}% / ${fine} fine / {jail} day(s) / {points} point(s)"
+          "DATA": "{percentage}% / ${fine} fine / {jail} months(s) / {points} point(s)"
         },
         "PLEADED": "Pleaded Guilty",
         "PROCESSED": "Processed",
@@ -323,7 +323,7 @@
   "EXPIRES": "Expires: {date}",
   "DESCRIPTION": "{description}",
   "FINE": "Fine: ${fine}",
-  "JAIL": "Jail time: {jail} day(s)",
+  "JAIL": "Jail time: {jail} months(s)",
   "POINTS": "Point(s): {points}",
   "CATEGORY": "Category: {category}",
 
@@ -425,7 +425,7 @@
 
   "CHARGES": {
     "FINE": "${fine} Fine",
-    "JAIL": "{jail} Day(s)",
+    "JAIL": "{jail} Months(s)",
     "POINTS": "{points} Point(s)"
   },
 
