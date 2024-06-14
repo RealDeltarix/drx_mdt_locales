@@ -5,9 +5,9 @@
       "LABEL": "Actividades Recientes",
       "INCIDENT": "Antecedentes Recientes",
       "REPORT": "Denuncias Recientes",
-      "BOLO": "Alertas Recientes",
+      "BOLO": "BOLOs Recientes",
       "WARRANT": "Órdenes de Arresto Recientes",
-      "EVIDENCE": "Prueba Reciente",
+      "EVIDENCE": "Evidencias Recientes",
       "WEAPON": "Armas Registradas Recientes"
     },
     "ANNOUNCEMENTS": {
@@ -18,15 +18,15 @@
   "CITIZENS": {
     "LABEL": "Ciudadanos",
     "EDIT": "Editar ciudadano {identifier}",
-    "GRANT": "Conceder Licencia",
-    "REVOKE": "Revocar Licencia"
+    "GRANT": "Conceder licencia",
+    "REVOKE": "Revocar licencia"
   },
 
   "INCIDENTS": {
-    "LABEL": "Antecedentes",
+    "LABEL": "Incidentes",
     "EDIT": "Editar incidente {id}",
     "CRIMINAL": {
-      "LABEL": "Delincuentes",
+      "LABEL": "Sospechosos",
       "CRIMINALS": {
         "LABEL": "(#{identifier}) {fullname}",
         "EDIT": "Editar ",
@@ -38,14 +38,14 @@
         "REDUCTION": {
           "LABEL": "Reducción",
           "PLACEHOLDER": "Seleccionar reducción",
-          "DATA": "{percentage}% / €{fine} multa / {jail} día(s) / {points} punto(s)"
+          "DATA": "{percentage}% / ${fine} Multa / {jail} Día(s) / {points} Punto(s)"
         },
         "PLEADED": "Culpable",
         "PROCESSED": "Procesado",
         "CHARGES": {
           "SELECTED": "Seleccionado ",
-          "ALL_CHARGES": "Todas las cargos",
-          "NONE_FOUND": "Ninguna Encontrada"
+          "ALL_CHARGES": "Todas los cargos",
+          "NONE_FOUND": "No encontrado"
         }
       }
     }
@@ -57,9 +57,9 @@
   },
 
   "BOLOS_WARRANTS": {
-    "LABEL": "Alertas y Órdenes de Arresto",
+    "LABEL": "BOLOs y Órdenes de Arresto",
     "BOLOS": {
-      "LABEL": "Alertas"
+      "LABEL": "BOLOs"
     },
     "WARRANTS": {
       "LABEL": "Órdenes de Arresto",
@@ -80,15 +80,15 @@
   },
 
   "EVIDENCE": {
-    "LABEL": "Prueba",
-    "EDIT": "Editar Prueba {id}",
+    "LABEL": "Evidencia",
+    "EDIT": "Editar evidencia {id}",
     "CATEGORY": "Categoría: {category}"
   },
 
   "CAMERAS": {
     "LABEL": "Cámaras",
     "AV1": "AV1",
-    "NO_INPUT": "Sin señal de entrada.",
+    "NO_INPUT": "Sin señal.",
     "ONLINE": "En línea"
   },
 
@@ -111,7 +111,7 @@
 
     "SOP": {
       "LABEL": "Protocolo Operativo Estándar",
-      "EDIT": "Editar P.O.E {id}"
+      "EDIT": "Editar POE {id}"
     },
 
     "ROSTER": {
@@ -120,18 +120,18 @@
 
     "ACADEMY": {
       "LABEL": "Hoja de Academia",
-      "ADD": "Agregar nuevo oficial"
+      "ADD": "Agregar nuevo"
     },
 
     "DATABASE": {
       "LABEL": "Base de Datos Disciplinaria",
-      "ADD": "Agregar nuevo oficial"
+      "ADD": "Agregar nuevo"
     },
 
     "CODES_COMMANDS": {
-      "LABEL": "Códigos y Comandos 10",
+      "LABEL": "Códigos Radiales y Comandos",
       "CODES": {
-        "LABEL": "Códigos 10",
+        "LABEL": "Códigos Radiales",
         "CODE": "Código",
         "DESCRIPTION": "Descripción"
       },
@@ -154,24 +154,24 @@
       "LABEL": "Personal",
       "EDIT": "Editar personal {identifier}",
       "DATA": "Datos",
-      "NO_ACTIVITY": "Sin actividad aún",
-      "CLOCKED_IN": "Registrado",
-      "CLOCKED_OUT": "Fuera de registro",
+      "NO_ACTIVITY": "Sin actividad",
+      "CLOCKED_IN": "En servicio",
+      "CLOCKED_OUT": "Fuera de servicio",
       "SUSPEND": "Suspender",
       "FIRE": "Despedir"
     },
 
     "ROLES": {
-      "LABEL": "Roles",
-      "NEW": "Nuevo rol",
-      "DESCRIPTION": "Seleccionar roles específicos que el oficial debe tener permiso para",
+      "LABEL": "Permisos",
+      "NEW": "Nuevo permiso",
+      "DESCRIPTION": "Seleccionar que permiso deseas asignar al miembro del departamento.",
       "LABELS": {
         "FULL_ACCESS": "Acceso completo",
         "CONFIGURATIONS": {
-          "VIEW": "Acceso a Configuraciones",
-          "STAFF": "Controlar Datos del Personal",
-          "STAFF_ROLES": "Editar Roles del Personal",
-          "ROLES": "Controlar Datos de Roles",
+          "VIEW": "Acceso a Configuración",
+          "STAFF": "Gestionar Datos del Personal",
+          "STAFF_ROLES": "Gestionar Permisos del Personal",
+          "ROLES": "Gestionar Permisos",
           "": "Controlar  Datos"
         },
         "DASHBOARD": {
@@ -188,24 +188,24 @@
           "EDIT": "Editar Datos de Ciudadanos"
         },
         "INCIDENTS": {
-          "VIEW": "Acceso a la Página de Antecedentes",
-          "SEARCH": "Buscar Datos de Antecedentes",
-          "CREATE": "Crear Datos de Antecedentes",
-          "EDIT": "Editar Datos de Antecedentes",
-          "DELETE": "Eliminar Datos de Antecedentes"
+          "VIEW": "Acceso a la Página de Incidentes",
+          "SEARCH": "Buscar Datos de Incidentes",
+          "CREATE": "Crear Incidentes",
+          "EDIT": "Editar Incidentes",
+          "DELETE": "Eliminar Incidentes"
         },
         "REPORTS": {
           "VIEW": "Acceso a la Página de Denuncias",
           "SEARCH": "Buscar Datos de Denuncias",
-          "CREATE": "Crear Datos de Denuncias",
-          "EDIT": "Editar Datos de Denuncias",
-          "DELETE": "Eliminar Datos de Denuncias"
+          "CREATE": "Crear Denuncias",
+          "EDIT": "Editar Denuncias",
+          "DELETE": "Eliminar Denuncias"
         },
         "BOLOS_WARRANTS": {
-          "VIEW": "Acceso a la Página de Alertas y Órdenes de Arresto",
-          "CREATE": "Crear Datos de Alertas y Órdenes de Arresto",
-          "EDIT": "Editar Datos de Alertas y Órdenes de Arresto",
-          "DELETE": "Eliminar Datos de Alertas y Órdenes de Arresto"
+          "VIEW": "Acceso a la Página de BOLOs y Órdenes de Arresto",
+          "CREATE": "Crear BOLOs y Órdenes de Arresto",
+          "EDIT": "Editar BOLOs y Órdenes de Arresto",
+          "DELETE": "Eliminar BOLOs y Órdenes de Arresto"
         },
         "VEHICLES": {
           "VIEW": "Acceso a la Página de Vehículos",
@@ -213,11 +213,11 @@
           "EDIT": "Editar Datos de Vehículos"
         },
         "EVIDENCE": {
-          "VIEW": "Acceso a la Página de Pruebas",
-          "SEARCH": "Buscar Datos de Pruebas",
-          "CREATE": "Crear Datos de Pruebas",
-          "EDIT": "Editar Datos de Pruebas",
-          "DELETE": "Eliminar Datos de Pruebas"
+          "VIEW": "Acceso a la Página de Evidencias",
+          "SEARCH": "Buscar Datos de Evidencias",
+          "CREATE": "Crear Evidencias",
+          "EDIT": "Editar Evidencias",
+          "DELETE": "Eliminar Evidencias"
         },
         "CAMERAS": {
           "VIEW": "Acceso a la Página de Cámaras"
@@ -225,45 +225,45 @@
         "WEAPON_REGISTRY": {
           "VIEW": "Acceso a la Página de Registro de Armas",
           "SEARCH": "Buscar Datos de Registro de Armas",
-          "CREATE": "Crear Datos de Registro de Armas",
-          "EDIT": "Editar Datos de Registro de Armas",
-          "DELETE": "Eliminar Datos de Registro de Armas"
+          "CREATE": "Crear Registro de Armas",
+          "EDIT": "Editar Registro de Armas",
+          "DELETE": "Eliminar Registro de Armas"
         },
         "LEGISLATIONS": {
           "VIEW": "Acceso a la Página de Legislaciones",
-          "SEARCH": "Buscar Datos de Legislaciones",
-          "CREATE": "Crear Datos de Legislaciones",
-          "EDIT": "Editar Datos de Legislaciones",
-          "DELETE": "Eliminar Datos de Legislaciones"
+          "SEARCH": "Buscar Legislaciones",
+          "CREATE": "Crear Legislaciones",
+          "EDIT": "Editar Legislaciones",
+          "DELETE": "Eliminar Legislaciones"
         },
         "STAFF": {
-          "VIEW": "Acceso al Menú de Personal",
+          "VIEW": "Acceso al Desplegable de Personal",
           "VIEW_STAFF": "Acceso a la Página de Personal",
           "SOP": {
-            "VIEW": "Acceso a la Página de P.O.E",
-            "SEARCH": "Buscar Datos de P.O.E",
-            "CREATE": "Crear Datos de P.O.E",
-            "EDIT": "Editar Datos de P.O.E",
-            "DELETE": "Eliminar Datos de P.O.E"
+            "VIEW": "Acceso a la Página de POE",
+            "SEARCH": "Buscar Datos de POE",
+            "CREATE": "Crear POE",
+            "EDIT": "Editar POE",
+            "DELETE": "Eliminar POE"
           },
           "ROSTER": {
             "VIEW": "Acceso a la Página de Lista de Personal",
-            "EDIT": "Editar Datos de Lista de Personal"
+            "EDIT": "Editar Lista de Personal"
           },
           "ACADEMY": {
             "VIEW": "Acceso a la Página de Hoja de Academia",
-            "ADD": "Agregar Oficiales a la Hoja de Academia",
+            "ADD": "Agregar Datos a la Hoja de Academia",
             "EDIT": "Editar Datos de Hoja de Academia",
             "DELETE": "Eliminar Datos de Hoja de Academia"
           },
           "DATABASE": {
             "VIEW": "Acceso a la Página de Base de Datos Disciplinaria",
-            "ADD": "Agregar Oficiales a la Base de Datos Disciplinaria",
+            "ADD": "Agregar Datos a la Base de Datos Disciplinaria",
             "EDIT": "Editar Datos de Base de Datos Disciplinaria",
             "DELETE": "Eliminar Datos de Base de Datos Disciplinaria"
           },
           "CODES_COMMANDS": {
-            "VIEW": "Acceso a la Página de Códigos y Comandos 10"
+            "VIEW": "Acceso a la Página de Códigos Radiales y Comandos"
           }
         },
         "CHARGES": {
@@ -291,7 +291,7 @@
     "MINUTE": "minuto",
     "SECOND": "segundo",
     "S": "s",
-    "AGO": "hace",
+    "AGO": "",
     "LEFT": "restante",
     "JUST_NOW": "Ahora mismo",
     "EXPIRED": "Expirado",
@@ -307,9 +307,9 @@
   "SET_WAYPOINT": "Establecer punto de ruta",
   "UNKNOWN_CATEGORY": "Categoría Desconocida",
 
-  "STATEID": "ID Estatal: (#{identifier})",
-  "FULLNAME": "Nombre completo: {fullname}",
-  "BADGENUMBER": "Número de Placa: {badgenumber}",
+  "STATEID": "Identificación: (#{identifier})",
+  "FULLNAME": "Nombre: {fullname}",
+  "BADGENUMBER": "Nº de Placa: {badgenumber}",
   "CREATED_BY": "Creado por: {user}",
   "TAG": "(#{identifier}) {fullname}",
   "POSTED_BY": "Publicado por: {user}",
@@ -317,13 +317,13 @@
   "LAST_SEEN": "Visto por última vez {date}",
   "AUTHOR": "Autor: {user}",
   "OWNER": "Propietario: {owner}",
-  "PLATE": "Placa: {plate}",
+  "PLATE": "Matrícula: {plate}",
   "COLOR": "Color: {color}",
   "REASON": "Motivo: {reason}",
   "EXPIRES": "Expira: {date}",
   "DESCRIPTION": "{description}",
-  "FINE": "Multa: €{fine}",
-  "JAIL": "Tiempo en la cárcel: {jail} día(s)",
+  "FINE": "Multa: ${fine}",
+  "JAIL": "Prisión: {jail} día(s)",
   "POINTS": "Punto(s): {points}",
   "CATEGORY": "Categoría: {category}",
 
@@ -339,7 +339,7 @@
   "CLOSE": "Cerrar",
   "JOIN": "Unirse",
   "LEAVE": "Abandonar",
-  "REMOVE": "Eliminar",
+  "REMOVE": "Quitar",
   "ADD": "Agregar",
   "CANCEL": "Cancelar",
   "CONFIRM": "Confirmar",
@@ -351,15 +351,15 @@
     "IMAGE": "¿Estás seguro de que quieres eliminar esta imagen de la galería?",
     "SAVE": "¿Quieres guardar {label}?",
     "DELETE": "¿Quieres eliminar {label}?",
-    "ACTIVITY": "¿Estás seguro de que quieres borrar los datos de actividad de este oficial?"
+    "ACTIVITY": "¿Estás seguro de que quieres borrar los datos de actividad de este miembro?"
   },
   "PLACEHOLDER": {
-    "STATEID": "Identificación del Estado",
-    "FULLNAME": "Nombre completo",
+    "STATEID": "Identificación",
+    "FULLNAME": "Nombre",
     "ALIAS": "Alias",
     "DEPARTMENT": "Departamento",
     "RANK": "Rango",
-    "CALLSIGN": "Señal de llamada",
+    "CALLSIGN": "Indicativo",
     "BADGENUMBER": "Número de placa",
     "PHOTO": "Foto",
     "TITLE": "Título",
@@ -376,7 +376,7 @@
     "SEARCH": "Buscar",
     "SELECT": "Seleccionar",
     "FILTER": "Filtrar",
-    "CLOTHING": "Tipo de ropa",
+    "CLOTHING": "Indumentaria",
     "LINK": "Adjuntar enlace",
     "LABEL": "Etiqueta",
     "DESCRIPTION": "Descripción",
@@ -387,30 +387,30 @@
     "PREFIX": "Prefijo",
     "FINE": "Multa",
     "JAIL": "Prisión",
-    "POINTS": "Puntos",
-    "WANTED": "BUSCADO",
-    "FLAGGED": "SEÑALADO",
+    "POINTS": "Punto(s)",
+    "WANTED": "EN BUSQUEDA",
+    "FLAGGED": "MARCADO",
     "ALL": "Todo"
   },
 
   "BOXES": {
-    "IDENTITY": "Identidad",
+    "IDENTITY": "Información General",
     "LICENCES": "Licencias",
     "STATS": "Estadísticas",
     "ITEMS": "Artículos",
     "TAGS": "Etiquetas",
     "VEHICLES": "Vehículos",
     "HOUSING": "Propiedades",
-    "EMPLOYMENT": "Empleo",
+    "EMPLOYMENT": "Empleos",
     "CONVICTIONS": "Condenas",
     "WEAPONS": "Armas",
-    "ROLES": "Roles",
+    "ROLES": "Permisos",
     "GALLERY": "Galería",
     "OFFICERS": "Agentes involucrados",
     "CITIZENS": "Ciudadanos involucrados",
     "INCIDENTS": "Antecedentes relacionados",
     "REPORTS": "Denuncias relacionados",
-    "EVIDENCE": "Prueba relacionada",
+    "EVIDENCE": "Evidencia relacionada",
     "ACTIVITY": "Actividad"
   },
 
@@ -423,7 +423,7 @@
   },
 
   "CHARGES": {
-    "FINE": "Multa de €{fine}",
+    "FINE": "Multa de ${fine}",
     "JAIL": "{jail} Día(s)",
     "POINTS": "{points} Punto(s)"
   },
@@ -465,11 +465,11 @@
       "tracking": "Seguimiento: {tracking}",
       "component": "Componente: {component}",
       "item": "Artículo: {item}",
-      "memoryCard": "Tarjeta de memoria {memoryCard}",
+      "memoryCard": "Tarjeta de memoria: {memoryCard}",
       "flashEnabled": "Flash: {flashEnabled}",
       "birthdate": "Fecha de nacimiento: {birthdate}",
       "nationaility": "Nacionalidad: {nationaility}",
-      "identifier": "Identificación del Estado: {identifier}",
+      "identifier": "Identificación: {identifier}",
       "gender": "Género: {gender}",
       "firstname": "Nombre: {firstname}",
       "lastname": "Apellido: {lastname}"
@@ -478,13 +478,13 @@
 
   "NO_ACCESS": {
     "TITLE": "ACCESO DENEGADO",
-    "DESCRIPTION": "No tienes acceso al TMD",
+    "DESCRIPTION": "No tienes acceso al MDT",
     "BUTTON": "Cerrar"
   },
 
   "SUSPENDED": {
     "TITLE": "ACCESO DENEGADO",
-    "DESCRIPTION": "Parece que has sido suspendido y no puedes acceder al TMD",
+    "DESCRIPTION": "Parece que has sido suspendido y no puedes acceder al MDT",
     "BUTTON": "Cerrar"
   },
 
