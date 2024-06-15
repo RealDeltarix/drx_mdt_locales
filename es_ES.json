@@ -4,7 +4,7 @@
     "RECENT_ACTIVITIES": {
       "LABEL": "Actividades Recientes",
       "INCIDENT": "Antecedentes Recientes",
-      "REPORT": "Denuncias Recientes",
+      "REPORT": "Informes Recientes",
       "BOLO": "Alertas Recientes",
       "WARRANT": "Órdenes de Arresto Recientes",
       "EVIDENCE": "Prueba Reciente",
@@ -52,8 +52,8 @@
   },
 
   "REPORTS": {
-    "LABEL": "Denuncias",
-    "EDIT": "Editar denuncia {id}"
+    "LABEL": "Informes",
+    "EDIT": "Editar informe {id}"
   },
 
   "BOLOS_WARRANTS": {
@@ -195,11 +195,11 @@
           "DELETE": "Eliminar Datos de Antecedentes"
         },
         "REPORTS": {
-          "VIEW": "Acceso a la Página de Denuncias",
-          "SEARCH": "Buscar Datos de Denuncias",
-          "CREATE": "Crear Datos de Denuncias",
-          "EDIT": "Editar Datos de Denuncias",
-          "DELETE": "Eliminar Datos de Denuncias"
+          "VIEW": "Acceso a la Página de Informes",
+          "SEARCH": "Buscar Datos de Informes",
+          "CREATE": "Crear Datos de Informes",
+          "EDIT": "Editar Datos de Informes",
+          "DELETE": "Eliminar Datos de Informes"
         },
         "BOLOS_WARRANTS": {
           "VIEW": "Acceso a la Página de Alertas y Órdenes de Arresto",
@@ -409,7 +409,7 @@
     "OFFICERS": "Agentes involucrados",
     "CITIZENS": "Ciudadanos involucrados",
     "INCIDENTS": "Antecedentes relacionados",
-    "REPORTS": "Denuncias relacionados",
+    "REPORTS": "Informes relacionados",
     "EVIDENCE": "Prueba relacionada",
     "ACTIVITY": "Actividad"
   },
