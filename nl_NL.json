@@ -16,8 +16,8 @@
     },
   
     "CITIZENS": {
-      "LABEL": "Burgers",
-      "EDIT": "Burger aanpassen {identifier}",
+      "LABEL": "Bewoners",
+      "EDIT": "Bewoner aanpassen {identifier}",
       "GRANT": "Licentie verstrekken",
       "REVOKE": "Licentie intrekken"
     },
@@ -76,7 +76,7 @@
   
     "VEHICLES": {
       "LABEL": "Voertuigen",
-      "EDIT": "Voertuig bijwerken {plate}"
+      "EDIT": "Voertuig {plate}"
     },
   
     "EVIDENCE": {
@@ -103,15 +103,15 @@
     },
   
     "STAFF": {
-      "LABEL": "Personeelszaken",
+      "LABEL": "LSPD",
   
       "STAFF": {
-        "LABEL": "Personeel"
+        "LABEL": "Personeel Aanwezig"
       },
   
       "SOP": {
-        "LABEL": "Standaard Procedures",
-        "EDIT": "Procedure bewerken {id}"
+        "LABEL": "LSPD Trainingen",
+        "EDIT": "Trainingen bewerken {id}"
       },
   
       "ROSTER": {
@@ -119,7 +119,7 @@
       },
   
       "ACADEMY": {
-        "LABEL": "Trainingen",
+        "LABEL": "Cadet",
         "ADD": "Nieuwe agent toevoegen"
       },
   
@@ -183,9 +183,9 @@
             }
           },
           "CITIZENS": {
-            "VIEW": "Burgers bekijken",
-            "SEARCH": "Burgers zoeken",
-            "EDIT": "Burgers bewerken"
+            "VIEW": "Bewoners bekijken",
+            "SEARCH": "Bewoners zoeken",
+            "EDIT": "Bewoners bewerken"
           },
           "INCIDENTS": {
             "VIEW": "Bekijk incidenten",
@@ -479,13 +479,13 @@
   
     "NO_ACCESS": {
       "TITLE": "TOEGANG GEWEIGERD",
-      "DESCRIPTION": "Je hebt geen toegang tot MEOS",
+      "DESCRIPTION": "Je hebt geen toegang tot MDT",
       "BUTTON": "Sluiten"
     },
   
     "SUSPENDED": {
       "TITLE": "TOEGANG GEWEIGERD",
-      "DESCRIPTION": "Het lijkt erop dat je geschorst bent en geen toegang hebt tot MEOS.",
+      "DESCRIPTION": "Het lijkt erop dat je geschorst bent en geen toegang hebt tot MDT.",
       "BUTTON": "Sluiten"
     },
   
