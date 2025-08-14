@@ -1,14 +1,14 @@
 {
   "DASHBOARD": {
     "LABEL": "Pagrindinis",
-    "RECENT_ACTIVITES": {
-      "LABEL": "Naujausios Veiklos",
-      "INCIDENT": "Naujausi Incidentai",
-      "REPORT": "Naujausi Reportai",
-      "BOLO": "Naujausi Bolos",
-      "WARRANT": "Naujausi Warrantai",
-      "EVIDENCE": "Naujausi Įrodymai",
-      "WEAPON": "Naujausi Registruoti Ginklai"
+    "RECENT_ACTIVITIES": {
+      "LABEL": "Naujausios veiklos",
+      "INCIDENT": "Naujausi incidentai",
+      "REPORT": "Naujausi ataskaitos",
+      "BOLO": "Naujausi bolo",
+      "WARRANT": "Naujausi paieškomumai",
+      "EVIDENCE": "Naujausi įrodymai",
+      "WEAPON": "Naujausi registruoti ginklai"
     },
     "ANNOUNCEMENTS": {
       "LABEL": "Pranešimai"
@@ -18,8 +18,8 @@
   "CITIZENS": {
     "LABEL": "Piliečiai",
     "EDIT": "Redaguoti profilį {identifier}",
-    "GRANT": "Suteikti Licenciją",
-    "REVOKE": "Atimti Licenciją"
+    "GRANT": "Suteikti licenciją",
+    "REVOKE": "Atimti licenciją"
   },
 
   "INCIDENTS": {
@@ -33,36 +33,36 @@
         "WARRANT": "Warrant",
         "HOLD": "Laukti iki teismo",
         "TRIAL": "Atvyko į teismą",
-        "REASON": "Priežastis dėl warrant",
-        "DATE": "Data ir Laikas",
+        "REASON": "Priežastis dėl paieškomumo",
+        "DATE": "Data ir laikas",
         "REDUCTION": {
           "LABEL": "Sumažinimas",
-          "PLACEHOLDER": "Pasirinkti Sumažinimą",
+          "PLACEHOLDER": "Pasirinkti sumažinimą",
           "DATA": "{percentage}% / ${fine} bauda / {jail} mėnesiai / {points} taškai"
         },
-        "PLEADED": "Pripažino Kaltu",
+        "PLEADED": "Prisipažino kaltu",
         "PROCESSED": "Apdorota",
         "CHARGES": {
-          "SELECTED": "Pasirinktos Bausmės",
-          "ALL_CHARGES": "Visos Bausmės",
-          "NONE_FOUND": "Bausmių Nerasta"
+          "SELECTED": "Pasirinktos bausmės",
+          "ALL_CHARGES": "Visos bausmės",
+          "NONE_FOUND": "Bausmių nerasta"
         }
       }
     }
   },
 
   "REPORTS": {
-    "LABEL": "Reportai",
-    "EDIT": "Redaguoti reportą {id}"
+    "LABEL": "Ataskaitos",
+    "EDIT": "Redaguoti ataskaitą {id}"
   },
 
   "BOLOS_WARRANTS": {
-    "LABEL": "Bolos & Warrants",
+    "LABEL": "Bolos & Paieškomumai",
     "BOLOS": {
       "LABEL": "Bolos"
     },
     "WARRANTS": {
-      "LABEL": "Warrants",
+      "LABEL": "Paieškomumai",
       "CLOTHES": {
         "HAT": "Kepurė: {type} | {color}",
         "MASK": "Kaukė: {type} | {color}",
@@ -75,7 +75,7 @@
   },
 
   "VEHICLES": {
-    "LABEL": "Transporto Priemonės",
+    "LABEL": "Transporto priemonės",
     "EDIT": "Redaguoti transporto priemonę {plate}"
   },
 
@@ -88,25 +88,25 @@
   "CAMERAS": {
     "LABEL": "Kameros",
     "AV1": "AV1",
-    "NO_INPUT": "Nėra Signalo",
-    "ONLINE": "Online"
+    "NO_INPUT": "Nėra signalo",
+    "ONLINE": "Aktyvi"
   },
 
   "WEAPON_REGISTRY": {
-    "LABEL": "Ginklo Registracija",
+    "LABEL": "Ginklo registracija",
     "EDIT": "Redaguoti ginklą {id}"
   },
 
   "LEGISLATIONS": {
-    "LABEL": "Teisės Aktai",
+    "LABEL": "Teisės aktai",
     "EDIT": "Redaguoti teisės aktą {id}"
   },
 
   "STAFF": {
-    "LABEL": "Staff",
+    "LABEL": "Valdžia",
 
     "STAFF": {
-      "LABEL": "Staff"
+      "LABEL": "Valdžia"
     },
 
     "SOP": {
@@ -119,17 +119,17 @@
     },
 
     "ACADEMY": {
-      "LABEL": "Akademijos Lapas",
+      "LABEL": "Akademijos lapas",
       "ADD": "Pridėti pareigūną"
     },
 
     "DATABASE": {
-      "LABEL": "Drausmės Duomenų Bazė",
+      "LABEL": "Drausmės duomenų bazė",
       "ADD": "Pridėti pareigūną"
     },
 
     "CODES_COMMANDS": {
-      "LABEL": "Kodai ir Komandos",
+      "LABEL": "Kodai ir komandos",
       "CODES": {
         "LABEL": "Kodai",
         "CODE": "Kodas",
@@ -144,130 +144,130 @@
   },
 
   "CHARGE": {
-    "LABEL": "Charges"
+    "LABEL": "Bausmės"
   },
 
   "CONFIGURATIONS": {
     "LABEL": "Konfigūracijos",
 
     "STAFF": {
-      "LABEL": "Staff",
-      "EDIT": "Redaguoti staff {identifier}",
+      "LABEL": "Valdžia",
+      "EDIT": "Redaguoti valdžią {identifier}",
       "DATA": "Data",
       "NO_ACTIVITY": "Nėra aktyvumo",
-      "CLOCKED_IN": "On-Duty",
-      "CLOCKED_OUT": "Off-Duty",
+      "CLOCKED_IN": "Pamainoje",
+      "CLOCKED_OUT": "Ne pamainoje",
       "SUSPEND": "Suspenduoti",
       "FIRE": "Atleisti"
     },
 
     "ROLES": {
-      "LABEL": "Roles",
-      "NEW": "New role",
-      "DESCRIPTION": "Select specific roles that the officer should have permission to",
+      "LABEL": "Rolės",
+      "NEW": "Nauja rolė",
+      "DESCRIPTION": "Pasirinkite ką galės ši rolė atlikti",
       "LABELS": {
-        "FULL_ACCESS": "Pilna Prieiga",
+        "FULL_ACCESS": "Pilna prieiga",
         "CONFIGURATIONS": {
-          "VIEW": "Prieiga Prie Konfigūracijos",
-          "STAFF": "Kontroliuoti Staff Duomenis",
-          "STAFF_ROLES": "Redaguoti Staff Roles",
-          "ROLES": "Kontroliuoti Rolių Duomenis",
-          "CHARGES": "Kontroliuoti Bausmių Duomenis"
+          "VIEW": "Prieiga prie konfigūracijos",
+          "STAFF": "Kontroliuoti valdžios duomenis",
+          "STAFF_ROLES": "Redaguoti valdžios roles",
+          "ROLES": "Kontroliuoti rolių duomenis",
+          "CHARGES": "Kontroliuoti bausmių duomenis"
         },
         "DASHBOARD": {
-          "VIEW": "Prieiga Prie Pagrindinio Puslapio",
+          "VIEW": "Prieiga prie pagrindinio puslapio",
           "ANNOUNCEMENTS": {
-            "CREATE": "Kurti Pranešimus",
-            "EDIT": "Redaguoti Pranešimus",
-            "DELETE": "Ištrinti Pranešimus"
+            "CREATE": "Kurti pranešimus",
+            "EDIT": "Redaguoti pranešimus",
+            "DELETE": "Ištrinti pranešimus"
           }
         },
         "CITIZENS": {
-          "VIEW": "Prieiga Prie Piliečių Puslapio",
-          "SEARCH": "Ieškoti Piliečių Duomenų",
-          "EDIT": "Redaguoti Piliečių Duomenis"
+          "VIEW": "Prieiga prie piliečių puslapio",
+          "SEARCH": "Ieškoti piliečių duomenų",
+          "EDIT": "Redaguoti piliečių duomenis"
         },
         "INCIDENTS": {
-          "VIEW": "Prieiga Prie Incidentų Puslapio",
-          "SEARCH": "Ieškoti Incidentų Duomenų",
-          "CREATE": "Kurti Incidentų Duomenis",
-          "EDIT": "Redaguoti Incidentų Duomenis",
-          "DELETE": "Ištrinti Incidentų Duomenis"
+          "VIEW": "Prieiga prie incidentų puslapio",
+          "SEARCH": "Ieškoti incidentų duomenų",
+          "CREATE": "Kurti incidentų duomenis",
+          "EDIT": "Redaguoti incidentų duomenis",
+          "DELETE": "Ištrinti incidentų duomenis"
         },
         "REPORTS": {
-          "VIEW": "Prieiga Prie Reportų Puslapio",
-          "SEARCH": "Ieškoti Reportų Duomenų",
-          "CREATE": "Kurti Reportų Duomenis",
-          "EDIT": "Readaguoti Reportų Duomenis",
-          "DELETE": "Ištrinti Reportų Duomenis"
+          "VIEW": "Prieiga prie ataskaitų puslapio",
+          "SEARCH": "Ieškoti ataskaitų duomenų",
+          "CREATE": "Kurti ataskaitų duomenis",
+          "EDIT": "Redaguoti ataskaitų duomenis",
+          "DELETE": "Ištrinti ataskaitų duomenis"
         },
         "BOLOS_WARRANTS": {
-          "VIEW": "Prieiga Prie Bolos & Warrants Puslapio",
-          "CREATE": "Kurti Bolos & Warrants Duomenis",
-          "EDIT": "Readaguoti Bolos & Warrants Duomenis",
-          "DELETE": "Ištrinti Bolos & Warrants Duomenis"
+          "VIEW": "Prieiga prie Bolos & Paieškomumų puslapio",
+          "CREATE": "Kurti Bolos & Paieškomumų duomenis",
+          "EDIT": "Redaguoti Bolos & Paieškomumų duomenis",
+          "DELETE": "Ištrinti Bolos & Paieškomumų duomenis"
         },
         "VEHICLES": {
-          "VIEW": "Prieiga Prie Tr. Priemonių Puslapio",
-          "SEARCH": "Ieškoti Tr. Priemonių Duomenų",
-          "EDIT": "Redaguoti Tr. Priemonių Duomenis"
+          "VIEW": "Prieiga prie tr. priemonių puslapio",
+          "SEARCH": "Ieškoti tr. priemonių duomenų",
+          "EDIT": "Redaguoti tr. priemonių duomenis"
         },
         "EVIDENCE": {
-          "VIEW": "Prieiga Prie Įrodymų Puslapio",
-          "SEARCH": "Ieškoti Įrodymų Duomenų",
-          "CREATE": "Kurti Įrodymų Duomenis",
-          "EDIT": "Redaguoti Įrodymų Duomenis",
-          "DELETE": "Ištrinti Įrodymų Duomenis"
+          "VIEW": "Prieiga prie įrodymų puslapio",
+          "SEARCH": "Ieškoti įrodymų duomenų",
+          "CREATE": "Kurti įrodymų duomenis",
+          "EDIT": "Redaguoti įrodymų duomenis",
+          "DELETE": "Ištrinti įrodymų duomenis"
         },
         "CAMERAS": {
-          "VIEW": "Prieiga Prie Kamerų Puslapio"
+          "VIEW": "Prieiga prie kamerų puslapio"
         },
         "WEAPON_REGISTRY": {
-          "VIEW": "Prieiga Prie Ginklų Registracijos Puslapio",
-          "SEARCH": "Ieškoti Ginklų Registracijos Duomenų",
-          "CREATE": "Kurti Ginklų Registracijos Duomenis",
-          "EDIT": "Redaguoti Ginklų Registracijos Duomenis",
-          "DELETE": "Ištrinti Ginklų Registracijos Duomenis"
+          "VIEW": "Prieiga prie ginklų registracijos puslapio",
+          "SEARCH": "Ieškoti ginklų registracijos duomenų",
+          "CREATE": "Kurti ginklų registracijos duomenis",
+          "EDIT": "Redaguoti ginklų registracijos duomenis",
+          "DELETE": "Ištrinti ginklų registracijos duomenis"
         },
         "LEGISLATIONS": {
-          "VIEW": "Prieiga Prie Teisės Aktų Puslapio",
-          "SEARCH": "Ieškoti Teisės Aktų Duomenų",
-          "CREATE": "Kurti Teisės Aktų Duomenis",
-          "EDIT": "Redaguoti Teisės Aktų Duomenis",
-          "DELETE": "Ištrinti Teisės Aktų Duomenis"
+          "VIEW": "Prieiga prie teisės aktų puslapio",
+          "SEARCH": "Ieškoti teisės aktų duomenų",
+          "CREATE": "Kurti teisės aktų duomenis",
+          "EDIT": "Redaguoti teisės aktų duomenis",
+          "DELETE": "Ištrinti teisės aktų duomenis"
         },
         "STAFF": {
-          "VIEW": "Prieiga Prie Staff Meniu",
-          "VIEW_STAFF": "Prieiga Prie Staff Puslapio",
+          "VIEW": "Prieiga prie valdžios meniu",
+          "VIEW_STAFF": "Prieiga prie valdžios puslapio",
           "SOP": {
-            "VIEW": "Prieiga Prie SOP Puslapio",
-            "SEARCH": "Ieškoti SOP Duomenų",
-            "CREATE": "Kurti SOP Duomenis",
-            "EDIT": "Redaguoti SOP Duomenis",
-            "DELETE": "Ištrint SOP Duomenis"
+            "VIEW": "Prieiga prie SOP puslapio",
+            "SEARCH": "Ieškoti SOP duomenų",
+            "CREATE": "Kurti SOP duomenis",
+            "EDIT": "Redaguoti SOP duomenis",
+            "DELETE": "Ištrinti SOP duomenis"
           },
           "ROSTER": {
-            "VIEW": "Prieiga Prie Sąrašo Puslapio",
-            "EDIT": "Redaguoti Sąrašo Duomenis"
+            "VIEW": "Prieiga prie sąrašo puslapio",
+            "EDIT": "Redaguoti sąrašo duomenis"
           },
           "ACADEMY": {
-            "VIEW": "Prieiga Prie Akademijos Lapo",
-            "ADD": "Pridėti Pareigūnus Prie Akademijos Lapo",
-            "EDIT": "Redaguoti Akademijos Lapą",
-            "DELETE": "Ištrint Akademijos Lapo Duomenis"
+            "VIEW": "Prieiga prie akademijos lapo",
+            "ADD": "Pridėti pareigūnus prie akademijos lapo",
+            "EDIT": "Redaguoti akademijos lapą",
+            "DELETE": "Ištrinti akademijos lapo duomenis"
           },
           "DATABASE": {
-            "VIEW": "Prieiga Prie Drausmės Duomenų Bazės",
-            "ADD": "Pridėti Pareigūnus Prie Drausmės Duomenų Bazės",
-            "EDIT": "Redaguoti Drausmės Duomenų Bazės Duomenis",
-            "DELETE": "Ištrinti Drausmės Duomenų Bazės Duomenis"
+            "VIEW": "Prieiga prie drausmės duomenų bazės",
+            "ADD": "Pridėti pareigūnus prie drausmės duomenų bazės",
+            "EDIT": "Redaguoti drausmės duomenų bazės duomenis",
+            "DELETE": "Ištrinti drausmės duomenų bazės duomenis"
           },
           "CODES_COMMANDS": {
-            "VIEW": "Prieiga Prie Kodų Ir Komandų Puslapio"
+            "VIEW": "Prieiga prie kodų ir komandų puslapio"
           }
         },
         "CHARGES": {
-          "VIEW": "Access Charges Page"
+          "VIEW": "Bausmių sąrašas"
         }
       }
     },
@@ -288,8 +288,8 @@
     "MONTH": "mėnesiai",
     "DAY": "dienos",
     "HOUR": "valandos",
-    "MINUTE": "minute",
-    "SECOND": "sekunde",
+    "MINUTE": "minutė",
+    "SECOND": "sekundė",
     "S": "s",
     "AGO": "prieš",
     "LEFT": "liko",
@@ -304,8 +304,8 @@
   "ACTIVE": "Aktyvus",
   "INACTIVE": "Neaktyvus",
   "ACTIONS": "Veiksmai",
-  "SET_WAYPOINT": "Nustatyti Waypoint",
-  "UNKNOWN_CATEGORY": "Nežinoma Kategorija",
+  "SET_WAYPOINT": "Nustatyti GPS",
+  "UNKNOWN_CATEGORY": "Nežinoma kategorija",
 
   "STATEID": "Valstybės ID: (#{identifier})",
   "FULLNAME": "Pilnas Vardas: {fullname}",
@@ -343,7 +343,7 @@
   "ADD": "Pridėti",
   "CANCEL": "Atšaukti",
   "CONFIRM": "Patvirtinti",
-  "RESUME": "Resume?",
+  "RESUME": "Tęsti?",
 
   "POPUP": {
     "CANCEL": "Atšaukti",
@@ -373,11 +373,11 @@
     "PLATE": "Numeriai",
     "OWNER": "Savininkas",
     "COLOR": "Spalva",
-    "DATE": "Data ir Laikas",
+    "DATE": "Data ir laikas",
     "SEARCH": "Ieškoti",
     "SELECT": "Pasirinkti",
     "FILTER": "Filtras",
-    "CLOTHING": "Drabužių Tipas",
+    "CLOTHING": "Drabužių tipas",
     "LINK": "Pridėti nuorodą",
     "LABEL": "Etiketė",
     "DESCRIPTION": "Apibūdinimas",
@@ -385,7 +385,7 @@
     "WEAPON": "Ginklas",
     "ACTIONS": "Veiksmai",
     "OFFICERS": "Pareigūnai",
-    "PREFIX": "Prefix",
+    "PREFIX": "Trumpinys",
     "FINE": "Bauda",
     "JAIL": "Kalėjimas",
     "POINTS": "Taškai",
@@ -400,18 +400,18 @@
     "STATS": "Statistika",
     "ITEMS": "Daiktai",
     "TAGS": "Žymos",
-    "VEHICLES": "Transporto Priemonės",
+    "VEHICLES": "Transporto priemonės",
     "HOUSING": "Turtas",
     "EMPLOYMENT": "Darbas",
-    "CONVICTIONS": "Convictions",
+    "CONVICTIONS": "Nuobaudos",
     "WEAPONS": "Ginklai",
     "ROLES": "Rolės",
     "GALLERY": "Galerija",
-    "OFFICERS": "Įsitraukę Pareigūnai",
-    "CITIZENS": "Įsitraukę Piliečiai",
-    "INCIDENTS": "Susiję Incidentai",
-    "REPORTS": "Susiję Reportai",
-    "EVIDENCE": "Susiję Įrodymai",
+    "OFFICERS": "Įsitraukę pareigūnai",
+    "CITIZENS": "Įsitraukę piliečiai",
+    "INCIDENTS": "Susiję incidentai",
+    "REPORTS": "Susijusios ataskaitos",
+    "EVIDENCE": "Susiję įrodymai",
     "ACTIVITY": "Veikla"
   },
 
@@ -424,9 +424,9 @@
   },
 
   "CHARGES": {
-    "FINE": "${fine} Bauda",
-    "JAIL": "{jail} Mėnesiai",
-    "POINTS": "{points} Taškai"
+    "FINE": "${fine} bauda",
+    "JAIL": "{jail} mėnesiai",
+    "POINTS": "{points} taškai"
   },
 
   "EDITOR": {
