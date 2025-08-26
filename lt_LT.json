@@ -4,8 +4,8 @@
     "RECENT_ACTIVITES": {
       "LABEL": "Naujausios veiklos",
       "INCIDENT": "Naujausi incidentai",
-      "REPORT": "Naujausi ataskaitos",
-      "BOLO": "Naujausi bolo",
+      "REPORT": "Naujausios ataskaitos",
+      "BOLO": "Naujausi bolos",
       "WARRANT": "Naujausi paieškomumai",
       "EVIDENCE": "Naujausi įrodymai",
       "WEAPON": "Naujausi registruoti ginklai"
@@ -30,7 +30,7 @@
       "CRIMINALS": {
         "LABEL": "(#{identifier}) {fullname}",
         "EDIT": "Pridėti bausmes",
-        "WARRANT": "Warrant",
+        "WARRANT": "Paieškomas",
         "HOLD": "Laukti iki teismo",
         "TRIAL": "Atvyko į teismą",
         "REASON": "Priežastis dėl paieškomumo",
@@ -449,7 +449,7 @@
     "ORDERED_LIST": "Rūšiuotas sąrašas",
     "HARD_BREAK": "Nauja eilutė",
     "UNDO": "Anuliuoti",
-    "REDO": "Gražinti"
+    "REDO": "Grąžinti"
   },
 
   "INVENTORY": {
@@ -463,7 +463,7 @@
       "dnalabel": "DNA: {dnalabel}",
       "label": "Pavadinimas: {label}",
       "date": "Data: {date}",
-      "tracking": "Tracking: {tracking}",
+      "tracking": "Sekimas: {tracking}",
       "component": "Komponentas: {component}",
       "item": "Daiktas: {item}",
       "memoryCard": "Atminties kortelė {memoryCard}",
